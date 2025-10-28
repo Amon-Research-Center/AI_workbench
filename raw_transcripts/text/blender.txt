@@ -1,0 +1,74 @@
+# 3D Edge Navigation Models - Multiple Platforms
+
+# Blender Python script to import and visualize the surface
+import bpy
+import bmesh
+import numpy as np
+from mathutils import Vector
+
+# Clear existing mesh objects
+bpy.ops.object.select_all(action='SELECT')
+bpy.ops.object.delete(use_global=False)
+
+# Load the data (assuming you've saved the .npz file)
+# You'll need to adjust the path
+data = np.load('/path/to/edge_navigation_3d.npz')
+distance = data['distance']
+risk_tolerance = data['risk_tolerance']
+utility = data['utility']
+
+# Create mesh
+mesh = bpy.data.meshes.new("UtilitySurface")
+obj = bpy.data.objects.new("UtilitySurface", mesh)
+bpy.context.collection.objects.link(obj)
+
+# Create bmesh
+bm = bmesh.new()
+
+# Add vertices
+vertices = []
+for i, r in enumerate(risk_tolerance):
+    for j, d in enumerate(distance):
+        z = utility[i, j]
+        vert = bm.verts.new((d, r, z * 5))  # Scale Z for visibility
+        vertices.append(vert)
+
+bm.verts.ensure_lookup_table()
+
+# Create faces
+for i in range(len(risk_tolerance)-1):
+    for j in range(len(distance)-1):
+        v1 = i * len(distance) + j
+        v2 = v1 + 1
+        v3 = (i + 1) * len(distance) + j
+        v4 = v3 + 1
+        
+        # Create two triangular faces
+        bm.faces.new([bm.verts[v1], bm.verts[v2], bm.verts[v3]])
+        bm.faces.new([bm.verts[v2], bm.verts[v4], bm.verts[v3]])
+
+# Update mesh
+bm.to_mesh(mesh)
+bm.free()
+
+# Add material with vertex colors based on utility values
+material = bpy.data.materials.new(name="UtilityMaterial")
+material.use_nodes = True
+obj.data.materials.append(material)
+
+# Set object as active and switch to edit mode to add vertex colors
+bpy.context.view_layer.objects.active = obj
+bpy.ops.object.mode_set(mode='EDIT')
+bpy.ops.mesh.vertex_color_add()
+bpy.ops.object.mode_set(mode='OBJECT')
+
+print("Utility surface created in Blender!")
+
+## Usage Instructions:
+
+# 1. **Octave/MATLAB**: Copy the code, run it, and you'll get 3D surface plots plus exported data files
+# 2. **SageMath**: Run in a SageMath notebook for mathematical visualization
+# 3. **Jupyter**: Best for interactive exploration with both matplotlib and plotly
+# 4. **Blender**: Import the .obj file or run the Python script directly in Blender
+
+# The 3D visualizations will show you how the optimal "edge" forms a ridge across different risk tolerance levels - exactly modeling your "tiptoeing" strategy!

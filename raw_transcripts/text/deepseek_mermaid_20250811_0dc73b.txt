@@ -1,0 +1,8 @@
+flowchart TB
+    A[BMF Clinical Translation] --> B[Epigenetic Field Mapping]
+    A --> C[Neural Coherence Stabilizer]
+    A --> D[Consciousness-Preserving Anesthesia]
+    
+    B --> E[Phase 1 Trials @ Emory Hospital<br>2026]
+    C --> F[GT/Medtronic Prototype<br>2027]
+    D --> G[FDA Fast Track<br>2028]

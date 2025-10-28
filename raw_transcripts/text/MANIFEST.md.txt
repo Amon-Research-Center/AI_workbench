@@ -1,0 +1,86 @@
+# MANIFEST
+
+## Current Files
+
+📄 .githooks/pre-push
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 .gitignore
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ETHICS.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 GOALS.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 LICENSE.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 MISSION.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 NOTICE.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 README.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_git_mk-template-v1.sh
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_git_toolbox.sh
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_log.txt
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 scripts/git_toolbox.py
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+## Recent Changes (Last 5)
+
+- 2025-09-14 — Added .githooks/pre-push — "Initial Commit 202509140647"
+- 2025-09-14 — Added .gitignore — "Initial Commit 202509140647"
+- 2025-09-14 — Added ETHICS.md — "Initial Commit 202509140647"
+- 2025-09-14 — Added GOALS.md — "Initial Commit 202509140647"
+- 2025-09-14 — Added LICENSE.md — "Initial Commit 202509140647"
+
+## Full File History
+
+📄 .githooks/pre-push
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 .gitignore
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ETHICS.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 GOALS.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 LICENSE.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 MISSION.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 NOTICE.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 README.md
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_git_mk-template-v1.sh
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_git_toolbox.sh
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 ek_log.txt
+  Added: 2025-09-14 — Initial Commit 202509140647
+
+📄 scripts/git_toolbox.py
+  Added: 2025-09-14 — Initial Commit 202509140647
+

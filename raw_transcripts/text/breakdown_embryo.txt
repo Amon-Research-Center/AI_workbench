@@ -1,0 +1,313 @@
+export default AccelerationCurves;﻿SECTION 1: A MODEL OF THE EMBRYO. MORPHOGENS
+
+Sentence 1:
+"In this section a mathematical model of the growing embryo will be described."
+Expansion:
+Turing signals: "I'm building a simplified model of how organisms develop form." Think of it as a blueprint of form-making, not life itself.
+Tool: Conceptual framework — no formula yet.
+
+Sentence 2:
+"This model will be a simplification and an idealization, and consequently a falsification."
+Expansion:
+He admits it’s an abstraction — not a perfect mirror of biology but a reduction to highlight generative essentials.
+Tool: Model theory — simplification engine.
+
+Sentence 3:
+"It is to be hoped that the features retained for discussion are those of greatest importance in the present state of knowledge."
+Expansion:
+This is triage: he keeps what matters most for today's understanding and leaves out complexity beyond reach.
+Tool: Feature selection (conceptual).
+
+Sentence 4:
+"The model takes two slightly different forms."
+Expansion:
+Fork in the path. One uses discrete cells, the other smooth fields.
+
+Sentence 5:
+"In one of them the cell theory is recognized but the cells are idealized into geometrical points."
+Expansion:
+Cells = abstract dots. Think of a lattice or particle simulation. Tool: Lattice model / discrete grid
+Display: 2D/3D matrix of points with values at nodes.
+
+Sentence 6:
+"In the other the matter of the organism is imagined as continuously distributed."
+Expansion:
+Smooth field. Think of a fabric with gradients of chemical properties. Tool: Scalar/vector field (continuum mechanics)
+Display: 2D heatmap / 3D volume field (isosurfaces, gradients).
+
+Sentence 7:
+"The cells are not, however, completely ignored, for various physical and physico-chemical characteristics of the matter as a whole are assumed to have values appropriate to the cellular matter."
+Expansion:
+Even in the smooth model, assumptions are based on cell-like properties: elasticity, resistance, etc. It’s a hybrid model.
+Tool: Parameter embedding (biological realism in physics).
+
+Sentence 8:
+"With either of the models one proceeds as with a physical theory and defines an entity called the state of the system."
+Expansion:
+The "state" is the full snapshot of position, velocity, concentration, etc. at a moment in time. Tool: State vector (dynamical systems)
+Used in ODE/PDE solvers and simulations.
+
+Sentence 9:
+"One then describes how that state is to be determined from the state at a moment very shortly before."
+Expansion:
+This is motion through time: differential equations update the system forward in tiny steps. Tool: Time evolution equation
+Example: Euler or Runge-Kutta method to integrate ∂x/∂t.
+
+Sentence 10:
+"With either model the description of the state consists of two parts, the mechanical and the chemical."
+Expansion:
+Two layers: physical forces (movement, tension) and chemical (concentration, diffusion, reaction). Tool: Coupled systems (mechanics + chemistry)
+Display: dual-layer sim — one for motion, one for chemical field.
+
+Sentence 11:
+"The mechanical part of the state describes the positions, masses, velocities and elastic properties of the cells, and the forces between them."
+Expansion:
+Physics layer — it's a soft-body simulation of elastic blobs. Tool: Elastic solid mechanics
+Equations: Hooke's law, Navier-Cauchy equations
+Display: mesh deformation or spring-mass system.
+
+Sentence 12:
+"In the continuous form of the theory essentially the same information is given in the form of the stress, velocity, density and elasticity of the matter."
+Expansion:
+In the smooth case, this becomes a vector/tensor field.
+Tool: Stress-energy tensor field (continuum mechanics)
+Display: flow field + vector arrows over surface.
+
+Sentence 13:
+"The chemical part of the state is given (in the cell form of theory) as the chemical composition of each separate cell; the diffusibility of each substance between each two adjacent cells must also be given."
+Expansion:
+Each node has concentrations; edges between them have diffusion constants.
+Tool: Discrete reaction-diffusion network
+Equations: C_i(t+1) = C_i(t) + D(C_j - C_i) + R(C_i)
+Display: 2D grid color map or graph edges with flow.
+
+Sentence 14:
+"In the continuous form of the theory the concentrations and diffusibilities of each substance have to be given at each point."
+Expansion:
+This gives rise to the famous reaction-diffusion PDE:
+Tool: Reaction-Diffusion Equation
+Equation: ∂C/∂t = D∇²C + R(C)
+Display: heatmaps, isosurfaces, evolving textures in 2D/3D.
+
+Sentence 15:
+"In determining the changes of state one should take into account:"
+Expansion:
+Turing is about to give us a checklist—the driving laws for system evolution. Tool: State transition framework — input into simulator logic.
+
+Sentence 16 (i):
+"The changes of position and velocity as given by Newton’s laws of motion."
+Expansion:
+Standard physics—forces cause acceleration, etc. Tool: Newtonian mechanics
+Equation: F = ma, integrated over time
+Display: vector motion, elastic mesh dynamics.
+
+Sentence 17 (ii):
+"The stresses as given by the elasticities and motions, also taking into account the osmotic pressures as given from the chemical data."
+Expansion:
+Physical tension between particles AND pressure from chemical gradients. Tool: Elastic stress + Osmotic pressure modeling
+Equation: σ = Eε (stress = elasticity × strain), plus osmotic ∇Π
+Display: deformation plus color-encoded pressure maps.
+
+Sentence 18 (iii):
+"The chemical reactions."
+Expansion:
+Reactions change concentrations locally based on current values. Tool: Reaction kinetics
+Equation: dC/dt = k[A][B]...
+Display: intensity shifts over time (heatmaps).
+
+Sentence 19 (iv):
+"The diffusion of the chemical substances. The region in which this diffusion is possible is given from the mechanical data."
+Expansion:
+Diffusion is shaped by the tissue’s structure—boundaries and geometry. Tool: Coupled reaction-diffusion + mechanical geometry constraints
+Equation: ∂C/∂t = D∇²C within available space
+Display: diffusing blobs respecting geometry.
+
+Sentence 20:
+"This account of the problem omits many features, e.g. electrical properties and the internal structure of the cell."
+Expansion:
+Turing acknowledges the omissions: not modeling bioelectricity, organelles, etc. Tool: Scope management
+Think: simplified model box — useful, but incomplete.
+
+Sentence 21:
+"But even so it is a problem of formidable mathematical complexity."
+Expansion:
+He’s saying: this is already pushing the limits — even simplified, it’s hella deep. Tool: Complexity flag — implied justification for focusing on linear cases.
+
+Sentence 22:
+"One cannot at present hope to make any progress with the understanding of such systems except in very simplified cases."
+Expansion:
+This is his license to isolate variables and hold others fixed — so he can proceed. Tool: Justified reductionism.
+
+Sentence 23:
+"The interdependence of the chemical and mechanical data adds enormously to the difficulty, and attention will therefore be confined, so far as is possible, to cases where these can be separated."
+Expansion:
+He splits the chemical and mechanical domains. The paper will focus on chemical-only systems. Tool: Domain decoupling
+Will focus on pure reaction-diffusion models.
+
+Sentence 24:
+"The mathematics of elastic solids is a well-developed subject, and has often been applied to biological systems."
+Expansion:
+He gives respect to elasticity math but leaves it aside. Tool: Prior art deferment.
+
+Sentence 25 (final of section):
+"In this paper it is proposed to give attention rather to cases where the mechanical aspect can be ignored and the chemical aspect is the most significant."
+Expansion:
+This is the pivot. From here forward, chemistry leads. It’s the core of morphogenesis—governing how undifferentiated tissue can self-organize into pattern, structure, and form. This is the paper's central lens: that chemical interaction alone may hold the key to emergence, from spots on a leopard to the limbs of a starfish. Tool: Reaction-Diffusion model focus — foundation of pattern formation.
+
+
+﻿SECTION 1: A MODEL OF THE EMBRYO. MORPHOGENS
+
+Sentence 1:
+"In this section a mathematical model of the growing embryo will be described."
+Expansion:
+Turing signals: "I'm building a simplified model of how organisms develop form." Think of it as a blueprint of form-making, not life itself.
+Tool: Conceptual framework — no formula yet.
+
+Sentence 2:
+"This model will be a simplification and an idealization, and consequently a falsification."
+Expansion:
+He admits it’s an abstraction — not a perfect mirror of biology but a reduction to highlight generative essentials.
+Tool: Model theory — simplification engine.
+
+Sentence 3:
+"It is to be hoped that the features retained for discussion are those of greatest importance in the present state of knowledge."
+Expansion:
+This is triage: he keeps what matters most for today's understanding and leaves out complexity beyond reach.
+Tool: Feature selection (conceptual).
+
+Sentence 4:
+"The model takes two slightly different forms."
+Expansion:
+Fork in the path. One uses discrete cells, the other smooth fields.
+
+Sentence 5:
+"In one of them the cell theory is recognized but the cells are idealized into geometrical points."
+Expansion:
+Cells = abstract dots. Think of a lattice or particle simulation. Tool: Lattice model / discrete grid
+Display: 2D/3D matrix of points with values at nodes.
+
+Sentence 6:
+"In the other the matter of the organism is imagined as continuously distributed."
+Expansion:
+Smooth field. Think of a fabric with gradients of chemical properties. Tool: Scalar/vector field (continuum mechanics)
+Display: 2D heatmap / 3D volume field (isosurfaces, gradients).
+
+Sentence 7:
+"The cells are not, however, completely ignored, for various physical and physico-chemical characteristics of the matter as a whole are assumed to have values appropriate to the cellular matter."
+Expansion:
+Even in the smooth model, assumptions are based on cell-like properties: elasticity, resistance, etc. It’s a hybrid model.
+Tool: Parameter embedding (biological realism in physics).
+
+Sentence 8:
+"With either of the models one proceeds as with a physical theory and defines an entity called the state of the system."
+Expansion:
+The "state" is the full snapshot of position, velocity, concentration, etc. at a moment in time. Tool: State vector (dynamical systems)
+Used in ODE/PDE solvers and simulations.
+
+Sentence 9:
+"One then describes how that state is to be determined from the state at a moment very shortly before."
+Expansion:
+This is motion through time: differential equations update the system forward in tiny steps. Tool: Time evolution equation
+Example: Euler or Runge-Kutta method to integrate ∂x/∂t.
+
+Sentence 10:
+"With either model the description of the state consists of two parts, the mechanical and the chemical."
+Expansion:
+Two layers: physical forces (movement, tension) and chemical (concentration, diffusion, reaction). Tool: Coupled systems (mechanics + chemistry)
+Display: dual-layer sim — one for motion, one for chemical field.
+
+Sentence 11:
+"The mechanical part of the state describes the positions, masses, velocities and elastic properties of the cells, and the forces between them."
+Expansion:
+Physics layer — it's a soft-body simulation of elastic blobs. Tool: Elastic solid mechanics
+Equations: Hooke's law, Navier-Cauchy equations
+Display: mesh deformation or spring-mass system.
+
+Sentence 12:
+"In the continuous form of the theory essentially the same information is given in the form of the stress, velocity, density and elasticity of the matter."
+Expansion:
+In the smooth case, this becomes a vector/tensor field.
+Tool: Stress-energy tensor field (continuum mechanics)
+Display: flow field + vector arrows over surface.
+
+Sentence 13:
+"The chemical part of the state is given (in the cell form of theory) as the chemical composition of each separate cell; the diffusibility of each substance between each two adjacent cells must also be given."
+Expansion:
+Each node has concentrations; edges between them have diffusion constants.
+Tool: Discrete reaction-diffusion network
+Equations: C_i(t+1) = C_i(t) + D(C_j - C_i) + R(C_i)
+Display: 2D grid color map or graph edges with flow.
+
+Sentence 14:
+"In the continuous form of the theory the concentrations and diffusibilities of each substance have to be given at each point."
+Expansion:
+This gives rise to the famous reaction-diffusion PDE:
+Tool: Reaction-Diffusion Equation
+Equation: ∂C/∂t = D∇²C + R(C)
+Display: heatmaps, isosurfaces, evolving textures in 2D/3D.
+
+Sentence 15:
+"In determining the changes of state one should take into account:"
+Expansion:
+Turing is about to give us a checklist—the driving laws for system evolution. Tool: State transition framework — input into simulator logic.
+
+Sentence 16 (i):
+"The changes of position and velocity as given by Newton’s laws of motion."
+Expansion:
+Standard physics—forces cause acceleration, etc. Tool: Newtonian mechanics
+Equation: F = ma, integrated over time
+Display: vector motion, elastic mesh dynamics.
+
+Sentence 17 (ii):
+"The stresses as given by the elasticities and motions, also taking into account the osmotic pressures as given from the chemical data."
+Expansion:
+Physical tension between particles AND pressure from chemical gradients. Tool: Elastic stress + Osmotic pressure modeling
+Equation: σ = Eε (stress = elasticity × strain), plus osmotic ∇Π
+Display: deformation plus color-encoded pressure maps.
+
+Sentence 18 (iii):
+"The chemical reactions."
+Expansion:
+Reactions change concentrations locally based on current values. Tool: Reaction kinetics
+Equation: dC/dt = k[A][B]...
+Display: intensity shifts over time (heatmaps).
+
+Sentence 19 (iv):
+"The diffusion of the chemical substances. The region in which this diffusion is possible is given from the mechanical data."
+Expansion:
+Diffusion is shaped by the tissue’s structure—boundaries and geometry. Tool: Coupled reaction-diffusion + mechanical geometry constraints
+Equation: ∂C/∂t = D∇²C within available space
+Display: diffusing blobs respecting geometry.
+
+Sentence 20:
+"This account of the problem omits many features, e.g. electrical properties and the internal structure of the cell."
+Expansion:
+Turing acknowledges the omissions: not modeling bioelectricity, organelles, etc. Tool: Scope management
+Think: simplified model box — useful, but incomplete.
+
+Sentence 21:
+"But even so it is a problem of formidable mathematical complexity."
+Expansion:
+He’s saying: this is already pushing the limits — even simplified, it’s hella deep. Tool: Complexity flag — implied justification for focusing on linear cases.
+
+Sentence 22:
+"One cannot at present hope to make any progress with the understanding of such systems except in very simplified cases."
+Expansion:
+This is his license to isolate variables and hold others fixed — so he can proceed. Tool: Justified reductionism.
+
+Sentence 23:
+"The interdependence of the chemical and mechanical data adds enormously to the difficulty, and attention will therefore be confined, so far as is possible, to cases where these can be separated."
+Expansion:
+He splits the chemical and mechanical domains. The paper will focus on chemical-only systems. Tool: Domain decoupling
+Will focus on pure reaction-diffusion models.
+
+Sentence 24:
+"The mathematics of elastic solids is a well-developed subject, and has often been applied to biological systems."
+Expansion:
+He gives respect to elasticity math but leaves it aside. Tool: Prior art deferment.
+
+Sentence 25 (final of section):
+"In this paper it is proposed to give attention rather to cases where the mechanical aspect can be ignored and the chemical aspect is the most significant."
+Expansion:
+This is the pivot. From here forward, chemistry leads. It’s the core of morphogenesis—governing how undifferentiated tissue can self-organize into pattern, structure, and form. This is the paper's central lens: that chemical interaction alone may hold the key to emergence, from spots on a leopard to the limbs of a starfish. Tool: Reaction-Diffusion model focus — foundation of pattern formation.
+

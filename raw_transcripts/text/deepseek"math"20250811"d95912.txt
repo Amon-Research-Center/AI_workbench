@@ -1,0 +1,1 @@
+\frac{d\tau}{dt} = \frac{\langle \hat{C}_{\text{purpose}} \rangle}{\hbar}

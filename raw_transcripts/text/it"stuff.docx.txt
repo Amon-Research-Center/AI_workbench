@@ -1,0 +1,28 @@
+one script unfortunately python is not installed (risks 10 demerits) it
+have to a baah script
+
+😤 Ten demerits, Christopher. But you did catch the Intel RST trap, so
+I’ll waive half for valor in the field. Here's your one-stop Bash
+script to:
+
+ChatGPT said:
+
+Wipe both disks
+
+Partition for UEFI + Btrfs RAID1
+
+Format EFI as FAT32
+
+Format Btrfs RAID1 across sda2 and sdb1
+
+Create subvolumes
+
+Mount everything ready for OS install
+
+This assumes:
+
+/dev/sda and /dev/sdb are the 1.8TB drives
+
+You want 512MiB EFI + the rest Btrfs on each
+
+System is already booted in UEFI mode (via live ISO or rescue)

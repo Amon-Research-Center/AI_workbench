@@ -1,0 +1,194 @@
+﻿7*5
+3-5
+2-5
+2-5
+3-5
+7-5
+Y
+0
+8
+8
+8
+8
+0
+It should be recognized that these equilibria are only dynamic equilibria. The molecules which together make up the chemical waves are continually changing, though their concentrations in any particular cell are only undergoing small statistical fluctuations. Moreover, 8-3
+
+66
+A. M. T U R IN G O N T H E
+in order to m aintain the wave pattern a continual supply of free energy is required. 
+It is clear th at this must be so since there is a continual degradation of energy through diffusion. This energy is supplied through the ‘ fuel substances ’ (A, B in the last example), which are degraded into ‘ waste products5 (D, E ) . 
+11. R estatement and biological interpretation of the results Certain readers may have preferred to omit the detailed m athem atical treatm ent of 
+§§6 to 10. For their benefit the assumptions and results will be briefly summarized, with some change of emphasis. 
+The system considered was either a ring of cells each in contact with its neighbours, or a continuous ring of tissue. T he effects are extremely similar in the two cases. For the purposes of this summary it is not necessary to distinguish between them. A system with two or three morphogens only was considered, but the results apply quite generally. T he system was supposed to be initially in a stable homogeneous condition, but disturbed slightly from this state by some influences unspecified, such as Brownian movement or the effects of neighbouring structures or slight irregularities of form. It was supposed also th at slow changes are taking place in the reaction rates (or, possibly, the diffusibilities) of the two or three morphogens under consideration. These might, for instance, be due to changes of concentration of other morphogens acting in the role of catalyst or of fuel supply, or to a concurrent growth of the cells, or a change of tem perature. Such changes are supposed ultim ately to bring the system out of the stable state. The phenom ena when the system is ju st unstable were the particular subject of the inquiry. In order to make the problem m athematically tractable it was necessary to assume th at the system never deviated very far from the original homogeneous condition. This assumption was called the ‘linearity assum ption’ 
+because it perm itted the replacement of the general reaction rate functions by linear ones. 
+This linearity assumption is a serious one. Its justification lies in the fact th at the patterns produced in the early stages when it is valid may be expected to have strong qualitative similarity to those prevailing in the later stages when it is not. O ther, less im portant, assumptions were also made at the beginning of the m athem atical theory, but the detailed effects of these were mostly considered in § 9, and were qualitatively unim portant. 
+The conclusions reached were as follows. After the lapse of a certain period of time from the beginning of instability, a pattern of morphogen concentrations appears which can best Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+be described in terms o f ‘waves’. There are six types of possibility which m ay arise. 
+(a) 
+The equilibrium concentrations and reaction rates may become such th at there would be instability for an isolated cell with the same content as any one of the cells of the ring. I f th at cell drifts away from the equilibrium position, like an upright stick falling over, then, in the ring, each cell may be expected to do likewise. In neighbouring cells the drift m ay be expected to be in the same direction, but in distant cells, e.g. at opposite ends of a diam eter there is no reason to expect this to be so. 
+This is the least interesting of the cases. I t is possible, however, th at it m ight account for dappled colour patterns, and an example of a pattern in two dimensions produced by this type of process is shown in figure 2 for comparison with ‘dap p lin g ’. I f dappled patterns are to be explained in this way they must be laid down in a latent form when the foetus is only
+
+CHEM ICAL BASIS OF M O RPHOGENESIS 
+67
+a few inches long. Later the distances would be greater than the morphogens could travel by diffusion. 
+(b) This case is similar to (a), except that the departure from equilibrium is not a unidirectional drift, but is oscillatory. As in case (a) there may not be agreement between the contents of cells at great distances. 
+There are probably many biological examples of this metabolic oscillation, but no really satisfactory one is known to the author. 
+(c) There may be a drift from equilibrium, which is in opposite directions in contiguous cells. 
+No biological examples of this are known. 
+(d) There is a stationary wave pattern on the ring, with no time variation, apart from a slow increase in amplitude, i.e. the pattern is slowly becoming more marked. In the case of a ring of continuous tissue the pattern is sinusoidal, i.e. the concentration of one of the morphogens plotted against position on the ring is a sine curve. The peaks of the waves will be uniformly spaced round the ring. The number of such peaks can be obtained approximately by dividing the so-called c chemical wave-length ’ of the system into the circumference of the ring. The chemical wave-length is given for the case of two morphogens by the formula (9-3). This formula for the number of peaks of course does not give a whole number, but the actual number of peaks will always be one of the two whole numbers nearest to it, and will usually be the nearest. The degree of instability is also shown in (9-3). 
+The mathematical conditions under which this case applies are given in equations (9*4a), (9-4£). 
+Biological examples of this case are discussed at some length below. 
+(e) For a two-morphogen system only the alternatives (a) to are possible, but with 
+three or more morphogens it is possible to have travelling waves. With a ring there would be two sets of waves, one travelling clockwise and the other anticlockwise. There is a natural chemical wave-length and wave frequency in this case as well as a wave-length; no attem pt was made to develop formulae for these. 
+In looking for biological examples of this there is no need to consider only rings. The waves could arise in a tissue of any anatomical form. It is important to know what wavelengths, velocities and frequencies would be consistent with the theory. These quantities are determined by the rates at which the reactions occur (more accurately by the ‘ marginal reaction rates’, which have the dimensions of the reciprocal of a time), and the diffusi-Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+bilities of the morphogens. The possible range of values of the reaction rates is so immensely wide that they do not even give an indication of orders of magnitude. The diffusibilities are more helpful. If one were to assume that all the dimensionless parameters in a system of travelling waves were the same as in the example given in § 8, one could say that the product of the velocity and wave-length of the waves was 377 times the diffusibility of the most diffusible morphogen. But this assumption is certainly false, and it is by no means obvious what is the true range of possible values for the numerical constant (here 
+. The movements of the tail of a spermatozoon suggest themselves as an example of these travelling waves. T hat the waves are within one cell is no real difficulty. However, the speed of propagation seems to be somewhat greater than can be accounted for except with a rather large numerical constant. 
+
+68 
+A. M. T U R IN G ON TH E
+( / ) Metabolic oscillation with neighbouring cells in opposite phases. No biological examples of this are known to the author. 
+It is difficult also to find cases to which case {d) applies directly, but this is simply because isolated rings of tissue are very rare. On the other hand, systems that have the same kind of symmetry as a ring are extremely common, and it is to be expected that under appropriate chemical conditions, stationary waves may develop on these bodies, and that their circular symmetry will be replaced by a polygonal symmetry. Thus, for instance, a plant shoot may at one time have circular symmetry, i.e. appear essentially the same when rotated through any angle about a certain axis; this shoot may later develop a whorl of leaves, and then it will only suffer rotation through the angle which separates the leaves, or any multiple of it. 
+This same example demonstrates the complexity of the situation when more than one dimension is involved. The leaves on the shoots may not appear in whorls, but be imbricated. 
+This possibility is also capable of mathematical analysis, and will be considered in detail in a later paper. The cases which appear to the writer to come closest biologically to the 
+‘isolated ring of cells’ are the tentacles of (e.g.) 
+, and the whorls of leaves of certain
+plants such as Woodruff ( 
+A
+sp
+eru
+lao
+dorata). 
+Hydra is something like a sea-anemone but lives in fresh water and has from about five to ten tentacles. A part of a Hydra cut off from the rest will rearrange itself so as to form a complete new organism. At one stage of this proceeding the organism has reached the form of a tube open at the head end and closed at the other end. The external diameter is somewhat greater at the head end than over the rest of the tube. The whole still has circular symmetry. At a somewhat later stage the symmetry has gone to the extent that an appropriate stain will bring out a number of patches on the widened head end. These patches arise at the points where the tentacles are subsequently to appear (Child 1941, p. 101 and figure 30). 
+According to morphogen theory it is natural to suppose that reactions, similar to those which were considered in connection with the ring of tissue, take place in the widened head end, leading to a similar breakdown of symmetry. The situation is more complicated than the case of the thin isolated ring, for the portion of the Hydra concerned is neither isolated nor very thin. It is not unreasonable to suppose that this head region is the only one in which the chemical conditions are such as to give instability. But substances produced in this region are still free to diffuse through the surrounding region of lesser activity. There is no great difficulty in extending the mathematics to cover this point in particular cases. 
+But if the active region is too wide the system no longer approximates the behaviour of a thin ring and one can no longer expect the tentacles to form a single whorl. This also cannot Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+be considered in detail in the present paper. 
+In the case of woodruff the leaves appear in whorls on the stem, the number of leaves in a whorl varying considerably, sometimes being as few as five or as many as nine. The numbers in consecutive whorls on the same stem are often equal, but by no means invariably. It is to be presumed that the whorls originate in rings of active tissue in the meri-stematic area, and that the rings arise at sufficiently great distance to have little influence on one another. The number of leaves in the whorl will presumably be obtainable by the rule given above, viz. by dividing the chemical wave-length into the circumference, though both these quantities will have to be given some new interpretation more appropriate to woodruff than to the ring. Another important example of a structure with polygonal
+
+CHEMICAL BASIS OF MORPHOGENESIS
+69
+symmetry is provided by young root fibres just breaking out from the parent root. Initially these are almost homogeneous in cross-section, but eventually a ring of fairly evenly spaced spots appear, and these later develop into vascular strands. In this case again the full explanation must be in terms of a two-dimensional or even a three-dimensional problem, although the analysis for the ring is still illuminating. W hen the cross-section is very large the strands may be in more than one ring, or more or less randomly or hexagonally arranged. 
+The two-dimensional theory (not expounded here) also goes a long way to explain this. 
+Flowers might appear superficially to provide the most obvious examples of polygonal symmetry, and it is probable that there are many species for which this ‘ waves round a rin g 5 
+theory is essentially correct. But it is certain that it does not apply for all species. If it did it would follow that, taking flowers as a whole, i.e. mixing up all species, there would be no very markedly preferred petal (or corolla, segment, stamen, etc.) numbers. For when all species are taken into account one must expect that the diameters of the rings concerned will take on nearly all values within a considerable range, and that neighbouring diameters will be almost equally common. There may also be some variation in chemical wave-length. 
+Neighbouring values of the ratio circumferences to wave-length should therefore be more or less equally frequent, and this must mean that neighbouring petal numbers will have much the same frequency. But this is not borne out by the facts. T he num ber five is extremely common, and the num ber seven rather rare. Such facts are, in the author’s opinion, capable of explanation on the basis of morphogen theory, and are closely connected with the theory of phyllotaxis. They cannot be considered in detail here. 
+The case of a filament of tissue calls for some comment. The equilibrium patterns on such a filament will be the same as on a ring, which has been cut at a point where the concentrations of the morphogens are a maximum or a minimum. This could account for the segmentation of such filaments. I t should be noticed, however, that the theory will not apply unmodified for filaments immersed in water. 
+12. C hemical waves on spheres. G astrulation
+The treatm ent of homogeneity breakdown on the surface of a sphere is not much more difficult than in the case of the ring. The theory of spherical harmonics, on which it is based, is not, however, known to many that are not mathem atical specialists. Although the Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+essential properties of spherical harmonics that are used are stated below, many readers will prefer to proceed directly to the last paragraph of this section. 
+The anatomical structure concerned in this problem is a hollow sphere of continuous tissue such as a blastula. It is supposed sufficiently thin th at one can treat it as a * spherical shell’. This latter assumption is merely for the purpose of mathem atical simplification; the results are almost exactly similar if it is omitted. As in § 7 there are to be two morphogens, and a, b, c, d, 
+p', v \ h, k are also to have the same meaning as they did there. The operator V2 will be used here to mean the superficial part of the Laplacian, i.e. V2F will be an abbreviation of
+i 
+d
+w i
+. 
+j v \
+p2 
+d(j)2 
+^ p2
+sin2 
+6 3
+6
+\ n
+
+70
+A. M. TURING ON THE
+where 6 and ^ are spherical polar co-ordinates on the surface of the sphere and p is its radius. 
+The equations corresponding to (7T) may then be written a ( X —h ) + b ( Y —k) +/ V 2X, 
+( 12*1)
+d Y 
+c ( X - h ) + d ( Y - k ) + v '^ Y . 
+dt
+j
+It is well known (e.g. Jeans 1927, chapter 8) that any function on the surface of the sphere, or at least any that is likely to arise in a physical problem, can be ‘ expanded in spherical surface harm onics’. This means that it can be expressed in the form 00 
+n 
+~ i
+£ 
+% T™P™(cos#) eimH . 
+n = 0 L~m=~n 
+-1
+The expression in the square bracket is described as a ‘surface harmonic of degree n ’. Its nearest analogue in the ring theory is a Fourier component. The essential property of a spherical harmonic of degree n is that when the operator V2 is applied to it the effect is the same as multiplication by — 
+n(n-{-\)lp2. In view of this fact it is evident th at a solution of (12-1) is
+X = h-\-2 2 (A™ 
+cos 6) efm^, 
+n—0 m=~n 
+00 
+n
+( 12*2 )
+Y = k+ 2 2 
+(C% eiqnt-\-D™ ziq'n
+n=0 m - —n
+where qn and qn are the two roots of
+jp§ 
+l)^j ^q 
+~2 
+1)^ = be 
+(12*3)
+a + ~2B('* + l)j = C^ n - 
+(12-4)
+This is the most general solution, since the coefficients 
+and B™ can be chosen to give any 
+required values of A, Y when t = 0, except when (12-3) has two equal roots, in which case a treatm ent is required which is similar to that applied in similar circumstances in § 7. The analogy with § 7 throughout will indeed be obvious, though the summation with respect to m does not appear there. The meaning of this summation is that there are a num ber of Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+different patterns with the same wave-length, which can be superposed with various amplitude factors. Then supposing that, as in §8, one particular wave-length predominates, (12*2) reduces to
+no
+X —h = 
+eiq"o
+* j 
+A e
+im^, 
+m = -n 0
+(12-5)
+H Y - k ) = (?„0- « + 4 n ( « + l)) ( X - h ) . 
+In other words, the concentrations of the two morphogens are proportional, and both of them are surface harmonics of the same degree n0> viz. that which makes the greater of the roots 
+q n
+o
+, q'no have the greatest value. 
+
+CHEMICAL BASIS OF MORPHOGENESIS
+71
+It is probable that the forms of various nearly spherical structures, such as radiolarian skeletons, are closely related to these spherical harmonic patterns. The most important application of the theory seems, however, to be to the gastrulation of a blastula. Suppose that the chemical data, including the chemical wave-length, remain constant as the radius of the blastula increases. To be quite specific suppose that
+[ / = 2, 
+v' = 1, 
+a — — 4, 
+8, 
+— 4, 
+7. 
+With these values the system is quite stable so long as the radius is less than about 2. Near this point, however, the harmonics of degree 1 begin to develop and a pattern of form (12*5) with n0 a*. 1 makes its appearance. Making use of the facts that PJ (cos 6) = cos 
+6 , P} (cos 0) = P f 1 (cos 
+= sin 
+it is seen that 
+X —h is of the form
+X —h = A cosd+ B sinO cos^ + Csin# sin^, 
+(12*6)
+which may also be interpreted as
+X - h = A' co
+sd
+', (12-7)
+where O’ is the angle which the radius 6, $ makes with the fixed direction having direction cosines proportional to B, C, A and A' 
+— 
+J{A 2
+-f- 
+B
++ C2). 
+The outcome of the analysis therefore is quite simply this. Under certain not very restrictive conditions (which include a requirement that the sphere be relatively small but increasing in size) the pattern of the breakdown of homogeneity is axially symmetrical, not about the original axis of spherical polar co-ordinates, but about some new axis determined by the disturbing influences. The concentrations of the first morphogen are given by (12-7), where O' is measured from this new axis; and 
+is proportional to X —h. Supposing that 
+the first morphogen is, or encourages the production of, a growth hormone, one must expect the blastula to grow in an axially symmetric manner, but at a greater rate at one end of the axis than at the other This might under many circumstances lead to gastrulation, though the effects of such growth are not very easily determinable. They depend on the elastic properties of the tissue as well as on the growth rate at each point. This growth will certainly lead to a solid of revolution with a marked difference between the two poles, unless, in addition to the chemical instability, there is a mechanical instability causing the breakdown of axial symmetry. The direction of the axis of gastrulation will be quite random according to this theory. It may be that it is found experimentally that the axis is normally in some Downloaded from https://royalsocietypublishing.org/ on 17 June 2025 
+definite direction such as that of the animal pole. This is not essentially contradictory to the theory, for any small asymmetry of the zygote may be sufficient to provide the ‘ disturbance5 
+which determines the axis. 
+13. N on-linear theory. U se of digital computers
+The ‘ wave ’ theory which has been developed here depends essentially on the assumption that the reaction rates are linear functions of the concentrations, an assumption which is justifiable in the case of a system just beginning to leave a homogeneous condition. Such systems certainly have a special interest as giving the first appearance of a pattern, but they are the exception rather than the rule. Most of an organism, most of the time, is developing
+
+72 A. M. T U R IN G ON TH E CHEM ICAL BASIS OF M ORPHOGENESIS
+from one pattern into another, rather than from homogeneity into a pattern. One would like to be able to follow this more general process mathematically also. The difficulties are, however, such that one cannot hope to have any very embracing theory of such processes, beyond the statement of the equations. It might be possible, however, to treat a few particular cases in detail with the aid of a digital computer. This method has the advantage that it is not so necessary to make simplifying assumptions as it is when doing a more theoretical type of analysis. It might even be possible to take the mechanical aspects of the problem into account as well as the chemical, when applying this type of method. The essential disadvantage of the method is that one only gets results for particular cases. But this disadvantage is probably of comparatively little importance. Even with the ring problem, considered in this paper, for which a reasonably complete mathematical analysis was possible, the computational treatment of a particular case was most illuminating. The morphogen theory of phyllotaxis, to be described, as already mentioned, in a later paper, will be covered by this computational method. Non-linear equations will be used. 
+It must be admitted that the biological examples which it has been possible to give in the present paper are very limited. This can be ascribed quite simply to the fact that biological phenomena are usually very complicated. Taking this in combination with the relatively elementary mathematics used in this paper one could hardly expect to find that many observed biological phenomena would be covered. It is thought, however, that the imaginary biological systems which have been treated, and the principles which have been discussed, should be of some help in interpreting real biological forms. 
+R eferences
+Child, C. M. 1941 Patterns and problems of development. University of Chicago Press. 
+Davson, H. & Danielli, J. F. 1943 The permeability of natural membranes. Cambridge University Press. 
+Jeans, J. H. 1927 The mathematical theory of elasticity and 
+, 5th ed. Cambridge University
+Press. 
+Michaelis, L. & Menten, M. L. 1913 Die Kinetik der Invertinwirkung. Biochem. Z. 49, 333. 
+Thompson, Sir D’Arcy 1942 On growth and 
+form, 2nd ed. Cambridge University Press. 
+Waddington, C. H. 1940 Organisers and genes. Cambridge University Press. 
+Downloaded from https://royalsocietypublishing.org/ on 17 June 2025
+

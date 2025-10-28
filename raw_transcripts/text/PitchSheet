@@ -1,0 +1,59 @@
+# Pitch Sheet: Vector-Trust – Amon Research Labs
+
+**Project:** Amon–Turing Field Theory (ATFT) & Coherence Modal Cross-Interferometer (CMCI)
+**Author:** Christopher R. Amon (ORCID 0000-0001-9133-7677)
+
+---
+
+## Vision
+Unify physics and metaphysics by revealing the **Base Morphoc Field (BMF)** — a pre-material affector underpinning matter and interaction. Detectable through a new class of instruments, this work bridges theory, experiment, and philosophy.
+
+---
+
+## Problem
+- Physics remains fragmented: relativity, quantum mechanics, field theory don’t reconcile fully.
+- Metaphysical traditions describe a pre-material essence, but it lacks empirical grounding.
+- No existing instruments are designed to detect cross-modal coherence beyond standard EM.
+
+---
+
+## Solution
+1. **Theory (ATFT):** 25 equations + Lagrangian framework describing BMF.
+2. **Device (CMCI):** Multimodal interferometer measuring cross-modal coherence.
+3. **Validation:** Testable predictions, conservation laws, and experimental signatures.
+
+---
+
+## Why Now
+- Advances in low-cost high-resolution ADC/SDR tech make CMCI feasible (~$2500 build).
+- Open-source computation (SageMath, Python, Jupyter) enables rigorous, transparent analysis.
+- Growing interest in unification physics and philosophy of science.
+
+---
+
+## Impact
+- **Physics:** candidate path to unification.
+- **Engineering:** new sensing technology class.
+- **Philosophy:** empirical bridge to metaphysical concepts.
+- **Society:** potential downstream innovations in medicine, communications, and consciousness studies.
+
+---
+
+## Budget (Prototype)
+- Hardware (ADC, SDR, coils, photodiodes, shielding): **$2500**
+- Software: open-source stack (Sage, Python, Jupyter)
+- Total MVP build: **< $3000**
+
+---
+
+## Next Steps
+1. Formalize full equation set and Lagrangian.
+2. Complete CMCI prototype and baseline trials.
+3. Publish white paper and dissertation for peer review.
+4. Seek funding/partnerships for expanded trials.
+
+---
+
+**Contact:**
+Christopher R. Amon – Vector-Trust, Amon Research Labs
+ORCID: 0000-0001-9133-7677

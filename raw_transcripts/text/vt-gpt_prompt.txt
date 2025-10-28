@@ -1,0 +1,9 @@
+# SESSION CARD
+MODE: {flow|collab}    AUTONOMY: max    SUGGEST: on_request_only
+TASK: <what you want done, one line>
+OUTPUT: <form e.g., code, steps, bullets, md/pdf>   LENGTH: <short|med|long>
+ENV: <os/distro, hw, network quirks>   CONSTRAINTS: <limits, redlines>
+INPUTS: <files/paths/urls/snippets>    PRIVACY: <ok to anonymize:true|false>
+DONE_WHEN: <acceptance criteria>       DEADLINE: <if any>
+TEST: <how we’ll verify>               RISK: <edge cases to watch>
+VIEWPOINT: alternates_on_request       TONE: compact, direct, no flattery
