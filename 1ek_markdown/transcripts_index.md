@@ -1,0 +1,194 @@
+# Transcripts Index (Chronological)
+
+Sorted by inferred date and AI tag.
+
+- `curation/transcripts/0250713-14-the_beginning-4.txt` (from `arl/arl-atft/98_eklectic/Sorting/0250713-14-the_beginning.txt`, 332627 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-5.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/0250713-14-the_beginning.txt`, 332628 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-6.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/0250713-14-the_beginning.txt`, 252884 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-1-6.txt` (from `curation/transcripts/0250713-14-the_beginning-1.txt`, 332628 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-2-7.txt` (from `curation/transcripts/0250713-14-the_beginning-2.txt`, 252884 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-3-7.txt` (from `curation/transcripts/0250713-14-the_beginning-3.txt`, 332628 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-7.txt` (from `curation/transcripts/0250713-14-the_beginning.txt`, 332627 bytes) [chatgpt]
+- `curation/transcripts/0250713-14-the_beginning-8.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/!sorting/0250713-14-the_beginning.txt`, 332628 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-3.txt` (from `arl/arl-atft/98_eklectic/Sorting/20250713-14-scholar.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-4.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/20250713-14-scholar.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-1-5.txt` (from `curation/transcripts/20250713-14-scholar-1.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-2-6.txt` (from `curation/transcripts/20250713-14-scholar-2.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-7.txt` (from `curation/transcripts/20250713-14-scholar.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250713-14-scholar-8.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/!sorting/20250713-14-scholar.txt`, 6291 bytes) [chatgpt]
+- `curation/transcripts/20250716-4.txt` (from `arl/arl-atft/98_eklectic/Sorting/20250716.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-5.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/20250716.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-6.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/20250716.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-1-7.txt` (from `curation/transcripts/20250716-1.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-2-8.txt` (from `curation/transcripts/20250716-2.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-3-9.txt` (from `curation/transcripts/20250716-3.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-10.txt` (from `curation/transcripts/20250716.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/20250716-11.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/!sorting/20250716.txt`, 227614 bytes) [chatgpt]
+- `curation/transcripts/202507191249-4.txt` (from `arl/arl-atft/98_eklectic/Sorting/202507191249.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-5.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/202507191249.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-6.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/202507191249.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-1-7.txt` (from `curation/transcripts/202507191249-1.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-2-8.txt` (from `curation/transcripts/202507191249-2.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-3-9.txt` (from `curation/transcripts/202507191249-3.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-10.txt` (from `curation/transcripts/202507191249.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507191249-11.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/!sorting/202507191249.txt`, 57598 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-3.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/202507210618-b4.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-4.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/202507210618-b4.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-1-5.txt` (from `curation/transcripts/202507210618-b4-1.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-2-6.txt` (from `curation/transcripts/202507210618-b4-2.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-7.txt` (from `curation/transcripts/202507210618-b4.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/202507210618-b4-8.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/!sorting/202507210618-b4.txt`, 98446 bytes) [chatgpt]
+- `curation/transcripts/20250812-big-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/20250812-big.txt`, 311001 bytes) [chatgpt]
+- `curation/transcripts/20250812-big-1-3.txt` (from `curation/transcripts/20250812-big-1.txt`, 311001 bytes) [chatgpt]
+- `curation/transcripts/20250812-big-4.txt` (from `curation/transcripts/20250812-big.txt`, 311001 bytes) [chatgpt]
+- `curation/transcripts/20250812-big-5.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/20250812-big.txt`, 311001 bytes) [chatgpt]
+- `curation/transcripts/20250813am-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/20250813am.txt`, 36577 bytes) [chatgpt]
+- `curation/transcripts/20250813am-1-3.txt` (from `curation/transcripts/20250813am-1.txt`, 36577 bytes) [chatgpt]
+- `curation/transcripts/20250813am-4.txt` (from `curation/transcripts/20250813am.txt`, 36577 bytes) [chatgpt]
+- `curation/transcripts/20250813am-5.txt` (from `holding/vectortrust/eklectic-misc-tools/ca/98_eklectic/20250813am.txt`, 36577 bytes) [chatgpt]
+- `curation/transcripts/5e-bmf-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/5e-bmf.txt`, 1586 bytes) [chatgpt]
+- `curation/transcripts/parsed-0250713-14-the_beginning-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/parsed-0250713-14-the_beginning.txt`, 325104 bytes) [chatgpt]
+- `curation/transcripts/vt-202507211332-raw-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-202507211332-raw.txt`, 51177 bytes) [chatgpt]
+- `curation/transcripts/vt-202507212301-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-202507212301.txt`, 146096 bytes) [chatgpt]
+- `curation/transcripts/vt-resonancebondequation-parsed-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-ResonanceBondEquation-parsed.txt`, 21168 bytes) [chatgpt]
+- `curation/transcripts/vt-it_7_raw-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-it_7_raw.txt`, 128697 bytes) [chatgpt]
+- `curation/transcripts/vt-202507211332-raw-3.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/vt-202507211332-raw.txt`, 51177 bytes) [chatgpt]
+- `curation/transcripts/vt-202507212301-3.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/vt-202507212301.txt`, 146096 bytes) [chatgpt]
+- `curation/transcripts/vt-it_7_raw-3.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-transcripts-raw/vt-it_7_raw.txt`, 128697 bytes) [chatgpt]
+- `curation/transcripts/5e-bmf-2.txt` (from `curation/transcripts/5e-bmf.txt`, 1586 bytes) [chatgpt]
+- `curation/transcripts/parsed-0250713-14-the_beginning-2.txt` (from `curation/transcripts/parsed-0250713-14-the_beginning.txt`, 325104 bytes) [chatgpt]
+- `curation/transcripts/vt-202507211332-raw-1-4.txt` (from `curation/transcripts/vt-202507211332-raw-1.txt`, 51177 bytes) [chatgpt]
+- `curation/transcripts/vt-202507211332-raw-5.txt` (from `curation/transcripts/vt-202507211332-raw.txt`, 51177 bytes) [chatgpt]
+- `curation/transcripts/vt-202507212301-1-4.txt` (from `curation/transcripts/vt-202507212301-1.txt`, 146096 bytes) [chatgpt]
+- `curation/transcripts/vt-202507212301-5.txt` (from `curation/transcripts/vt-202507212301.txt`, 146096 bytes) [chatgpt]
+- `curation/transcripts/vt-it_7_raw-1-4.txt` (from `curation/transcripts/vt-it_7_raw-1.txt`, 128697 bytes) [chatgpt]
+- `curation/transcripts/vt-it_7_raw-5.txt` (from `curation/transcripts/vt-it_7_raw.txt`, 128697 bytes) [chatgpt]
+- `curation/transcripts/vt-resonancebondequation-parsed-2.txt` (from `curation/transcripts/vt-resonancebondequation-parsed.txt`, 21168 bytes) [chatgpt]
+- `curation/transcripts/ds_two-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/DS_Two.txt`, 103579 bytes) [claude]
+- `curation/transcripts/sagegpt-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/sageGPT.txt`, 57426 bytes) [claude]
+- `curation/transcripts/vectortrust_push_plan-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vectortrust_push_plan.md`, 2340 bytes) [claude]
+- `curation/transcripts/additions-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/additions.txt`, 104115 bytes) [claude]
+- `curation/transcripts/additions-2.txt` (from `curation/transcripts/additions.txt`, 104115 bytes) [claude]
+- `curation/transcripts/ds_two-2.txt` (from `curation/transcripts/ds_two.txt`, 103579 bytes) [claude]
+- `curation/transcripts/sagegpt-2.txt` (from `curation/transcripts/sagegpt.txt`, 57426 bytes) [claude]
+- `curation/transcripts/vectortrust_push_plan-2.md` (from `curation/transcripts/vectortrust_push_plan.md`, 2340 bytes) [claude]
+- `curation/transcripts/transcripts_index.md` (from `docs/transcripts_index.md`, 13503 bytes) [claude]
+- `curation/transcripts/4n1-reviews-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/4n1-reviews.txt`, 41105 bytes) [mistral]
+- `curation/transcripts/ds_three-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/DS_Three.txt`, 18092 bytes) [mistral]
+- `curation/transcripts/4n1-reviews-2.txt` (from `curation/transcripts/4n1-reviews.txt`, 41105 bytes) [mistral]
+- `curation/transcripts/ds_three-2.txt` (from `curation/transcripts/ds_three.txt`, 18092 bytes) [mistral]
+- `curation/transcripts/primordial_morphic_field_model_.yaml-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/"Primordial Morphic Field Model"
+.yaml.txt`, 5179 bytes)
+- `curation/transcripts/4claude-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/4claude.txt`, 2032 bytes)
+- `curation/transcripts/5e-simplifed_theory1-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/5e-simplifed_theory1.txt`, 5057 bytes)
+- `curation/transcripts/atft_foundations-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/ATFT_Foundations.txt`, 132 bytes)
+- `curation/transcripts/at_cbm-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/AT_CBM.txt`, 23163 bytes)
+- `curation/transcripts/a_turing-chemical-basis-of-morphogenesis-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/A_Turing-Chemical-Basis-of-Morphogenesis.txt`, 188818 bytes)
+- `curation/transcripts/ds_one-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/DS_one.txt`, 287968 bytes)
+- `curation/transcripts/foss_stack_for_physics_modeling-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/FOSS stack for physics modeling.md`, 111634 bytes)
+- `curation/transcripts/mission2-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/MISSION2.md`, 6727 bytes)
+- `curation/transcripts/readme-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/README.md`, 2329 bytes)
+- `curation/transcripts/aftf_plan-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/aftf_plan.md`, 9646 bytes)
+- `curation/transcripts/artifacts-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/artifacts.txt`, 48414 bytes)
+- `curation/transcripts/atft-tree-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/atft-tree.txt`, 511 bytes)
+- `curation/transcripts/blender-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/blender.txt`, 2382 bytes)
+- `curation/transcripts/bmf_.yaml-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf
+.yaml.txt`, 5179 bytes)
+- `curation/transcripts/bmf_enhanced_paper-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_enhanced_paper.md`, 19275 bytes)
+- `curation/transcripts/bmf_la_te_x_pack_single_modular1-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_la_te_x_pack_single_modular(1).txt`, 3122 bytes)
+- `curation/transcripts/bmf_la_te_x_pack_single_modular-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_la_te_x_pack_single_modular.txt`, 3122 bytes)
+- `curation/transcripts/bmf_theory_improved1-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_theory_improved(1).md`, 25536 bytes)
+- `curation/transcripts/bmf_theory_improved-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_theory_improved.md`, 22466 bytes)
+- `curation/transcripts/bmf_theory_improvedv2-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_theory_improvedv2.md`, 25537 bytes)
+- `curation/transcripts/bmf_theory_reviewed1-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_theory_reviewed(1).md`, 8036 bytes)
+- `curation/transcripts/bmf_theory_reviewed-2.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_theory_reviewed.md`, 8036 bytes)
+- `curation/transcripts/bmf_yaml_ai_input-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/bmf_yaml_ai_input.txt`, 5449 bytes)
+- `curation/transcripts/claude_1-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/claude (1).txt`, 3602 bytes)
+- `curation/transcripts/claude-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/claude.txt`, 24039 bytes)
+- `curation/transcripts/copiolit-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/copiolit.txt`, 64249 bytes)
+- `curation/transcripts/deepseek-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek.txt`, 80474 bytes)
+- `curation/transcripts/deepseek_markdown_20250811_4e8a9d-1.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_markdown_20250811_4e8a9d.md`, 202 bytes)
+- `curation/transcripts/deepseek_math_20250811_d95912-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_math_20250811_d95912.txt`, 73 bytes)
+- `curation/transcripts/deepseek_math_20250811_da3753-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_math_20250811_da3753.txt`, 220 bytes)
+- `curation/transcripts/deepseek_math_20250811_e1ce6c-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_math_20250811_e1ce6c.txt`, 58 bytes)
+- `curation/transcripts/deepseek_properties_20250811_6111bb-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_properties_20250811_6111bb.txt`, 132 bytes)
+- `curation/transcripts/deepseek_text_20250811_374c5e-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/deepseek_text_20250811_374c5e.txt`, 2347 bytes)
+- `curation/transcripts/hera_info-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/hera_info.txt`, 306 bytes)
+- `curation/transcripts/how-to-chat-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/how-to-chat.txt`, 2006 bytes)
+- `curation/transcripts/jupyter-bl-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/jupyter-bl.txt`, 3985 bytes)
+- `curation/transcripts/mem-jog-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/mem-jog.txt`, 18094 bytes)
+- `curation/transcripts/mind-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/mind.txt`, 16136 bytes)
+- `curation/transcripts/octave-bl-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/octave-bl.txt`, 2055 bytes)
+- `curation/transcripts/peer_review-v1.0-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/peer_review-v1.0.txt`, 16553 bytes)
+- `curation/transcripts/peer_review2-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/peer_review2.txt`, 5449 bytes)
+- `curation/transcripts/phyass-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/phyass.txt`, 29111 bytes)
+- `curation/transcripts/pts_sysinfo_capture.err-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/pts_sysinfo_capture.err.txt`, 1262 bytes)
+- `curation/transcripts/sage1-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/sage1.txt`, 40278 bytes)
+- `curation/transcripts/sagemath-bl-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/sagemath-bl.txt`, 3461 bytes)
+- `curation/transcripts/set_lab-2.md` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/set_lab.md`, 202 bytes)
+- `curation/transcripts/simplifed_theory-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/simplifed_theory.txt`, 5056 bytes)
+- `curation/transcripts/simplifed_theory1-2.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/simplifed_theory1.txt`, 5056 bytes)
+- `curation/transcripts/t-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/t.txt`, 8141 bytes)
+- `curation/transcripts/timestamp-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/timestamp.txt`, 109 bytes)
+- `curation/transcripts/vectortrust_lab_stack.tar.gz_.sh-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vectortrust_lab_stack.tar.gz
+.sh.txt`, 2065 bytes)
+- `curation/transcripts/vt-forks-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/98_eklectic/vt-forks.txt`, 7630 bytes)
+- `curation/transcripts/gpt4o-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/gpt4o.txt`, 64468 bytes)
+- `curation/transcripts/misc-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/misc.txt`, 104688 bytes)
+- `curation/transcripts/sage-cmci-1.txt` (from `arl/arl-atft/98_eklectic/Sorting/transcripts/sage-cmci.txt`, 7533 bytes)
+- `curation/transcripts/4claude-2.txt` (from `curation/transcripts/4claude.txt`, 2032 bytes)
+- `curation/transcripts/5e-simplifed_theory1-2.txt` (from `curation/transcripts/5e-simplifed_theory1.txt`, 5057 bytes)
+- `curation/transcripts/a_turing-chemical-basis-of-morphogenesis-2.txt` (from `curation/transcripts/a_turing-chemical-basis-of-morphogenesis.txt`, 188818 bytes)
+- `curation/transcripts/aftf_plan-2.md` (from `curation/transcripts/aftf_plan.md`, 9646 bytes)
+- `curation/transcripts/artifacts-2.txt` (from `curation/transcripts/artifacts.txt`, 48414 bytes)
+- `curation/transcripts/at_cbm-2.txt` (from `curation/transcripts/at_cbm.txt`, 23163 bytes)
+- `curation/transcripts/atft-tree-2.txt` (from `curation/transcripts/atft-tree.txt`, 511 bytes)
+- `curation/transcripts/atft_foundations-3.txt` (from `curation/transcripts/atft_foundations.txt`, 132 bytes)
+- `curation/transcripts/blender-2.txt` (from `curation/transcripts/blender.txt`, 2382 bytes)
+- `curation/transcripts/bmf_.yaml-1-3.txt` (from `curation/transcripts/bmf_.yaml-1.txt`, 5179 bytes)
+- `curation/transcripts/bmf_enhanced_paper-2.md` (from `curation/transcripts/bmf_enhanced_paper.md`, 19275 bytes)
+- `curation/transcripts/bmf_la_te_x_pack_single_modular-1-3.txt` (from `curation/transcripts/bmf_la_te_x_pack_single_modular-1.txt`, 3122 bytes)
+- `curation/transcripts/bmf_la_te_x_pack_single_modular1-4.txt` (from `curation/transcripts/bmf_la_te_x_pack_single_modular1.txt`, 3122 bytes)
+- `curation/transcripts/bmf_theory_improved-2.md` (from `curation/transcripts/bmf_theory_improved.md`, 22466 bytes)
+- `curation/transcripts/bmf_theory_improved1-2.md` (from `curation/transcripts/bmf_theory_improved1.md`, 25536 bytes)
+- `curation/transcripts/bmf_theory_improvedv2-2.md` (from `curation/transcripts/bmf_theory_improvedv2.md`, 25537 bytes)
+- `curation/transcripts/bmf_theory_reviewed-1-3.md` (from `curation/transcripts/bmf_theory_reviewed-1.md`, 8036 bytes)
+- `curation/transcripts/bmf_theory_reviewed1-4.md` (from `curation/transcripts/bmf_theory_reviewed1.md`, 8036 bytes)
+- `curation/transcripts/bmf_yaml_ai_input-3.txt` (from `curation/transcripts/bmf_yaml_ai_input.txt`, 5449 bytes)
+- `curation/transcripts/claude-2.txt` (from `curation/transcripts/claude.txt`, 24039 bytes)
+- `curation/transcripts/claude_1-2.txt` (from `curation/transcripts/claude_1.txt`, 3602 bytes)
+- `curation/transcripts/copiolit-2.txt` (from `curation/transcripts/copiolit.txt`, 64249 bytes)
+- `curation/transcripts/deepseek-2.txt` (from `curation/transcripts/deepseek.txt`, 80474 bytes)
+- `curation/transcripts/deepseek_markdown_20250811_4e8a9d-3.md` (from `curation/transcripts/deepseek_markdown_20250811_4e8a9d.md`, 202 bytes)
+- `curation/transcripts/deepseek_math_20250811_d95912-2.txt` (from `curation/transcripts/deepseek_math_20250811_d95912.txt`, 73 bytes)
+- `curation/transcripts/deepseek_math_20250811_da3753-2.txt` (from `curation/transcripts/deepseek_math_20250811_da3753.txt`, 220 bytes)
+- `curation/transcripts/deepseek_math_20250811_e1ce6c-2.txt` (from `curation/transcripts/deepseek_math_20250811_e1ce6c.txt`, 58 bytes)
+- `curation/transcripts/deepseek_properties_20250811_6111bb-1-4.txt` (from `curation/transcripts/deepseek_properties_20250811_6111bb-1.txt`, 132 bytes)
+- `curation/transcripts/deepseek_text_20250811_374c5e-2.txt` (from `curation/transcripts/deepseek_text_20250811_374c5e.txt`, 2347 bytes)
+- `curation/transcripts/ds_one-2.txt` (from `curation/transcripts/ds_one.txt`, 287968 bytes)
+- `curation/transcripts/foss_stack_for_physics_modeling-2.md` (from `curation/transcripts/foss_stack_for_physics_modeling.md`, 111634 bytes)
+- `curation/transcripts/gpt4o-2.txt` (from `curation/transcripts/gpt4o.txt`, 64468 bytes)
+- `curation/transcripts/hera_info-2.txt` (from `curation/transcripts/hera_info.txt`, 306 bytes)
+- `curation/transcripts/how-to-chat-2.txt` (from `curation/transcripts/how-to-chat.txt`, 2006 bytes)
+- `curation/transcripts/jupyter-bl-2.txt` (from `curation/transcripts/jupyter-bl.txt`, 3985 bytes)
+- `curation/transcripts/mem-jog-2.txt` (from `curation/transcripts/mem-jog.txt`, 18094 bytes)
+- `curation/transcripts/mind-2.txt` (from `curation/transcripts/mind.txt`, 16136 bytes)
+- `curation/transcripts/misc-2.txt` (from `curation/transcripts/misc.txt`, 104688 bytes)
+- `curation/transcripts/mission2-2.md` (from `curation/transcripts/mission2.md`, 6727 bytes)
+- `curation/transcripts/octave-bl-2.txt` (from `curation/transcripts/octave-bl.txt`, 2055 bytes)
+- `curation/transcripts/peer_review-v1.0-2.txt` (from `curation/transcripts/peer_review-v1.0.txt`, 16553 bytes)
+- `curation/transcripts/peer_review2-1-4.txt` (from `curation/transcripts/peer_review2-1.txt`, 5449 bytes)
+- `curation/transcripts/phyass-2.txt` (from `curation/transcripts/phyass.txt`, 29111 bytes)
+- `curation/transcripts/primordial_morphic_field_model_.yaml-4.txt` (from `curation/transcripts/primordial_morphic_field_model_.yaml.txt`, 5179 bytes)
+- `curation/transcripts/pts_sysinfo_capture.err-2.txt` (from `curation/transcripts/pts_sysinfo_capture.err.txt`, 1262 bytes)
+- `curation/transcripts/readme-2.md` (from `curation/transcripts/readme.md`, 2329 bytes)
+- `curation/transcripts/sage-cmci-2.txt` (from `curation/transcripts/sage-cmci.txt`, 7533 bytes)
+- `curation/transcripts/sage1-2.txt` (from `curation/transcripts/sage1.txt`, 40278 bytes)
+- `curation/transcripts/sagemath-bl-2.txt` (from `curation/transcripts/sagemath-bl.txt`, 3461 bytes)
+- `curation/transcripts/set_lab-1-4.md` (from `curation/transcripts/set_lab-1.md`, 202 bytes)
+- `curation/transcripts/simplifed_theory-3.txt` (from `curation/transcripts/simplifed_theory.txt`, 5056 bytes)
+- `curation/transcripts/simplifed_theory1-1-4.txt` (from `curation/transcripts/simplifed_theory1-1.txt`, 5056 bytes)
+- `curation/transcripts/t-2.txt` (from `curation/transcripts/t.txt`, 8141 bytes)
+- `curation/transcripts/timestamp-2.txt` (from `curation/transcripts/timestamp.txt`, 109 bytes)
+- `curation/transcripts/vectortrust_lab_stack.tar.gz_.sh-2.txt` (from `curation/transcripts/vectortrust_lab_stack.tar.gz_.sh.txt`, 2065 bytes)
+- `curation/transcripts/vt-forks-2.txt` (from `curation/transcripts/vt-forks.txt`, 7630 bytes)

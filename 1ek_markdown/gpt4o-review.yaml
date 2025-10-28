@@ -1,0 +1,185 @@
+# BMF Theory AI Analysis Request
+# Machine-readable format for AI evaluation
+# Author: Christopher Amon
+# Version: 1.0
+
+theory_metadata:
+  name: "Base Morphogenic Field Theory"
+  author: "Christopher Amon"
+  version: "1.0"
+  date: "2025-09"
+  status: "draft"
+  
+analysis_request:
+  task: "mathematical_verification"
+  response_format: "structured_yaml" and human readable
+  focus_areas:
+    - mathematical_consistency
+    - derivation_validity  
+    - novel_connections
+    - testable_predictions
+    - meets standards doctoral dissertation
+core_framework:
+  master_equation: "∂Ψ/∂t = [P̂ + L̂ + Ĉ + M̂ + R̂]Ψ + Φ₀"
+  substrate: "Φ₀ (pre-spacetime information field)"
+  
+  operators:
+    point_operator:
+      symbol: "P̂"
+      function: "P̂Ψ = δ(r - r₀)Ψ(r₀)"
+      purpose: "localization, particle-like behavior"
+      
+    line_operator:
+      symbol: "L̂" 
+      function: "L̂Ψ = ∇Ψ · n̂"
+      purpose: "directional structure, momentum"
+      
+    curve_operator:
+      symbol: "Ĉ"
+      function: "ĈΨ = ∇²Ψ + κ(s)Ψ"  
+      purpose: "curvature, acceleration, gravity"
+      
+    movement_operator:
+      symbol: "M̂"
+      function: "M̂Ψ = -iℏ∇Ψ"
+      purpose: "dynamics, quantum momentum"
+      
+    resistance_operator:
+      symbol: "R̂"
+      function: "R̂Ψ = mΨ"
+      purpose: "inertia, mass, conservation"
+
+physics_derivations:
+  newtons_law:
+    starting_equation: "∂Ψ/∂t = [M̂ + R̂]Ψ + Φ₀"
+    classical_limit: "m(d²⟨r⟩/dt²) = ⟨F_ext⟩"
+    result: ""
+    status: ""
+
+  mass_energy:
+    starting_equation: "[P̂ + R̂]Ψ = EΨ"
+    eigenvalue_solution: "E₀ = mc²"
+    result: ""
+    status: ""
+    
+  heisenberg_uncertainty:
+    position_expectation: "⟨x⟩ = ∫∫ x|Ψ(x,y)|² dx dy / ∫∫ |Ψ(x,y)|² dx dy"
+    momentum_expectation: "⟨p⟩ = ∫∫ Ψ*(-iℏ∇)Ψ dx dy / ∫∫ |Ψ|² dx dy"
+    mathematical_constraint: "Sharp position ⟺ High |∇²Ψ| ⟺ Rapid oscillation"
+    cauchy_schwarz: "∫∫ |∇Ψ|² dx dy × ∫∫ |Ψ|² dx dy ≥ (∫∫ |Ψ∇Ψ*| dx dy)²"
+    result: ""
+    status: ""
+
+biological_applications:
+  life_definition:
+    equation: "Ψ_life = f(Ψ_life)"
+    description: "self-referential BMF patterns"
+    
+
+  metabolism:
+    equation: "∂Ψ_organism/∂t = Energy_in - Entropy_out + BMF_coherence"
+    description: "organization maintenance against entropy"
+    
+
+  genetic_templates:
+    equation: "Template_DNA(Ψ) → Ψ_protein via field resonance"
+    description: "DNA as stable BMF interference patterns"
+    
+
+  cellular_boundaries:
+    inside: "high BMF coherence (organized)"
+    outside: "lower coherence (environment)" 
+    membrane: "selective BMF filter"
+    
+
+  evolution:
+    selection_pressure: "∇(BMF_stability + reproduction_efficiency)"
+    mutation: "Ψ_mutant = Ψ_parent + ε·random_BMF_fluctuation"
+    
+
+  consciousness:
+    equation: "∫∫ Ψ_brain* (∂Ψ_brain/∂Ψ_brain) Ψ_brain dx dy"
+    description: "self-referential neural BMF loops"
+
+
+
+singularity_treatment:
+  traditional_view: "mathematical failures"
+  bmf_view: "substrate access points"
+  singularity_equation: "lim(r→0) Ψ(r) = ∞ × Φ₀(r)"
+  big_bang: 
+    initial: "t = 0: Ψ = 0, Φ₀ = maximum"
+    transition: "∂Ψ/∂t|_{t=0⁺} = ∞ · Φ₀ → finite spacetime"
+
+experimental_predictions:
+  quantum_biology:
+    - "coherence correlates with metabolic efficiency"
+    - "cellular organization shows quantum signatures"
+    - "evolutionary fitness linked to field coherence"
+    
+  consciousness_correlates:
+    - "self-referential loop structures in neural activity"
+    - "field coherence patterns in brain"
+    - "quantum entanglement in consciousness"
+    
+  gravitational_anomalies:
+    - "substrate access effects at extreme curvatures"
+    - "non-linear gravitational responses"
+    - "information preservation through singularities"
+
+validation_status:
+  ai_verification:
+    AI name:
+      heisenberg_derivation: ""
+      biology_framework: ""
+      overall: ""
+      
+  historical_connection:
+    turing_1952: "morphogenesis reaction-diffusion equations"
+    mathematical_lineage: "pattern formation from field instabilities"
+    theoretical_precedent: "73 years of development"
+
+evaluation_criteria:
+  mathematical_rigor:
+    - operator_definitions_clear:
+    - derivations_step_by_step:
+    - dimensional_consistency:
+    - limiting_cases_correct:
+    
+  novel_contributions:
+    - physics_biology_unification:
+    - consciousness_integration:
+    - singularity_resolution:
+    - substrate_concept:
+  testable_aspects:
+    - biological_coherence:
+    - neural_correlates:
+    - gravitational_effects:
+    - quantum_signatures:
+
+response_requirements:
+  format: "yaml"
+  include_sections:
+  Directive: Add as needed
+    - mathematical_assessment:
+    - derivation_verification:
+    - novel_connections_evaluation:
+    - testable_predictions_analysis:
+    - overall_theoretical_merit:
+    - suggested_improvements:
+    - research_priorities:
+    - modeling and simulation code:
+
+    exclude_human_readable:
+    Directive: Add as needed
+    - conversational_language:
+    - explanatory_prose:
+    - motivational_statements:
+    
+  machine_parsing_friendly:
+  Directive: Add as needed
+    - structured_data:
+    - boolean_assessments:
+    - numerical_scores:
+    - categorized_feedback:
+
