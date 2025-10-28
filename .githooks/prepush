@@ -1,0 +1,1 @@
+python3 scripts/git_toolbox.py check-wip || exit 1

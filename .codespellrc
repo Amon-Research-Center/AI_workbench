@@ -1,0 +1,7 @@
+# .codespellrc
+[codespell]
+skip = ./.git,./99_archive,*.png,*.jpg,*.pdf,*.svg,*.tgz,*.zip,*.tar,*.gz
+ignore-words = dictionaries/allowlist.txt
+check-hidden = false
+count = true
+quiet-level = 3
