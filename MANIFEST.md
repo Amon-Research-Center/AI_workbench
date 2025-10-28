@@ -8,6 +8,84 @@
 📄 "raw_transcripts/markdown/Base-Modal-Framework-and-the-Coherence-Modal-Cross\342\200\221Interferometer.md"
   Added: 2025-10-28 — initial commit markdown file second half
 
+📄 "raw_transcripts/text/0250713-14-the\"beginning (1).txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/0250713-14-the\"beginning.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/20250710\"claude\"mostly\"emmpty\"space.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/5e-simplifed\"theory1.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/Base-Modal-Framework-and-the-Coherence-Modal-Cross\342\200\221Interferometer.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/kozyrev\"mirror.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"d.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv2.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv2.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv3.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv3.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"god-edited.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"god.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"lit\"graph.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/outline\"re.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review-v1.0.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review2.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/primer\"20250828034531.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/primordial\"morphic\"field\"model\"equations\n.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/pts\"sysinfo\"capture.err.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/retraining models possible outcomes\".txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/simplifed\"theory.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/thesis\"outline\"bmf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/turing\"chemical\"basis\"analysis\"expanded.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/turing\"morphogenesis\"equations.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
 📄 .codespellrc
   Added: 2025-10-28 — initial commit
 
@@ -821,16 +899,526 @@
 📄 raw_transcripts/markdown/web_database_prototype.md
   Added: 2025-10-28 — initial commit markdown file first half
 
+📄 raw_transcripts/text/00_README.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning (1)
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning (1).txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/1
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/1_NeverDelete-the_beginning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250710_claude_mostly_emmpty_space.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250713-14-scholar.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250716.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202507191249.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202507210618-b4.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250812-big.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250813am.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827041904-seed.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827044230-Penrose-Hoffman.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827044230-penrose-hoffman.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202508311323.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509011937-outline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2025090151341-world-compile.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509141353-mistral-math fix.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas(1)
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509150325_scholar-AMA
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509150830-leo-prompts.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2_NeverDeleteClaude.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/3
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/3_5e-simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/4_mistral.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/4n1-reviews.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/5_4n1-reviews.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/5e-simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/6_mini_dv3.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/7_NeverDeleteGPT-4o.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/8_Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/9_NeverDelete_D1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/9a_NeverDeleteTuringConnect.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT-thesis
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT-thesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT_Foundations.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/AT_CBM.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/A_Turing-Chemical-Basis-of-Morphogenesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/App Wrapper Explanation
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/App Wrapper Explanation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/AppliedandComputationalMathematics.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base Morphic Field Dissertation.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Complete_Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation_Original.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CHANGELOG.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CODE_OF_CONDUCT.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter1 Intro Bmf.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter1 Intro Bmf.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter2-begining.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Claude_All.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CurrentPlan.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CurrentState.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Three
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Three.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Two
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Two.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_one.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeek-1-maath-fix .txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeekOne
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeekOne.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ETHICS.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/FOSS stack for physics modeling.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Fork Phi0.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GBR_0272_AMT_A.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GBR_0272_AMT_A.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GOALS.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Godprint Morphic Field Dissertation.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Godprint Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Greeting and conversation setup(2).txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Greeting and conversation setup.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Grok-unchained
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Grok-unchained_repromppt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Intro.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/JSON YAML conversion.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/jupyter-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/keep.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/latex
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llama-4-scout
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llama-4-scout.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llm-tokenizing.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/m.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/makefile.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mem-jog.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mind.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini-d.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_d.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_d.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv2.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv3.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv3.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/misc.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mission2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mistral
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mistral.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mit_template_source.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/morpho_lit_graph
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/morpho_lit_graph.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/nginx
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/octave-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/om_K_mirrors
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/opts.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_A.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_B.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_re.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review-v1.0.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/phyass.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/pre-prompt-setup.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/primer_20250828034531.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/prompt response structure.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/protection_log.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/pts_sysinfo_capture.err.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/readme.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/retraining models possible outcomes.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/riemann's geometry explained.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/riemann.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/rsheldrake
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/rsheldrake.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/sagemath-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/scholarai_session_memory.json.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/secure partitioning for rocky linux.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/seizure-neuro-ds.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/simplifed_theory.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/syslog.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/t.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/tableofcontents.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/template-for-journal-of-the-royal-statistical-society-series-c-applied-statistics-source.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/theory_no_code (1).txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/theory_no_code.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesis outline bmf.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesis_outline_bmf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesiswalloutline.odt.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesiswalloutline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/timestamp.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/timestamped.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/title.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/toc_plus.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/todo.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/tree.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing-the-chemical-basis-of-morphogenesis.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing-the-chemical-basis-of-morphogenesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_chemical_basis_analysis_expanded.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_eq.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_morphogenesis_equations.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turning_sep_eq.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/uncertainty principle reasoning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/universities
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
 📄 scripts/git_toolbox.py
   Added: 2025-10-28 — initial commit
 
 ## Recent Changes (Last 5)
 
-- 2025-10-28 — Added raw_transcripts/latex/01_Basic_SageMath_AFT.ipynb — "initial commit latex, python, blender files"
-- 2025-10-28 — Added raw_transcripts/latex/01_demo.ipynb — "initial commit latex, python, blender files"
-- 2025-10-28 — Added raw_transcripts/latex/AFT_Master_Notebook.ipynb — "initial commit latex, python, blender files"
-- 2025-10-28 — Added raw_transcripts/latex/BMF_Appendix.fdb_latexmk — "initial commit latex, python, blender files"
-- 2025-10-28 — Added raw_transcripts/latex/BMF_Appendix.tex — "initial commit latex, python, blender files"
+- 2025-10-28 — Added raw_transcripts/text/jupyter-bl.txt — "initial commit text files 1 of 3"
+- 2025-10-28 — Added raw_transcripts/text/keep.txt — "initial commit text files 1 of 3"
+- 2025-10-28 — Added "raw_transcripts/text/kozyrev\"mirror.txt" — "initial commit text files 1 of 3"
+- 2025-10-28 — Added raw_transcripts/text/latex — "initial commit text files 1 of 3"
+- 2025-10-28 — Added raw_transcripts/text/llama-4-scout — "initial commit text files 1 of 3"
 
 ## Full File History
 
@@ -840,6 +1428,84 @@
 📄 "raw_transcripts/markdown/Base-Modal-Framework-and-the-Coherence-Modal-Cross\342\200\221Interferometer.md"
   Added: 2025-10-28 — initial commit markdown file second half
 
+📄 "raw_transcripts/text/0250713-14-the\"beginning (1).txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/0250713-14-the\"beginning.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/20250710\"claude\"mostly\"emmpty\"space.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/5e-simplifed\"theory1.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/Base-Modal-Framework-and-the-Coherence-Modal-Cross\342\200\221Interferometer.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 "raw_transcripts/text/kozyrev\"mirror.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"d.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv2.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv2.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv3.pdf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/mini\"dv3.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"god-edited.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"god.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/morpho\"lit\"graph.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/outline\"re.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review-v1.0.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/peer\"review2.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/primer\"20250828034531.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/primordial\"morphic\"field\"model\"equations\n.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/pts\"sysinfo\"capture.err.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/retraining models possible outcomes\".txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/simplifed\"theory.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/thesis\"outline\"bmf.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/turing\"chemical\"basis\"analysis\"expanded.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 "raw_transcripts/text/turing\"morphogenesis\"equations.txt"
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
 📄 .codespellrc
   Added: 2025-10-28 — initial commit
 
@@ -1652,6 +2318,516 @@
 
 📄 raw_transcripts/markdown/web_database_prototype.md
   Added: 2025-10-28 — initial commit markdown file first half
+
+📄 raw_transcripts/text/00_README.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning (1)
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning (1).txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/0250713-14-the_beginning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/1
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/1_NeverDelete-the_beginning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250710_claude_mostly_emmpty_space.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250713-14-scholar.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250716.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202507191249.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202507210618-b4.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250812-big.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250813am.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827041904-seed.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827044230-Penrose-Hoffman.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250827044230-penrose-hoffman.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202508311323.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509011937-outline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2025090151341-world-compile.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509141353-mistral-math fix.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas(1)
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509150325_scholar-AMA
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/202509150830-leo-prompts.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/2_NeverDeleteClaude.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/3
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/3_5e-simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/4_mistral.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/4n1-reviews.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/5_4n1-reviews.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/5e-simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/6_mini_dv3.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/7_NeverDeleteGPT-4o.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/8_Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/9_NeverDelete_D1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/9a_NeverDeleteTuringConnect.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT-thesis
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT-thesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ATFT_Foundations.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/AT_CBM.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/A_Turing-Chemical-Basis-of-Morphogenesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/App Wrapper Explanation
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/App Wrapper Explanation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/AppliedandComputationalMathematics.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base Morphic Field Dissertation.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Complete_Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation_Original.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Bmf Theory Reviewed.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CHANGELOG.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CODE_OF_CONDUCT.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter1 Intro Bmf.docx.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter1 Intro Bmf.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Chapter2-begining.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Claude_All.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CurrentPlan.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/CurrentState.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Three
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Three.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Two
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_Two.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DS_one.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeek-1-maath-fix .txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeekOne
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/DeepSeekOne.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/ETHICS.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/FOSS stack for physics modeling.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Fork Phi0.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GBR_0272_AMT_A.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GBR_0272_AMT_A.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/GOALS.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Godprint Morphic Field Dissertation.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Godprint Morphic Field Dissertation.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Greeting and conversation setup(2).txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Greeting and conversation setup.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Grok-unchained
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Grok-unchained_repromppt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/Intro.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/JSON YAML conversion.txt
+  Added: 2025-10-28 — initial commit text files 1 of 5ish
+
+📄 raw_transcripts/text/jupyter-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/keep.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/latex
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llama-4-scout
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llama-4-scout.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/llm-tokenizing.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/m.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/makefile.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mem-jog.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mind.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini-d.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_d.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_d.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv2.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv3.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mini_dv3.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/misc.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mission2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mistral
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mistral.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/mit_template_source.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/morpho_lit_graph
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/morpho_lit_graph.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/nginx
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/octave-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/om_K_mirrors
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/opts.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_A.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_B.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/outline_re.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review-v1.0.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/peer_review2.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/phyass.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/pre-prompt-setup.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/primer_20250828034531.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/prompt response structure.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/protection_log.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/pts_sysinfo_capture.err.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/readme.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/retraining models possible outcomes.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/riemann's geometry explained.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/riemann.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/rsheldrake
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/rsheldrake.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/sagemath-bl.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/scholarai_session_memory.json.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/secure partitioning for rocky linux.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/seizure-neuro-ds.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/simplifed_theory.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/simplifed_theory1.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/syslog.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/t.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/tableofcontents.md.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/template-for-journal-of-the-royal-statistical-society-series-c-applied-statistics-source.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/theory_no_code (1).txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/theory_no_code.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesis outline bmf.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesis_outline_bmf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesiswalloutline.odt.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/thesiswalloutline.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/timestamp.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/timestamped.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/title.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/toc_plus.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/todo.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/tree.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing-the-chemical-basis-of-morphogenesis.pdf.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing-the-chemical-basis-of-morphogenesis.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_chemical_basis_analysis_expanded.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_eq.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turing_morphogenesis_equations.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/turning_sep_eq.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/uncertainty principle reasoning.txt
+  Added: 2025-10-28 — initial commit text files 1 of 3
+
+📄 raw_transcripts/text/universities
+  Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 scripts/git_toolbox.py
   Added: 2025-10-28 — initial commit
