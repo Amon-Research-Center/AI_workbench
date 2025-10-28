@@ -1,0 +1,56 @@
+{
+  "session": {
+    "name": "<human label>",
+    "ai": "<model id from transcript>",
+    "desc_words": ["<w1>", "<w2>", "<w3>", "<w4>"/*,"<w5>"*/],
+    "srcname": "<basename no ext>",
+    "ext": ".txt|.md|.log|.docx|.odt|.pdf"
+  },
+  "policy": {
+    "do_not_guess": true,
+    "stop_on_ambiguity": true,
+    "create_downloadable_files": true,
+    "final_ack": "finished"
+  },
+  "io": {
+    "outputs_are_text_only": true,
+    "output_encoding": "utf-8",
+    "output_line_endings": "LF"
+  },
+  "tags": {
+    "co": "%co", "tx": "%tx", "dr": "%dr", "do": "%do", "dy": "%dy",
+    "dg": "%dg", "eq": "%eq", "hy": "%hy", "ns": "%ns", "ex": "%ex",
+    "bi": "%bi", "op": "%op", "in": "%in"
+  },
+  "task": {
+    "goal": "<one line goal>",
+    "operations": ["annotate_blocks", "clone_archival", "split_by_tag", "empty_scratch"]
+  },
+  "filenames": {
+    "desc_joined": "<w1>-<w2>-<w3>-<w4>[-<w5>]",
+    "coded_copy": "c-<srcname>.txt",
+    "stage_with_meta": "cd-<srcname>-<ai>-<desc>.txt",
+    "stage_for_cut": "cd-<srcname>.txt",
+    "split_pattern": "cd-<tag>-<srcname>-<ai>-<desc>.txt",
+    "rules": [
+      "Only create a cd- file for tags that actually appear.",
+      "Do not create empty cd- files.",
+      "Never repeat tag tokens in names (no 'co-co').",
+      "All cd- outputs end with .txt, UTF-8, LF."
+    ]
+  },
+  "marking_rules": [
+    "Treat a line beginning with a tag token (e.g., %co) as a block start.",
+    "A block continues until the next tag token begins; then switch.",
+    "Do not rewrite content; only add the marker line in the coded copy."
+  ],
+  "acceptance_checks": [
+    "c-<srcname>.txt exists and contains inserted markers.",
+    "cd-<srcname>-<ai>-<desc>.txt equals the coded copy byte-for-byte.",
+    "cd-<srcname>.txt is zero bytes at end.",
+    "Every produced cd-<tag>-<srcname>-<ai>-<desc>.txt has ≥1 block.",
+    "All outputs are UTF-8 (no BOM) with LF endings.",
+    "Assistant’s final line is exactly: finished"
+  ],
+  "inputs": { "source_attachment": "<attach the source file here>" }
+}

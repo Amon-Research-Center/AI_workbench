@@ -1,0 +1,28 @@
+- milestone: M1
+  title: Schematic and BOM
+  month: 1
+  deliverables:
+    - Hardware schematic
+    - Bill of materials (v1)
+
+- milestone: M2
+  title: Prototype build and calibration
+  month: 2-3
+  deliverables:
+    - Assembled prototype
+    - Calibration procedures and results
+
+- milestone: M3
+  title: Processing pipeline
+  month: 3-4
+  deliverables:
+    - Signal processing notebooks
+    - Coherence metrics implementation
+
+- milestone: M4
+  title: Pilot experiments and report
+  month: 5
+  deliverables:
+    - Experimental dataset
+    - Technical report
+

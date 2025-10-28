@@ -1,0 +1,69 @@
+session:
+  name: "<human label for this run>"
+  ai: "<model id from transcript (e.g., gpt-4.1-mini)>"
+  desc_words: ["<w1>","<w2>","<w3>","<w4>"/*,"<w5>"*/]   # 4–5 words, lowercase, hyphen-join
+  srcname: "<basename without extension>"
+  ext: ".txt|.md|.log|.docx|.odt|.pdf"
+
+policy:
+  do_not_guess: true
+  stop_on_ambiguity: true
+  create_downloadable_files: true
+  final_ack: "finished"
+
+io:
+  outputs_are_text_only: true
+  output_encoding: "utf-8"      # no BOM
+  output_line_endings: "LF"     # \n only
+  # Binary inputs must be converted to canonical UTF-8/LF text before any steps.
+
+tags:      # tag_table
+  co: "%co"   # code
+  tx: "%tx"   # prose/answer
+  dr: "%dr"   # directive red (immediate)
+  do: "%do"   # directive orange
+  dy: "%dy"   # directive yellow
+  dg: "%dg"   # directive green
+  eq: "%eq"   # LaTeX equation
+  hy: "%hy"   # idea/hypothesis
+  ns: "%ns"   # next steps
+  ex: "%ex"   # emphasis/exclamation
+  bi: "%bi"   # bibliography/citation
+  op: "%op"   # opening prompt (if present)
+  in: "%in"   # injected instructions (if present)
+
+task:
+  goal: "<one line goal for this run>"
+  operations:                # the “functions” to execute, in order
+    - annotate_blocks        # insert tag marker one line ABOVE each block start (coded copy only)
+    - clone_archival         # make metadata clone with AI + description
+    - split_by_tag           # cut blocks into per-tag files, append in source order
+    - empty_scratch          # working scratch ends zero bytes
+
+filenames:
+  desc_joined: "<w1>-<w2>-<w3>-<w4>[-<w5>]"     # built from desc_words
+  coded_copy: "c-<srcname>.txt"                 # canonicalized UTF-8/LF
+  stage_with_meta: "cd-<srcname>-<ai>-<desc>.txt"
+  stage_for_cut:  "cd-<srcname>.txt"            # working scratch; ends empty
+  split_pattern:  "cd-<tag>-<srcname>-<ai>-<desc>.txt"
+  rules:
+    - "Only create a cd- file for tags that actually appear."
+    - "Do not create empty cd- files."
+    - "Never repeat tag tokens in names (no 'co-co')."
+    - "All cd- outputs end with .txt, UTF-8, LF."
+
+marking_rules:
+  - "Treat a line beginning with a tag token (e.g., %co) as a block start."
+  - "A block continues until the next tag token begins; then switch."
+  - "Do not rewrite content; only add the marker line in the coded copy."
+
+acceptance_checks:
+  - "c-<srcname>.txt exists and contains inserted markers."
+  - "cd-<srcname>-<ai>-<desc>.txt equals the coded copy byte-for-byte."
+  - "cd-<srcname>.txt is zero bytes at end."
+  - "Every produced cd-<tag>-<srcname>-<ai>-<desc>.txt has ≥1 block."
+  - "All outputs are UTF-8 (no BOM) with LF endings."
+  - "Assistant’s final line is exactly: finished"
+
+inputs:
+  source_attachment: "<attach the source file here>"
