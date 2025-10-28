@@ -1,0 +1,66 @@
+2025	Induced Subgraph Density	Nguyen, Huy Tung
+2024	Investigating Ground-State Electronic Structure in the Era of Machine Learning	Chen, Yixiao
+*2024	Ab initio multi-scale modeling of crystals: methods and applications in ferroelectrics	XIE, PINCHEN
+*2024	Capturing noncommutativity in nonhomogeneous random matrices	Brailovskaya, Tatiana
+2024	SINGULAR MCKEAN-VLASOV PROBLEMS FROM MATHEMATICAL PHYSICS AND FINANCE	Mustapha, Scander
+2023	The central bag method: An approach to analyzing the structure of hereditary graph classes	Abrishami, Tara
+2023	Stefan Problems with Supercooling: Theory and Applications	Baker, Graeme Scott
+2023	Macroeconomics and Heterogeneous Reality with Machine Learning	Yang, Yucheng
+2023	Mathematical Theory of Machine Learning Models for Estimating Probability Distributions	Yang, Hongkang
+*2023	A Mathematical Study of Electroconvection	Lee, Fizay-Noah
+*2023	On Systems of Dynamic Graphs: Theory and Applications	Dabke, Devavrat Vivek
+2023	HIGH-DIMENSIONAL REINFORCEMENT LEARNING AND OPTIMAL CONTROL PROBLEMS	Long, Jihao
+*2023	Spectral volumes: a Fourier-based method for reconstruction in cryo-EM with continuous heterogeneity	Halevi, Amit
+**2022	Individual Variation and Population Structure in Complex Social Systems: Dynamics and Consequences	Kawakatsu, Mari
+*2022	Rectangular finite free probability theory	Gribinski, Aurelien Xavier
+2022	Learning Algorithms for Intelligent Agents and Mechanisms	Rahme, Jad
+*2022	The Solution Space of the Binary Perceptron Model and Inference of Sparse Graphons	Li, Shuangping
+2021	Selected Topics in Deep Learning Theory and Continuous-time Hidden Markov Models	Wang, Qingcan
+2021	Towards Robust Models in Deep Learning: Regularizing Neural Networks and Generative Models	Bao, Ruying
+*2021	On recognition algorithms and structure of graphs with restricted induced cycles	Cook, Linda
+**2021	On Geometric Optimization, Learning and Control	Weber, Melanie
+*2021	Hermitian, Non-Hermitian and Multivariate Finite Free Probability	Mirabelli, Benjamin
+*2020	Algorithms in Cryo-Electron Tomography	Liu, Yuan
+**2020	Latent Variable Modeling and Causal Inference in Population-Structured Genetics	Cabreros, Irineo C.
+2020	Non-Atomic Games and an Application to Jet Lag	Graves, Christy Vaughn
+2020	PDE Models of Multilevel Selection: The Evolution of Cooperation and the Shadow of Selection	Cooney, Daniel Brendan
+2020	Machine learning for multi-scale molecular modeling: theories, algorithms, and applications	Zhang, Linfeng
+*2019	High-order finite volume methods for magnetohydrodynamics with applications in computational astrophysics	Felker, Kyle Gerard
+*2019	Mathematical Methods for Optimal Resource Allocation in Common-Pool Resources	Drohan, Sarah Elizabeth
+*2019	New Paths from Splay to Dynamic Optimality	Levy, Caleb
+*2019	Smooth Selection Principles, Simplicial Complexes, and Everything in Between	Guillen Pegueroles, Bernat
+2019	Information theoretic aspects of cryo-electron microscopy	Morais Carreira Pereira, Joao
+2018	Convex Optimization Approaches for NMR Assignment	Simoes Bravo Ferreira, Jose Frederico
+*2018	Structure Detection in High Dimensional Graphical Models	Cao, Yuan
+*2018	Influence Propagation in Graphs and Applications to Network Analysis	Lee, Eun Jee
+2018	Deep Learning for Large-Scale Molecular Dynamics and High-Dimensional Partial Differential Equations	Han, Jiequn
+2018	Cliques, stable sets, and coloring in graphs with forbidden induced subgraphs	Spirkl, Sophie Theresa
+2018	Non-Unique Games Over Compact Groups and Applications	Chen, Yutong
+2018	Information Flow on Interaction Networks	Leblanc, Simon
+*2018	Thermodynamic And Hydrodynamic Coupling Effects On Compositional Lipid Domains In Membrane Stack Systems	Xu, Yuanda
+2016	On unavoidable graphs and tournaments	Kim, Ringi
+2016	Analysis of Multivariate High-Dimensional Complex Systems and Applications	Bastian, Caleb Deen
+*2016	Collective Behavior in Network-Based Dynamical Systems	Wang, Chu
+2016	Smart Data Pricing	Joe-Wong, Carlee
+*2016	On Instabilities in Thin-Film Flows	Hammoud, Naima
+2016	Phase Transition and Free Action of Non-equilibrium Systems	Li, Qianxiao
+*2016	Multi-scale adaptive representation of signals: models and algorithms	Tai, Cheng
+2016	Explorations in the Mathematics of Inviscid Incompressible Fluids	Kliegl, Markus Vinzenz
+2015	Financial Models for Commodity, Energy and Equity Markets	Chan, Yuk Fung
+2015	Mathematical Models for Financial Data	Tian, Haoshu
+2015	Convex Relaxations for Certain Inverse Problems on Graphs	Bandeira, Afonso S.
+2014	Camera Motion Estimation by Convex Programming	Ozyesil, Onur
+**2014	Backward Stochastic Differential Equations with Superlinear Drivers	Nam, Kihun
+2013	Random Matrices in High-dimensional Data Analysis	Cheng, Xiuyuan
+*2013	Distances and algorithms to compare sets of shapes for automated biological morphometrics	Puente, Jesus
+*2013	Robust Synchronization and 3D Reconstruction from Cryo-EM Images	Wang, Lanhui
+2013	On Containment Relations in Directed Graphs	Kim, Ilhee
+**2013	Renormalization theory in statistical physics and stochastic analysis	Shen, Hao
+2013	Local semicircle law for the Gaussian beta ensembles	Wong, Percy
+*2012	Extensions and applications of stochastic accumulator models in attention and decision making	Feng, Samuel Franklin
+2012	RANDOMIZED WAVELETS ON ARBITRARY DOMAINS AND APPLICATIONS TO FUNCTIONAL MRI ANALYSIS	Ozkaya, Gorkem G
+2012	Regularization of Linear Systems with Sparsity Constraints with Applications to Large Scale Inverse Problems	Voronin, Sergey
+2012	Graph Realization and Low-Rank Matrix Completion	Cucuringu, Mihai
+*2012	Sparse Signal Processing with Frame Theory	Mixon, Dustin
+2012	Resilience of Small Social Networks	Arceneaux, Taniecea A.
+*2011	The Evolution of Cellular Structures via Curvature Flow	LAZAR, EMANUEL A.

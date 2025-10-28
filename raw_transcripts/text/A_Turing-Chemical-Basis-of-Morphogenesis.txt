@@ -1,0 +1,3687 @@
+VICTORIA UNIVERSITY OF MANCHESTER 
+MANCHESTER 
+
+
+ARTICLE 
+
+
+THE CHEMICAL BASIS OF 
+MORPHOGENESIS 
+
+
+Author: 
+
+Alan Mathison TURING, 
+OBE, FRS 
+
+23 June 1912 — 7 June 1954 
+
+
+Submitted: 1952 
+
+
+Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences, 
+14 August 1952, Volume 237, Issue 641 
+
+
+Abstract 
+
+
+It is suggested that a system of chemical substances, called morphogens, reacting 
+together and diffusing through a tissue, is adequate to account for the main 
+phenomena of morphogenesis. Such a system, although it may originally be quite 
+homogeneous, may later develop a pattern or structure due to an instability of the 
+homogeneous equilibrium, which is triggered off by random disturbances. Such 
+reaction-diffusion systems are considered in some detail in the case of an isolated 
+ring of cells, a mathematically convenient, though biologically unusual system. The 
+investigation is chiefly concerned with the onset of instability. It is found that there 
+are six essentially different forms which this may take. In the most interesting 
+form stationary waves appear on the ring. It is suggested that this might account, 
+	for instance, for the tentacle patterns on Hydra and for whorled leaves. A system 
+		of reactions and diffusion on a sphere is also considered. Such a system appears 
+		to account for gastrulation. Another reaction system in two dimensions gives rise 
+		to patterns reminiscent of dappling. It is also suggested that stationary waves in 
+		two dimensions could account for the phenomena of phyllotaxis. The purpose of 
+		this paper is to discuss a possible mechanism by which the genes of a zygote! may 
+		determine the anatomical structure of the resulting organism. The theory does not 
+		make any new hypotheses; it merely suggests that certain well-known physical laws 
+		are sufficient to account for many of the facts. The full understanding of the paper 
+		requires a good knowledge of mathematics, some biology, and some elementary 
+		chemistry. Since readers cannot be expected to be experts in all of these subjects, 
+		a number of elementary facts are explained, which can be found in textbooks, but 
+		whose omission would make the paper difficult reading. 
+		
+		
+		‘A Zygote is a eukaryotic diploid cell formed by a fertilization event between two haploid cells, 
+		called gametes. Haploid cells contain only one version of genes or the DNA (Desoxyribonucleic 
+		acid) respectively, i.e. chromosomes, diploid cells therefore contain two chromosome packages, 
+		i.e. the DNA of each haploid cell. The newly created Zygote is therefore a combination of the 
+		DNA or chromosomes respectively in each gamete, and contains all the genetic information of a 
+		new individual organism. 
+		
+		
+		Contents 
+		
+		
+		1; +N 
+		
+		
+		. AMODEL OF THE EMBRYO. MORPHOGENS 
+		
+		
+		MATHEMATICAL BACKGROUND REQUIRED 
+		
+		CHEMICAL REACTIONS 
+		
+		THE BREAKDOWN OF SYMMETRY AND HOMOGENEITY 
+		LEFT-HANDED AND RIGHT-HANDED ORGANISMS 
+		REACTIONS AND DIFFUSION IN A RING OF CELLS 
+		CONTINUOUS RING OF TISSUE 
+		
+		
+		TYPES OF ASYMPTOTIC BEHAVIOUR IN THE RING AFTER A LAPSE 
+		OF TIME 
+		
+		
+		8.1. Stationary case of extreme long wavelength. ............. 
+		8.2. Oscillatory case of extreme long wavelength ............. 
+		8.3. Stationary waves of extreme short wavelength ............ 
+		8.4. Stationary waves of finite wavelength ................. 
+		8.5. Oscillatory case of a finite wavelength. ................ 
+		8.6. Oscillatory case of extreme short wavelength ............. 
+		
+		
+		FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+		
+		
+		9.1. General formule for the two morphogen case. ............ 
+		9.1.1. Stationary waves of extreme long wavelength. ........ 
+		
+		
+		9.1.2. Oscillating case with extreme long wavelength, i.e. synchro- 
+		
+		
+		mined OscillamOns: 26 in! ea ea Qomae eo. aoe pede tae! 2a 
+		
+		9.1.3. Stationary waves of extreme short wavelength ........ 
+		9.1.4. Stationary waves of finite wavelength ............. 
+		
+		9.2. Consideration of statistical noise disturbance... .......... 
+		
+		
+		9.3. Consideration of extend due to the component which outdistance 
+		
+		
+		OCIS: cet fh dee ik a sed aioe DS ae eek a gore Sepess eo cere Norte Bog ie ed 
+		9.4. Consideration of non-linear terms .................-. 
+		9.5. Consideration of chemically active morphogens............ 
+		
+		
+		10. A NUMERICAL EXAMPLE 
+		
+		
+		Contents 
+		
+		
+		11. RESTATEMENT AND BIOLOGICAL INTERPRETATION OF THE RESULTS 54 
+		
+		
+		12. CHEMICAL WAVES ON SPHERES. GASTRULATION 60 
+		13. NON-LINEAR THEORY. USE OF DIGITAL COMPUTERS 65 
+		A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 66 
+		Daly. A Modeltor Reptation= 4 4° ¢. 44 dee acg 4. eas coe Sk ee Ss 66 
+		A.2. Elementary Calculation of the Over-All Mobility. .......... 69 
+		B. ILLUSTRATION "EXTREME LONG WAVELENGTH” AN "EXTREME SHORT 
+		WAVELENGTH” 73 
+		C. FURTHER CONSIDERATIONS OF Equation 9.18 74 
+		References 76 
+		
+		
+		1. A MODEL OF THE EMBRYO. 
+		MORPHOGENS 
+		
+		
+		In this section a mathematical model of the growing embryo will be described. This 
+		model will be a simplification and an idealization, and consequently a falsification. 
+		It is to be hoped that the features retained for discussion are those of greatest 
+		importance in the present state of knowledge. The model takes two slightly different 
+		forms. In one of them the cell theory is recognized but the cells are idealized 
+			into geometrical points. In the other the matter of the organism is imagined as 
+			continuously distributed. The cells are not, however, completely ignored, for various 
+			physical and physicochemical characteristics of the matter as a whole are assumed 
+			to have values appropriate to the cellular matter. With either of the models one 
+			proceeds as with a physical theory and defines an entity called ”the state of the 
+			system”. One then describes how that state is to be determined from the state 
+			at a moment very shortly before. With either model the description of the state 
+			consists of two parts, the mechanical and the chemical. The mechanical part of the 
+			state describes the positions, masses, velocities and elastic properties of the cells, 
+			and the forces between them. In the continuous form of the theory essentially the 
+			same information is given in the form of the stress, velocity, density and elasticity 
+			of the matter. The chemical part of the state is given (in the cell form of theory) as 
+			the chemical composition of each separate cell; the diffusibility of each substance 
+			between each two adjacent cells must also be given. In the continuous form of the 
+			theory the concentrations and diffusibilities of each substance have to be given at 
+			each point. In determining the changes of state one should take into account 
+			
+			
+			(i) The changes of position and velocity as given by NEWTON’s laws of motion. 
+			
+			
+			(ii) The stresses as given by the elasticities and motions, also taking into account 
+			the osmotic pressures as given from the chemical data. 
+			
+			
+			(iii) The chemical reactions. 
+			
+			
+			(iv) The diffusion of the chemical substances. The region in which this diffusion 
+			is possible is given from the mechanical data. 
+			
+			
+			This account of the problem omits many features, e.g. electrical properties and 
+			the internal structure of the cell. But even so it is a problem of formidable 
+			mathematical complexity. One cannot at present hope to make any progress 
+			
+			
+			1. A MODEL OF THE EMBRYO. MORPHOGENS 
+			
+			
+			with the understanding of such systems except in very simplified cases. The 
+			interdependence of the chemical and mechanical data adds enormously to the 
+			difficulty, and attention will therefore be confined, so far as is possible, to cases 
+			where these can be separated. The mathematics of elastic solids is a well developed 
+			subject, and has often been applied to biological systems. In this paper it is 
+			proposed to give attention rather to cases where the mechanical aspect can be 
+			ignored and the chemical aspect is the most significant. These cases promise greater 
+			interest, for the characteristic action of the genes themselves is presumably chemical. 
+			The systems actually to be considered consist therefore of masses of tissues which 
+			are not growing, but within which certain substances are reacting chemically, and 
+			through which they are diffusing. These substances will be called morphogens, the 
+			word being intended to convey the idea of a form producer. It is not intended to 
+			have any very exact meaning, but is simply the kind of substance concerned in this 
+			theory. The evocators of WADDINGTON provide a good example of morphogens 
+			({11]). These evocators, diffusing into a tissue, somehow persuade it to develop 
+				along different lines from those which would have been followed in its absence. The 
+				genes themselves may also be considered to be morphogens. But they certainly 
+				form rather a special class. They are quite indiffusible. Moreover, it is only by 
+					courtesy that genes can be regarded as separate molecules. It would be more 
+					accurate (at any rate at mitosis!) to regard them as radicals of the giant molecules 
+					known as chromosomes. But presumably these radicals act almost independently, 
+					so that it is unlikely that serious errors will arise through regarding the genes as 
+					molecules. Hormones may also be regarded as quite typical morphogens. Skin 
+					pigments may be regarded as morphogens if desired. But those whose action is to 
+					be considered here do not come squarely within any of these categories. 
+					
+					The function of genes is presumed to be purely catalytic. They catalyze the 
+					production of other morphogens, which in turn may only be catalysts. Eventually, 
+					presumably, the chain leads to some morphogens whose duties are not purely 
+					catalytic. For instance, a substance might break down into a number of smaller 
+					molecules, thereby increasing the osmotic pressure in a cell and promoting its 
+					growth. The genes might thus be said to influence the anatomical form of the 
+					organism by determining the rates of those reactions which they catalyze.” If the 
+					rates are assumed to be those determined by the genes, and if a comparison of 
+					organisms is not in question, the genes themselves may be eliminated from the 
+					discussion. Likewise any other catalysts obtained secondarily through the agency 
+					of the genes may equally be ignored, if there is no question of their concentrations 
+					
+					
+					'Mitosis is the whole process of cell division divided into different stages. In general the 
+					chromosomes in the cell are duplicated and each of one identical chromosome package diffuses to 
+					the corresponding opposite site of the cell, which is then divided through cytokinesis to produce 
+					two new daughter cells each with an identical copy of chromosomes. 
+					
+					2This is a kind of top-down and bottom-up approach often found in self-organizing systems 
+					near-the-edge-of chaos or sensible (thermal) equilibrium. This topic is also to be found in a 
+					synergetic approach to natural phenomena, see, e.g. [6]. 
+					
+					
+					1. A MODEL OF THE EMBRYO. MORPHOGENS 
+					
+					
+					varying. There may, however, be some other morphogens, of the nature of evocators, 
+					which cannot be altogether forgotten, but whose role may nevertheless be subsidiary, 
+					from the point of view of the formation of a particular organ. Suppose, for instance, 
+					that a ”leg-evocator” morphogen were being produced in a certain region of an 
+					embryo, or perhaps diffusing into it, and that an attempt was being made to explain 
+					the mechanism by which the leg was formed in the presence of the evocator. It 
+					would then be reasonable to take the distribution of the evocator in space and time 
+					as given in advance and to consider the chemical reactions set in train by it. That 
+					at any rate is the procedure adopted in the few examples considered here. 
+					
+					
+					2. MATHEMATICAL BACKGROUND 
+					REQUIRED 
+					
+					
+					The greater part of this present paper requires only a very moderate knowledge 
+					of mathematics. What is chiefly required is an understanding of the solution 
+					of linear differential equations with constant coefficients. (This is also what is 
+					chiefly required for an understanding of mechanical and electrical oscillations.) The 
+					solution of such an equation takes the form of a sum > A-e”, where the quantities 
+					A, b may be complex, i.e. of the form a +i, where a and £ are ordinary (real) 
+					numbers and i = \/—1. It is of great importance that the physical significance of 
+					the various possible solutions of this kind should be appreciated, for instance, that 
+					
+					
+					a) Since the solutions will normally be real, one can also write them in the form 
+					
+					
+					RS A-e™ or NW AZA-e™ (where Z means "real part of”).! 
+					b) That if A = A’- e!? and b =a +i, where A’, a, G, and ¢ are real,” then 
+					
+					
+					RA-e* = A’. e™.cos(Bt+¢) , 
+					
+					
+					TA sinusoidal wave is described in general by the equation 
+					y(t) = A-sin(wt + b), 
+					
+					
+					where A is the amplitude, w the angular frequency, t the time and b the phase. A (periodic) 
+					solution to the differential equations treated in this article is of the form 
+					
+					
+					A , eivt+b 
+					
+					
+					which may be decomposed in ”a real part of’, i.e. Z, and an ”imaginary part of”, ie. 4%, with 
+					the help of EULER’s formula to 
+					
+					
+					A. eivtt) — A. cos(wt + b) + isin(wt + b), 
+					
+					
+					where A- cos(wt + b) is @A- civet?. 
+					?This statement is mirrored in EULERS fundamental formula that enables a deep connection 
+					between the complex exponential function e'? and the trigonometric functions sin(¢) and cos(#) 
+					for all numbers € C. This equations reads 
+						
+						
+						e'? = cos(¢) + isin(), 
+						
+						
+						where cos(@) is the real part of this equation and e, a transcendental number, is the base of the 
+						natural logarithm or EULER’s number with a value of 2.71828.... 
+						
+						
+						2. MATHEMATICAL BACKGROUND REQUIRED 
+						
+						
+						because 
+						
+						
+						A-c*@ HA. ctib)t = 4. oe. cibt 
+						and if A = A’- e? 
+						= A! . ett ; eibt ; ee = A! ; ett ‘ eibttie = A! ‘ ewt ‘ eil(Bt+¢) 
+						
+						
+						— A’.e@. {cos(Bt + 0) + isin(Gt + @)} 
+						RA-e* = A'-e™ .cos(Bt+ ¢), 
+						
+						
+						where the exponent law e” - e¥ = e7*¥ was used. 
+						Thus each such term represents a sinusoidal oscillation if a = 0, a damped 
+						oscillation if a < 0, and an oscillation of ever-increasing amplitude if a > 0. 
+						
+						
+						c) If any one of the numbers 6 has a positive real part, the system in question is 
+						unstable. 
+						
+						
+						d) After a sufficiently great lapse of time all the terms A-e™ will be negligible in 
+						comparison with those for which b has the greatest real part, but unless this 
+						greatest real part is itself zero these dominant terms will eventually either 
+						tend to zero or to infinite values. 
+						
+						
+						e) That the indefinite growth mentioned in 2. and 4. will in any physical 
+						or biological situation eventually be arrested due to a breakdown of the 
+						assumptions under which the solution was valid. Thus, for example, the 
+						growth of a colony of bacteria will normally be taken to satisfy the equation 
+						ws ay(a > 0), y being the number of organisms at time t, and this has the 
+						solution y = A- e*. When, however, the factor e has reached some billions 
+						the food supply can no longer be regarded as unlimited and the equation 
+						y = A-e™ will no longer apply. 
+						
+						
+						The following relatively elementary result will be needed, but may not be known 
+						
+						
+						to all readers: 
+						= 2r irs 0 if O<s<WN 
+						Y= exp =<7 — (201) 
+						N N, tf is =hors= Nh 
+						
+						
+						The first case can easily be proved when it is noticed that the left-hand side is a 
+						geometric progression. 
+						In the second case, to make things clear, Equation 2.1 may be written as 
+						
+						
+						N 
+						
+						
+						Yew Pairs) Yew | Zar 
+						
+						
+						Ls ans “i 4s " _ 678 " 
+						= exp N exp |i => exp |i => 
+						
+						
+						2. MATHEMATICAL BACKGROUND REQUIRED 
+						
+						
+						and with EULERs formula as 
+						
+						
+						N N 
+						4 4 
+						COS =| isin = (2.2) 
+						
+						
+						In Equation 2.2 all the terms are equal to 1 (the real part). In case that s = 0 or 
+						s = N, the terms in brackets, [Pats], are either zero or a multiple of 7 and because 
+						cos(0) = 1, sin(O) = 0, cos(n7) = 1, and sin(nz) = 0 the result is N. 
+						
+						The relative degrees of difficulty of the various sections are believed to be as follows. 
+						Those who are unable to follow the points made in this section should only attempt 
+						chapter 3, chapter 4, chapter 11, chapter 12, and part of chapter 13. Those who 
+						can just understand this section should profit also from chapter 7, chapter 8, and 
+						chapter 9. The remainder, chapter 5, chapter 10, and chapter 13 will probably only 
+						be understood by those definitely trained as mathematicians. 
+						
+						
+						10 
+						
+						
+						3. CHEMICAL REACTIONS 
+						
+						
+						It has been explained in a preceding section that the system to be considered 
+						consists of a number of chemical substances (morphogens) diffusing through a 
+						mass of tissue of given geometrical form and reacting together within it. What 
+						laws are to control the development of this situation? They are quite simple. The 
+						diffusion follows the ordinary laws of diffusion, i.e. each morphogen moves from 
+						regions of greater to regions of less concentration, at a rate proportional to the 
+						gradient of the concentration, and also proportional to the ” diffusibility” of the 
+						substance. This is very like the conduction of heat, diffusibility taking the place of 
+						conductivity. If it were not for the walls of the cells the diffusibilities would be 
+						inversely proportional to the square roots of the molecular weights.1_ The pores 
+						of the cell walls put a further handicap on the movement of the larger molecules 
+						in addition to that imposed by their inertia, and most of them are not able to 
+						pass through the walls at all. The reaction rates will be assumed to obey the 
+						"law of mass action”. This states that the rate at which a reaction takes place is 
+						proportional to the concentrations of the reacting substances. Thus, for instance, 
+						the rate at which silver chloride will be formed and precipitated from a solution of 
+						silver nitrate and sodium chloride by the reaction 
+						
+						
+						Ag? + Cl — AgCl 
+						
+						
+						will be proportional to the product of the concentrations of the silver ion Ag? and 
+						the chloride ion Cl~. It should be noticed that the equation 
+						
+						
+						AgNO, + NaCl > AgCl+ NaNO3 
+						
+						
+						is not used because it does not correspond to an actual reaction but to the final 
+						outcome of a number of reactions. The law of mass action must only be applied 
+						to the actual reactions. Very often certain substances appear in the individual 
+						reactions of a group, but not in the final outcome. For instance, a reaction A + B 
+						may really take the form of two steps A + G > C and C > B+ G. In sucha 
+						case the substance G is described as a catalyst, and as thus catalyzing the reaction 
+						A — B. (Catalysis according to this plan has been considered in detail by Michaelis 
+						& Menten, [9].) The effect of the genes is presumably achieved almost entirely by 
+						catalysis. They are certainly not permanently used up in the reactions. 
+						
+						
+						'That the diffusibility is inversely proportional to the square root of the molecular weight .@ 
+						stems from the theory called Reptation, see Appendix A. 
+						
+						
+						3. CHEMICAL REACTIONS 
+						
+						
+						Sometimes one can regard the effect of a catalyst as merely altering a reaction rate. 
+						Consider, for example, the case mentioned above, but suppose also that A can 
+						become detached from G, i.e. that the reaction C > A + G is taken into account. 
+						Also suppose that the reactions A + G = C both proceed much faster than 
+						C—+B+G. Then the concentrations of A, G, C will be related by the condition 
+						that there is equilibrium between the reactions A + G + C and C > A + G, so 
+						that (denoting concentrations by square brackets) [A]|G] = k|C] for some constant 
+						k. The reaction C > B + G will of course proceed at a rate proportional to [C], 
+						i.e. to [A][G]. If the amount of C is always small compared with the amount of 
+						G, one can say that the presence of the catalyst and its amount merely alter the 
+						mass action constant for the reaction A — B, for the whole proceeds at a rate 
+						proportional to [A]. This situation does not, however, hold invariably. It may well 
+						happen that nearly all of G takes the combined form C so long as any of A is left. 
+						In this case the reaction proceeds at a rate independent of the concentration of A 
+						until A is entirely consumed. In either of these cases the rate of the complete group 
+						of reactions depends only on the concentrations of the reagents, although usually 
+						not according to the law of mass action applied crudely to the chemical equation 
+						for the whole group. The same applies in any case, where all reactions of the group 
+							with one exception proceed at speeds much greater than that of the exceptional 
+							one. In these cases the rate of the reaction is a function of the concentrations of the 
+							reagents. More generally again, no such approximation is applicable. One simply 
+							has to take all the actual reactions into account. 
+							
+							According to the cell model then, the number and positions of the cells are given 
+							in advance, and so are the rates at which the various morphogens diffuse between 
+							the cells. Suppose that there are N cells and M morphogens. The state of the 
+							whole system is then given by M-N numbers, the quantities of the morphogens in 
+							each of N cells. These numbers change with time, partly because of the reactions, 
+							partly because of the diffusion. To determine the part of the rate of change of one 
+							of these numbers due to diffusion, at any one moment, one only needs to know the 
+							amounts of the same morphogen in the cell and its neighbours, and the diffusion 
+							coefficient for that morphogen. To find the rate of change due to chemical reaction 
+							one only needs to know the concentrations of all morphogens at that moment in 
+							the one cell concerned. 
+							
+							This description of the system in terms of the concentrations in the various cells is, 
+							of course, only an approximation. It would be justified if, for instance, the contents 
+							were perfectly stirred. Alternatively, it may often be justified on the understanding 
+							that the ”concentration in the cell” is the concentration at a certain representative 
+							point, although the idea of ” concentration at a point” clearly itself raises difficulties. 
+							The author believes that the approximation is a good one, whatever argument is 
+							used to justify it, and it is certainly a convenient one. 
+							
+							It would be possible to extend much of the theory to the case of organisms immersed 
+							in a fluid, considering the diffusion within the fluid as well as from cell to cell. Such 
+							problems are not, however, considered here. 
+							
+							
+							1 
+							
+							
+							4. THE BREAKDOWN OF SYMMETRY 
+							AND HOMOGENEITY 
+							
+							
+							There appears superficially to be a difficulty confronting this theory of morphogen- 
+							esis, or, indeed, almost any other theory of it. An embryo in its spherical blastula 
+							stage has spherical symmetry, or if there are any deviations from perfect symmetry, 
+							they cannot be regarded as of any particular importance, for the deviations vary 
+							greatly from embryo to embryo within a species, though the organisms developed 
+							from them are barely distinguishable. One may take it therefore that there is 
+							perfect spherical symmetry. But a system which has spherical symmetry, and whose 
+							state is changing because of chemical reactions and diffusion, will remain spheri- 
+							cally symmetrical for ever. (The same would hold true if the state were changing 
+							according to the laws of electricity and magnetism, or of quantum mechanics.) It 
+							certainly cannot result in an organism such as a horse, which is not spherically 
+							symmetrical. 
+							
+							There is a fallacy in this argument. It was assumed that the deviations from 
+							spherical symmetry in the blastula could be ignored because it makes no particular 
+							difference what form of asymmetry there is. It is, however, important that there 
+							are some deviations, for the system may reach a state of instability in which these 
+							irregularities, or certain components of them, tend to grow. If this happens a 
+							new and stable equilibrium is usually reached, with the symmetry entirely gone. 
+							The variety of such new equilibria will normally not be so great as the variety 
+							of irregularities giving rise to them. In the case, for instance, of the gastrulating 
+							sphere, discussed at the end of this paper, the direction of the axis of the gastrula! 
+							can vary, but nothing else. 
+							
+							The situation is very similar to that which arises in connexion with electrical 
+							oscillators. It is usually easy to understand how an oscillator keeps going when 
+							once it has started, but on a first acquaintance it is not obvious how the oscillation 
+							begins. The explanation is that there are random disturbances always present 
+							in the circuit. Any disturbance whose frequency is the natural frequency of the 
+							oscillator will tend to set it going. The ultimate fate of the system will be a state 
+							of oscillation at its appropriate frequency, and with an amplitude (and a wave 
+							form) which are also determined by the circuit. The phase of the oscillation alone 
+								
+								
+								'Gastrulation is the stage in the early embryonic development of most animals, during which the 
+								blastula (a single-layered hollow sphere of cells), or in mammals the blastocyst is reorganized 
+								into a multilayered structure known as the gastrula. 
+								
+								
+								4. THE BREAKDOWN OF SYMMETRY AND HOMOGENEITY 
+								
+								
+								is determined by the disturbance. 
+								
+								If chemical reactions and diffusion are the only forms of physical change which are 
+								taken into account, the argument above can take a slightly different form. For if 
+								the system originally has no sort of geometrical symmetry but is a perfectly homo- 
+								geneous and possibly irregularly shaped mass of tissue, it will continue indefinitely 
+								to be homogeneous. In practice, however, the presence of irregularities, including 
+								statistical fluctuations in the numbers of molecules undergoing the various reactions, 
+								will, if the system has an appropriate kind of instability, result in this homogeneity 
+								disappearing. 
+								
+								This breakdown of symmetry or homogeneity may be illustrated by the case of a 
+								pair of cells originally having the same, or very nearly the same, contents. The 
+								system is homogeneous: it is also symmetrical with respect to the operation of 
+								interchanging the cells. The contents of either cell will be supposed describable by 
+								giving the concentrations X and Y of two morphogens. The chemical reactions will 
+								be supposed such that, on balance, the first morphogen (X) is produced at the rate 
+								5 X-6Y + 1 and the second (Y) at the rate 6 X - 7 Y + 1. When, however, the 
+								strict application of these formulze would involve the concentration of a morphogen 
+								in a cell becoming negative, it is understood that it is instead destroyed only at 
+								the rate at which it is reaching that cell by diffusion. The first morphogen will be 
+								supposed to diffuse at the rate 0.5 for unit difference of concentration between the 
+								cells, the second, for the same difference, at the rate 4.5. Now, if both morphogens 
+								have unit concentration in both cells, there is equilibrium. There is no resultant 
+								passage of either morphogen across the cell walls, since there is no concentration 
+								difference, and there is no resultant production (or destruction) of either morphogen 
+								in either cell since 5 X- 6 Y + 1 and 6 X- 7 Y 4+ 1 both have the value zero for 
+								X = 1, Y = 1. But suppose the values are X; = 1.06, Y; = 1.02 for the first cell 
+								and X_ = 0.94, Y2 = 0.98 for the second. Then the two morphogens will be being 
+								produced by chemical action at the rates 0.18 and 0.22 respectively in the first cell 
+								and destroyed at the same rates in the second. At the same time there is a flow due 
+								to diffusion from the first cell to the second at the rate 0.06 for the first morphogen 
+								and 0.18 for the second. In sum the effect is a flow from the second cell to the first 
+								at the rates 0.12 and 0.04 for the two morphogens respectively. This flow tends to 
+								accentuate the already existing differences between the two cells. More generally, if 
+								
+								
+								X, =14+3€, X,=1-3€,Y,;=14+€, Y2=1-€, 
+								
+								
+								at some moment, the four concentrations continue afterwards to be expressible in 
+								this form, and € increases at the rate 2€. Thus there is an exponential drift away 
+								from the equilibrium condition. It will be appreciated that a drift away from the 
+								equilibrium occurs with almost any small displacement from the equilibrium condi- 
+								tion, though not normally according to an exact exponential curve. A particular 
+								choice was made in the above argument in order to exhibit the drift with only very 
+								simple mathematics. 
+								
+								
+								14 
+								
+								
+								4. THE BREAKDOWN OF SYMMETRY AND HOMOGENEITY 
+								
+								
+								Before it can be said to follow that a two-cell system can be unstable, with inho- 
+								mogeneity succeeding homogeneity, it is necessary to show that the reaction rate 
+								functions postulated really can occur. To specify actual substances, concentrations 
+								and temperatures giving rise to these functions would settle the matter finally, but 
+								would be difficult and somewhat out of the spirit of the present inquiry. Instead, it 
+								is proposed merely to mention imaginary reactions which give rise to the required 
+								functions by the law of mass action, if suitable reaction constants are assumed. It 
+								will be sufficient to describe 
+								
+								
+								(i) A set of reactions producing the first morphogen at the constant rate 1, and 
+								a similar set forming the second morphogen at the same rate. 
+								
+								
+								(ii) A set destroying the second morphogen (Y) at the rate 7 Y. 
+								
+								
+								) 
+								(iii) A set converting the first morphogen (X) into the second (Y) at the rate 6 X. 
+								(iv) A set producing the first morphogen (X) at the rate 11X. 
+								
+								(v) A set destroying the first morphogen (X) at the rate 6 Y, so long as any of it 
+								is present. 
+								
+								
+								The conditions of (i) can be fulfilled by reactions of the type A + X, B — Y, where 
+								A and B are substances continually present in large and invariable concentrations. 
+								The conditions of (ii) are satisfied by a reaction of the form Y > D, D being an 
+								inert substance and (iii) by the reaction X — Y or X > Y+E. The remaining two 
+								sets are rather more difficult. To satisfy the conditions of (iv) one may suppose 
+								that X is a catalyst for its own formation from A. The actual reactions could be 
+								the formation of an unstable compound U by the reaction A+ X — U, and the 
+								subsequent almost instantaneous breakdown U — 2X. To destroy X at a rate 
+								proportional to Y as required in (v) one may suppose that a catalyst C' is present 
+								in small but constant concentration and immediately combines with X,X+C > V. 
+								The modified catalyst reacting with Y, at a rate proportional to Y, restores the 
+								catalyst but not the morphogen X, by the reactions V + Y > W, W > C+ H, of 
+								which the latter is assumed instantaneous. 
+								
+								It should be emphasized that the reactions here described are by no means those 
+								which are most likely to give rise to instability in nature. The choice of the reactions 
+								to be discussed was dictated entirely by the fact that it was desirable that the 
+								argument be easy to follow. More plausible reaction systems are described in 
+								chapter 10. 
+								
+								Unstable equilibrium is not, of course, a condition which occurs very naturally. It 
+								usually requires some rather artificial interference, such as placing a marble on 
+								the top of a dome. Since systems tend to leave unstable equilibria they cannot 
+								often be within them. Such equilibria can, however, occur naturally through a 
+								stable equilibrium changing into an unstable one. For example, if a rod is hanging 
+								from a point a little above its centre of gravity it will be in stable equilibrium. If, 
+								
+								
+								15 
+								
+								
+								4. THE BREAKDOWN OF SYMMETRY AND HOMOGENEITY 
+								
+								
+								however, a mouse climbs up the rod the equilibrium eventually becomes unstable 
+								and the rod starts to swing. A chemical analogue of this mouse-and-pendulum 
+								system would be that described above with the same diffusibilities but with the 
+								two morphogens produced at the rates 
+								
+								
+								(3+1)X-6Y+I1-1 
+								and 
+								6X-(9+1)Y-I-1. 
+								
+								
+								This system is stable if I < 0 but unstable if I > 0. If I is allowed to increase, 
+								corresponding to the mouse running up the pendulum, it will eventually become 
+								positive and the equilibrium will collapse. The system which was originally discussed 
+								was the case I = 2, and might be supposed to correspond to the mouse somehow 
+								reaching the top of the pendulum without disaster, perhaps by falling vertically on 
+								TO:1b. 
+								
+								
+								16 
+								
+								
+								9. LEFT-HANDED AND 
+								RIGHT-HANDED ORGANISMS 
+								
+								
+								The object of this section is to discuss a certain difficulty which might be thought to 
+								show that the morphogen theory of morphogenesis cannot be right. The difficulty 
+								is mainly concerned with organisms which have not got bilateral symmetry. The 
+								argument, although carried through here without the use of mathematical formule, 
+								may be found difficult by non-mathematicians, and these are therefore recommended 
+								to ignore it unless they are already troubled by such a difficulty. 
+								
+								An organism is said to have ”bilateral symmetry” if it is identical with its own 
+								reflexion in some plane. This plane of course always has to pass through some part 
+								of the organism, in particular through its centre of gravity. For the purpose of this 
+								argument it is more general to consider what may be called ” left-right symmetry” . 
+								An organism has left-right symmetry if its description in any right-handed set of 
+								rectangular Cartesian co-ordinates is identical with its description in some set of 
+								left-handed axes. An example of a body with left-right symmetry, but not bilateral 
+								symmetry, is a cylinder with the letter P printed on one end, and with the mirror 
+								image of a P on the other end, but with the two upright strokes of the two letters 
+								not parallel. The distinction may possibly be without a difference so far as the 
+								biological world is concerned, but mathematically it should not be ignored. 
+								
+								If the organisms of a species are sufficiently alike, and the absence of left-right 
+								symmetry sufficiently pronounced, it is possible to describe each individual as 
+								either right-handed or left-handed without there being difficulty in classifying any 
+								particular specimen. In man, for instance, one could take the x-axis in the forward 
+								direction, the y-axis at right angles to it in the direction towards the side on which 
+								the heart is felt, and the z-axis upwards. The specimen is classed as left-handed or 
+								right-handed according as the axes so chosen are left-handed or right-handed. A 
+								new classification has of course to be defined for each species. The fact that there 
+								exist organisms which do not have left-right symmetry does not in itself cause any 
+								difficulty. It has already been explained how various kinds of symmetry can be lost 
+								in the development of the embryo, due to the particular disturbances (or ” noise” ) 
+								influencing the particular specimen not having that kind of symmetry, taken in 
+								conjunction with appropriate kinds of instability. The difficulty lies in the fact that 
+								there are species in which the proportions of left-handed and right-handed types 
+								are very unequal. It will be as well to describe first an argument which appears to 
+								show that this should not happen. The argument is very general, and might be 
+								applied to a very wide class of theories of morphogenesis. 
+								
+								
+								5. LEFT-HANDED AND RIGHT-HANDED ORGANISMS 
+								
+								
+								An entity may be described as ” P-symmetrical” if its description in terms of one 
+								set of right-handed axes is identical with its description in terms of any other 
+								set of right-handed axes with the same origin. Thus, for instance, the totality of 
+								positions that a corkscrew would take up when rotated in all possible ways about 
+								the origin has P-symmetry. The entity will be said to be ” F-symmetrical” when 
+								changes from right-handed axes to lefthanded may also be made. This would apply 
+								if the corkscrew were replaced by a bilaterally symmetrical object such as a coal 
+									scuttle, or a left-right symmetrical object. In these terms one may say that there 
+									are species such that the totality of specimens from that species, together with the 
+									rotated specimens, is P-symmetrical, but very far from F-symmetrical. On the 
+									other hand, it is reasonable to suppose that 
+									
+									
+									(i) The laws of physics are F-symmetrical. 
+									(ii) The initial totality of zygotes for the species is F-symmetrical. 
+									
+									
+									(iii) The statistical distribution of disturbances is F-symmetrical. The individ- 
+									ual disturbances of course will in general have neither F-symmetry nor 
+									P-symmetry. 
+									
+									
+									It should be noticed that the ideas of P-symmetry and F-symmetry as defined 
+									above apply even to so elaborate an entity as ”the laws of physics”. It should also 
+									be understood that the laws are to be the laws taken into account in the theory in 
+									question rather than some ideal as yet undiscovered laws. 
+									
+									Now it follows from these assumptions that the statistical distribution of resulting 
+									organisms will have F-symmetry, or more strictly that the distribution deduced as 
+									the result of working out such a theory will have such symmetry. The distribution 
+									of observed mature organisms, however, has no such symmetry In the first place, 
+									for instance, men are more often found standing on their feet than their heads. 
+										This may be corrected by taking gravity into account in the laws, together with 
+										an appropriate change of definition of the two kinds of symmetry. But it will be 
+										more convenient if, for the sake of argument, it is imagined that some species has 
+										been reared in the absence of gravity, and that the resulting distribution of mature 
+										organisms is found to be P-symmetrical but to yield more right-handed specimens 
+										than left-handed and so not to have F-symmetry. It remains therefore to explain 
+										this absence of F-symmetry. 
+										
+										Evidently one or other of the assumptions (i) to (iii) must be wrong, i.e. in a 
+										correct theory one of them would not apply. In the morphogen theory already 
+										described these three assumptions do all apply, and it must therefore be regarded 
+										as defective to some extent. The theory may be corrected by taking into account 
+										the fact that the morphogens do not always have an equal number of left- and 
+										right-handed molecules. According to one’s point of view one may regard this 
+										as invalidating either (i), (ii) or even (iii). Simplest perhaps is to say that the 
+										totality of zygotes just is not F-symmetrical, and that this could be seen if one 
+										
+										
+										18 
+										
+										
+										5. LEFT-HANDED AND RIGHT-HANDED ORGANISMS 
+										
+										
+										looked at the molecules. This is, however, not very satisfactory from the point of 
+										view of this paper, as it would not be consistent with describing states in terms of 
+										concentrations only. It would be preferable if it was found possible to find more 
+										accurate laws concerning reactions and diffusion. For the purpose of accounting 
+										for unequal numbers of left- and right-handed organisms it is unnecessary to do 
+											more than show that there are corrections which would not be F-symmetrical when 
+											there are leevo- or dextrorotatory morphogens, and which would be large enough 
+											to account for the effects observed. It is not very difficult to think of such effects. 
+											They do not have to be very large, but must, of course, be larger than the purely 
+											statistical effects, such as thermal noise or BROWNian movement. 
+											
+											There may also be other reasons why the totality of zygotes is not F-symmetrical, 
+											e.g. an asymmetry of the chromosomes themselves. If these also produce a 
+											sufficiently large effect, so much the better. 
+											
+											Though these effects may be large compared with the statistical disturbances, 
+											they are almost certainly small compared with the ordinary diffusion and reaction 
+											effects. This will mean that they only have an appreciable effect during a short 
+											period in which the breakdown of left-right symmetry is occurring. Once their 
+											existence is admitted, whether on a theoretical or experimental basis, it is probably 
+											most convenient to give them a mathematical expression by regarding them as 
+											P-symmetrically (but not F-symmetrically) distributed disturbances. However, 
+											they will not be considered further in this paper. 
+											
+											
+											19 
+											
+											
+											6. REACTIONS AND DIFFUSION IN A 
+											RING OF CELLS 
+											
+											
+											The original reason for considering the breakdown of homogeneity was an apparent 
+											difficulty in the diffusion-reaction theory of morphogenesis. Now that the difficulty 
+											is resolved it might be supposed that there is no reason for pursuing this aspect of 
+											the problem further, and that it would be best to proceed to consider what occurs 
+											when the system is very far from homogeneous. A great deal more attention will 
+											nevertheless be given to the breakdown of homogeneity. This is largely because 
+											the assumption that the system is still nearly homogeneous brings the problem 
+											within the range of what is capable of being treated mathematically. Even so many 
+											further simplifying assumptions have to be made. Another reason for giving this 
+											phase such attention is that it is in a sense the most critical period. That is to 
+											say, that if there is any doubt as to how the organism is going to develop it is 
+											conceivable that a minute examination of it just after instability has set in might 
+											settle the matter, but an examination of it at any earlier time could never do so. 
+											
+											There is a great variety of geometrical arrangement of cells which might be con- 
+											sidered, but one particular type of configuration stands out as being particularly 
+											simple in its theory, and also illustrates the general principles very well. This 
+											configuration is a ring of similar cells. One may suppose that there are N such 
+											cells. It must be admitted that there is no biological example to which the theory 
+											of the ring can be immediately applied, though it is not difficult to find ones in 
+											which the principles illustrated by the ring apply. 
+											
+											It will be assumed at first that there are only two morphogens, or rather only two 
+											interesting morphogens. There may be others whose concentration does not vary 
+											either in space or time, or which can be eliminated from the discussion for one 
+											reason or another. These other morphogens may, for instance, be catalysts involved 
+											in the reactions between the interesting morphogens. An example of a complete 
+											system of reactions is given in chapter 10. Some consideration will also be given 
+											in chapter 8 and chapter 9 to the case of three morphogens. The reader should 
+											have no difficulty in extending the results to any number of morphogens, but no 
+											essentially new features appear when the number is increased beyond three. 
+											
+											The two morphogens will be called X and Y. These letters will also be used to denote 
+											their concentrations. This need not lead to any real confusion. The concentration 
+											of X in cell r may be written X,, and Y,, has a similar meaning. It is convenient to 
+											regard ”cell N” and cell O” as synonymous, and likewise ”cell 1” and cell” N + 1”. 
+											One can then say that for each r satisfying 1 < N < N cell r exchanges material by 
+											
+											
+											6. REACTIONS AND DIFFUSION IN A RING OF CELLS 
+											
+											
+											diffusion with cells r — 1 and r+ 1. The cell-to-cell diffusion constant for X will be 
+											called Y,, and that for Y will be called A. This means that for unit concentration 
+											difference of X, this morphogen passes at the rate Dy from the cell with the higher 
+											concentration to the (neighbouring) cell with the lower concentration. It is also 
+											necessary to make assumptions about the rates of chemical reaction. The most 
+											general assumption that can be made is that for concentrations X and Y chemical 
+											reactions are tending to increase X at the rate f(X,Y) and Y at the rate g(X,Y). 
+											When the changes in X and Y due to diffusion are also taken into account the 
+											behaviour of the system may be described by the 2 N differential equations 
+											
+											
+											d X,. 
+											a f (Xr, Vr) + Bx -(Xr41 —2 Xp + Xp-1) 
+											dY (Perot dee ““COLL) 
+											: = f (Xr, Ys) TT HN (Yr —2 Ye -+- ¥29)) 
+											dt 
+											
+											
+											If, f(h,k) : g(h,k), then an isolated cell has an equilibrium with concentrations 
+											X—h, Y =k. The ring system also has an equilibrium, stable or unstable, with 
+											each X,, equal to h and each Y,, equal to k. Assuming that the system is not 
+											very far from this equilibrium it is convenient to put X, = h+2,, Y, =k+ yp. 
+											One may also write ax + by for f(h+2,y+k) and cx + dy for g(hh+2,y +k). 
+											Since f(h,k) = g(h,k) =0 no constant terms are required. and since x and y are 
+											supposed small the terms in higher powers of x and y will have relatively little effect 
+											and one is justified in ignoring them. The four quantities a, b, c, d may be called 
+											the ”marginal reaction rates”. Collectively they may be described as the ” marginal 
+											reaction rate matrix”. When there are M morphogens this matrix consists of M? 
+											numbers. A marginal reaction rate has the dimensions of the reciprocal of a time, 
+											like a radioactive decay rate, which is in fact an example of a marginal (nuclear) 
+											reaction rate. 
+											
+											With these assumptions Equation 6.1 can be rewritten as 
+											
+											
+											dx 
+											
+											
+											a = ary + by, + By: (Hr — 2p + Lp_1) 
+											: (6.2) 
+											dt = ch + Ayr + Dy (Yr4i — 2y, + Yr—1) : 
+											
+											To solve these equations one introduces new co-ordinates £, 1, €2,...,€v—1 and 
+											
+											
+											To, 1;2,+-+,7N-1 by putting 
+											
+											
+											N-1 
+											2719rs ¢ 
+											oo x “Ss 
+											x Z e P| N | 
+											i 2717s 63) 
+											= Yoox [P| on 
+											
+											
+											21 
+											
+											
+											6. REACTIONS AND DIFFUSION IN A RING OF CELLS 
+											
+											
+											These relations can also be written as 
+											
+											
+											é, =x Yoo -A]-2. 
+											¥en - | 
+											
+											
+											as may be shown by using the equations 
+											
+											
+											N : 
+											Qrirs 0, forO<r<N 
+											=<” : 6.5 
+											Yew | N | ie - r=N ae 
+											
+											
+											forr=0 or 
+												s=1 
+												
+												
+												(6.4) 
+												
+												
+												(referred to in chapter 2). Making this substitution one obtains 
+												
+												
+												dg, 1 ad 2rirs 
+												ok San[ A 
+												
+												
+												271 2718 
+												as. ary + bye + Dx: (exp | | -2 +0 | N l)¢ 
+												tg eG) _2mis He. 2718 é 
+												= af, + bns + Bx: | exp |-— exp || } & 
+												dé. = .9fTS 
+												a = bn, + (a 4 P-sin (=) Cs (6.6) 
+												Likewise d 
+												7 = c&,+ + (d- 4 Wy -sin (= ~)) &. (6.7) 
+												
+												
+												The equations have now ae converted into a quite manageable form! , with the 
+												variables separated. There are now two equations concerned with &,, and 7), two 
+												concerned with &2, and 72, etc. The equations themselves are also of a well-known 
+												standard form, being linear with constant coefficients. Let p, and p’, be the roots 
+												
+												
+												‘A. Lotka, [8], [7] derived similar equations that describe the dynamics of relations between two 
+												coexisting or competing reacting substances or species respectively, e.g. two substances in a 
+												chemical environment or a predator and its prey in a biological system. The equations are 
+												written in the form 
+												
+												
+												dx 
+												ae OP 
+												dy 
+												dt OEY 
+												
+												
+												where x and y are, e.g. the population density of the prey and the predator respectively, a 
+												and § are the prey’s parameter, 6 and ¥ are the predator’s parameter. These equations are 
+												paired first-order nonlinear differential equations with quasi-periodic solutions. Equation 6.6 
+												
+												
+												22 
+												
+												
+												6. REACTIONS AND DIFFUSION IN A RING OF CELLS 
+												
+												
+												of the equation 
+												(p—a +4 %sin? (=): (p-a+4 Asin? (=) =26, (6.8) 
+												which multiplied gives 
+												p?+p- {4.sin’ (= =) (D+ Bx) — (d+ a)} 
+												
+												
+												+a-{d—dvsin® ()} —4 %sin? (=) - {a-4 Asin? (7) —be=0 
+													
+													
+													with the solutions 
+													
+													
+													pp =—5: {asin? (© =). (H+ Xx) - (d+a)} 
+													£5. {4st (= ) (Dy + B) - (d+a)} 
+													
+													
+													—4- [a+ {d—4 Dysin? Ge)t- 4 9x sin? (7) 
+														fa-4asu0 ()} 0d] 
+														
+														
+														and, if the term under the square root is > 0, for p, and p), 
+														
+														
+														pp =t+ ft {4sin? (S =): (H+ Xx) - (d+a)} 
+														
+														
+														— [{4—4 Asin? (7) } fa —4 Asin? () } -te] 
+														
+														
+														p= E . { 4sin? (=) -(W+ KX) - (d+a)} 
+														
+														
+														~ [{a—49ysu? (%2)} {a 4anan? (%)} ag] 
+														
+														
+														and Equation 6.7 can be written also in a similar form: 
+														
+														
+														dx 
+														Gp = oy + Be 
+														dy 
+														Ge Ort: 
+														
+														
+														which are paired first-order linear differential equations with periodic solutions. 
+														
+														
+														23 
+														
+														
+														6. REACTIONS AND DIFFUSION IN A RING OF CELLS 
+														
+														
+														(with Zp, > yp, for definiteness), then the solution of Equation 6.6 and Equa- 
+														tion 6.7 is of the form 
+														
+														
+														CoA : ePst ads. Bs . ePst 
+														(6.9) 
+														
+														
+														/ 
+														t 
+														NsCs + eP** + Dg - e? 
+														
+														
+														where, however, the coefficients A,, B,, Cs, Ds, are not independent but are 
+														restricted to satisfy 
+														
+														
+														ae (v. —~at4Qy-sin? (=)) — oC, 
+														a (6.10) 
+														BS @ ~at4Qy-sin? (=)) =p): 
+														If it should happen that p, = p’, then Equation 6.9 have to be replaced by 
+														Gs = (A, Tr B; - t) ' en 
+														Ne = (C, T Ds : t) . Pst ep 
+														
+														
+														and Equation 6.10 remains true. Substituting back into Equation 6.3 and replacing 
+														the variables x,, y, by X,, Y, (the actual concentrations) the solution can be written 
+														as 
+														
+														
+														N 
+														D 27 i 
+														X,=ht+ ye (A. -ePs! + By. ert) - exp | 
+														
+														
+														ae (6.12) 
+														' 27 1 
+														Y,=k+ Se (C, Pst + Dy: ert) “exp al 
+														s=1 
+														
+														
+														Here A,, B,, Cs, Ds; are still related by Equation 6.10, but otherwise are arbitrary 
+														complex numbers; p, and p’, are the roots of Equation 6.8. 
+														
+														The expression Equation 6.12 gives the general solution of the equations Equation 6.1 
+														when one assumes that departures from homogeneity are sufficiently small so that 
+														the functions f(X,Y) and g(X,Y) can safely be taken as linear. The form of 
+														Equation 6.12 given is not very informative. It will be considerably simplified in 
+														chapter 8. Another implicit assumption concerns random disturbing influences. 
+														Strictly speaking one should consider such influences to be continuously at work. 
+														This would make the mathematical treatment considerably more difficult without 
+														substantially altering the conclusions. The assumption which is implicit in the 
+														analysis, here and in chapter 8, is that the state of the system at t = 0 is not one of 
+														homogeneity, since it has been displaced from such a state by the disturbances; but 
+														after t = 0 further disturbances are ignored. In chapter 9 the theory is reconsidered 
+														without this latter assumption. 
+														
+														
+														24 
+														
+														
+														7. CONTINUOUS RING OF TISSUE 
+														
+														
+														As an alternative to a ring of separate cells one might prefer to consider a continuous 
+														ring of tissue. In this case one can describe the position of a point of the ring by 
+														the angle 0 which a radius to the point makes with a fixed reference radius. Let 
+														the diffusibilities of the two substances be Z, and HW. These are not quite the 
+														same as Zy and W of the last section, since ZY, and Y are in effect referred to a 
+														cell diameter as unit of length, whereas Z, and G are referred to a conventional 
+														unit, the same unit in which the radius p of the ring is measured. Then 
+														
+														
+														, (NY 
+														a= % (55) 
+														
+														
+														Ne? 
+														The equations are 
+														OX Bax 
+														OL =a: (X —h) +6. (Y —k) 7 PP 0b® 
+														
+														
+														(7.1) 
+														
+														
+														ay DH PY 
+														
+														
+														which will be seen to be the limiting case of Equation 6.2. The marginal reaction 
+														rates a, b, c, d are, as before, the values at the equilibrium position of 2£, 2£, 22 
+														
+														
+														Ox’? AY? aX? 
+														oe The general solution of the equations is 
+														X=hA+ S- (A, erst 4 B.. ert) ei 89 
+														ee (7.2) 
+														Y=k+ sD (C, emt 4 D,. et) eis 
+														
+														
+														where p, and p’, are now roots of 
+														
+														
+														| ee I ee 
+														(v-a+ AE). (p-d+ AE) =e (7.3) 
+														
+														
+														7. CONTINUOUS RING OF TISSUE 
+														
+														
+														and 
+														
+														
+														122. 
+														Ag ° (o.-a+ ae ) = bC; 
+														
+														
+														toe 
+														B,: (v,-a+ oe ) =e 
+														
+														
+														This solution may be justified by considering the limiting case of the solution 
+														Equation 6.12. Alternatively, one may observe that the formula proposed is a 
+														solution, so that it only remains to prove that it is the most general one. This will 
+														follow if values of A,, B,, C,, D, can be found to fit any given initial conditions. 
+														It is well known that any function of an angle (such as X) can be expanded as a 
+														” FOURIER series” 
+														
+														
+														(7.4) 
+														
+														
+														X(0) = Ss" G,-e'%’ (X(0) being values of KX at t=0), 
+														   
+														   
+														   s=—oo 
+														   
+														   
+														   provided, for instance, that its first derivative is continuous. If also 
+														   
+														   
+														   eh — Ss" H,-e'*’ (Y(0) being values of Y at t=0), 
+														   
+														   
+														   s=—oOo 
+														   
+														   
+														   then the required initial conditions are satisfied provided A, + B, = G, and 
+														   C,+ D, = H,. Values of A,, B,, C,, Ds to satisfy these conditions can be found 
+														   unless p, = p,. This is an exceptional case and its solution if required may be 
+														   found as the limit of the normal case. 
+														   
+														   
+														   26 
+														   
+														   
+														   8. TYPES OF ASYMPTOTIC 
+														   BEHAVIOUR IN THE RING AFTER A 
+														   LAPSE OF TIME 
+														   
+														   
+														   As the reader was reminded in chapter 2, after a lapse of time the behaviour of 
+														   an expression of the form of Equation 6.12 is eventually dominated by the terms 
+														   for which the corresponding p, has the largest real part. There may, however, be 
+															   several terms for which this real part has the same value, and these terms will 
+															   together dominate the situation, the other terms being ignored by comparison. 
+															   There will, in fact, normally be either two or four such ” leading” terms. For if p,, 
+				 is one of them then py_s, = Ps,, Since 
+				 
+				 
+				 sin? N= 80 = sin? (=) 
+				 N N 
+				 
+				 
+				 so that p,, and py-_s, are roots of the same Equation 6.8. If also p,, is complex 
+				 then Zp,, = #p’,, and so in all 
+				 
+				 
+				 B Vso = Ry, =  Pn—so = BRYN — 56 . 
+				 
+				 
+				 One need not, however, normally anticipate that any further terms will have to 
+				 be included. If p,, and ps, are to have the same real part, then, unless s; = so 
+				 or 59 + 5; = N, the quantities a, b, c, d, Fx, H will be restricted to satisfy some 
+				 special condition, which they would be unlikely to satisfy by chance. It is possible 
+				 to find circumstances in which as many as ten terms have to be included if such 
+				 special conditions are satisfied, but these have no particular physical or biological 
+				 importance. It is assumed below that none of these chance relations hold. 
+				 
+				 It has already been seen that it is necessary to distinguish the cases where the 
+				 value of p,, for one of the dominant terms is real from those where it is complex. 
+				 These may be called respectively the stateonary and the oscillatory cases. 
+				 
+				 Stationary case. After a sufficient lapse of time X,—h and Y,.—k approach asymp- 
+				 
+				 
+				 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+				 
+				 
+				 totically to the forms 
+				 
+				 
+				 27 1S9r 
+				 
+				 
+				 N 
+				 
+				 
+				 = 
+				 
+				 
+				 X,—h= 2 A exp | 
+				 
+				 
+				 ae (8.1) 
+				 Y.-k=28 Cy exp = +14] ; 
+				 
+				 
+				 Oscillatory case. After a sufficient lapse of time X,—h and Y,—k approach the 
+				 forms 
+					 
+					 
+					 Ss 
+					 Xr N= DER Ae exp | 7 iw] 
+					 2risor  , 
+				 +An-_s, exp |— N —iwt 
+				 :2 
+				 V-k= 2-88 1C, exp | To +iwt 
+				 
+				 
+				 On| 
+				 +CN_s * XD | — a iut| | 
+				 
+				 
+				 The real part of ps, has been represented by I, standing for ” instability”, and in 
+				 the oscillatory case its imaginary part is w. By the use of the # operation (real 
+				 part of), two terms have in each case been combined in one. 
+				 
+				 The meaning of these formulze may be conveniently described in terms of waves. In 
+				 the stationary case there are stationary waves on the ring having so lobes or crests. 
+				 The coefficients A,, and C,, are in a definite ratio given by Equation 6.10, so that 
+				 the pattern for one morphogen determines that for the other. With the lapse of 
+				 time the waves become more pronounced provided there is genuine instability, i.e. 
+				 if I is positive. The wavelength of the waves may be obtained by dividing the 
+					 number of lobes into the circumference of the ring. In the oscillatory case the 
+					 interpretation is similar, but the waves are now not stationary but travelling. As 
+					 well as having a wavelength they have a velocity and a frequency. The frequency is 
+					 3,» and the velocity is obtained by multiplying the wavelength by the frequency. 
+					 There are two wave trains moving round the ring in opposite directions. 
+					 
+					 The wavelengths of the patterns on the ring do not depend only on the chemical 
+					 data a, b, c, d, 2, H but on the circumference of the ring, since they must be 
+					 sub-multiples of the latter. There is a sense, however, in which there is a ” chemical 
+					 wavelength” which does not depend on the dimensions of the ring. This may be 
+					 described as the limit to which the wavelengths tend when the rings are made 
+					 successively larger. Alternatively (at any rate in the case of continuous tissue), it 
+					 may be described as the wavelength when the radius is chosen to give the largest 
+					 possible instability I. One may picture the situation by supposing that the chemical 
+					 wavelength is a true wavelength which is achieved whenever possible, but that on a 
+					 ring it is necessary to ”make do” with an approximation which divides exactly into 
+					 
+					 
+					 (8.2) 
+					 
+					 
+					 28 
+					 
+					 
+					 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+					 
+					 
+					 the circumference. 
+					 
+					 Although all the possibilities are covered by the stationary and oscillatory alterna- 
+					 tives there are special cases of them which deserve to be treated separately. One 
+					 of these occurs when so = 0, and may be described as the ”case of extreme long 
+					 wavelength”, though this term may perhaps preferably be reserved to describe 
+					 the chemical data when they are such that sg is zero whatever the dimensions of 
+					 the ring are. There is also the case of ”extreme short wavelength”. This means 
+					 that sin? (#2) is as large as possible, which is achieved by so being either +N , or 
+					 5 -(N —1) (see Appendix B). If the remaining possibilities are regarded as forming 
+					 the ”case of finite wavelength”, there are six subcases altogether, which will be 
+					 discussed below. It will be shown that each of these really can occur, although two 
+					 
+					 
+					 of them require three or more morphogens for their realization. 
+					 
+					 
+					 8.1. Stationary case of extreme long wavelength 
+					 
+					 
+					 This occurs for instance if A = WB = +,b =c=1,a=d. Then p, = 
+					 a —sin? (48) +1. This is certainly real and is greatest when s = 0. In this case the 
+					 contents of all the cells are the same; there is no resultant flow from cell to cell due 
+					 to diffusion, so that each is behaving as if it were isolated. Each is in an unstable 
+					 
+					 
+					 equilibrium, and slips out of it in synchronism with the others. 
+					 
+					 
+					 8.2. Oscillatory case of extreme long wavelength 
+					 
+					 
+					 This occurs, for instance, if A = W = , b= -c=1,a=d. Then p, = 
+					 a— sin” (33) +i. This is complex and its real part is greatest when s = 0. As in 
+					 case section 8.1 each cell behaves as if it were isolated. The difference from case 
+					 section 8.1 is that the departure from the equilibrium is oscillatory. 
+					 
+					 
+					 8.3. Stationary waves of extreme short wavelength 
+					 
+					 
+					 This occurs, for instance, if A = 0, J, =1,d=1,a=I1-1, b= -c= 1. p, is 
+					 
+					 
+					 1 iNA 
+					 pf 2-sit(%) + (2-90 (F) +5] 14 
+					 
+					 
+					 TS 
+					 
+					 
+					 and is greatest when sin? (33) is greatest. If N is even, the contents of each cell 
+					 are similar to those of the next but one, but distinctly different from those of its 
+					 immediate neighbours. If, however, the number of cells is odd, this arrangement is 
+					 impossible, and the magnitude of the difference between neighbouring cells varies 
+					 round the ring, from zero at one point to a maximum at a point diametrically 
+					 opposite. 
+					 
+					 
+					 29 
+					 
+					 
+					 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+					 
+					 
+					 Figure 8.1.: Values of & p (instability or growth rate), and | ¥% p| (radian frequency 
+					 of oscillation), related to wavelength 27U -3 as in the Equation 8.3 with I = 0. 
+					 This is a case of stationary waves with finite wavelength. Full line, @ p; broken 
+					 line, —| % p| (zero for U > 0.071); dotted line, Zp’. The full circles on the curve 
+					 for & p indicate the values of U, p actually achievable on the finite ring considered 
+						 
+						 
+						 in chapter 10, with s = 0 on the extreme left, s = 5 on the right. 
+						 
+						 
+						 30 
+						 
+						 
+						 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+						 
+						 
+						 8.4. Stationary waves of finite wavelength 
+						 
+						 
+						 This is the case which is of greatest interest, and has most biological application. It 
+						 occurs, for instance, if a = 1-2, b = 2.5, ce = —1.25, d=14+1.5, R=1, B= s, 
+					 
+					 
+					 Gg Gg 2 . . . 
+					 and 4 = A = x) . As before p is the radius of the ring, and N the number of 
+					 xX Y 
+					 
+					 
+					 cells in it. If one writes U for 
+					 
+					 
+					 then equation Equation 6.8 can, with these special values, be written as 
+					 
+					 
+					 Sea ile: 1 Le 
+					 Di + (5 +3v)-@-p+5-(u-5) =0 (8.3) 
+					 This has a solution p = Lif U = S. On the other hand, it will be shown that if U 
+					 has any other (positive) value then both roots for p — I have negative real parts. 
+					 Their product is positive being 5 : (U — ae so that if they are real they both 
+					 have the same sign. Their sum in this case is —} — 2U, which is negative. Their 
+					 common sign is therefore negative. If, however, the roots are complex their real 
+					 parts are both equal to —4 — 2U, which is negative. 
+					 
+					 
+					 If the radius p of the ring be chosen so that for some integer so, 5 a) 
+					 
+					 
+					 2 
+					 (3) - sin? (42), there will be stationary waves with so lobes and a wavelength 
+					 which is also equal to the chemical wavelength, for p,, will be equal to I, whereas 
+					 every other p, will have a real part smaller than I. If, however, the radius is 
+					 
+					 
+					 ms 
+					 
+					 
+					 N 
+					 example) the actual number of lobes will be one of the two integers nearest to the 
+					 (non-integral) solutions of this equation, and usually the nearest. Examples can, 
+					 however, be constructed where this simple rule does not apply. 
+					 
+					 Figure 8.1 shows the Equation 8.3 in graphical form. The curved portions of the 
+					 graphs are hyperbole. 
+					 
+					 The two remaining possibilities can only occur with three or more morphogens. 
+					 With one morphogen the only possibility is section 8.1. 
+					 
+					 
+					 2 
+					 chosen so that (+) - sin? ( ) = 5 cannot hold with an integral s, then (in this 
+					 
+					 
+					 dl 
+					 
+					 
+					 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+					 
+					 
+					 8.5. Oscillatory case of a finite wavelength 
+					 
+					 
+					 This means that there are genuine travelling waves. Since the example to be 
+					 given involves three morphogens it is not possible to use the formulae of chapter 6. 
+					 Instead, one must use the corresponding three morphogen formule. That which 
+					 corresponds to Equation 6.8 or Equation 7.3 is most conveniently written as 
+					 
+					 
+					 ay. — p — By, -U a12 a13 
+					 21 dag — p — Byg U 93 =0, (8.4) 
+					 31 32 a33 — Pp — Dx, U 
+					 
+					 
+					 2 
+					 where again U has been written for (4) - sin? (+). (This means essentially 
+					 
+					 
+					 that U = Cae where A is the wavelength.) The four marginal reactivities are 
+					 superseded by nine ajj,...,@33 and the three diffusibilities are Fx,, x2, x3. Spe- 
+					 cial values leading to travelling waves are 
+					 
+					 
+					 By = 5 Bx, = 5 BR, = 0 
+					 ayy = -2? aji20 = 3 a3 = —1 
+					 ay, = —2 a2 = f a230 = 0 
+					 az1 = 3 a3 = —4 a33 = ~=—O0 
+					 
+					 
+					 and with them Equation 8.4 reduces to 
+					 
+					 
+					 2 
+					 pte U + +p-(1+5-U-1)) +U+1=0, (8.5) 
+					 
+					 
+					 If U = 1, the roots are +i and -2. If U is near to I, they are approximately 
+					 —1-—U and +44" -(+i-—1), and all have negative real parts. If the greatest 
+					 real part is not the value zero, achieved with U = 1, then the value zero must be 
+					 reached again at some intermediate value of U. Since P is then pure imaginary 
+					 the even terms of Equation 8.5 must vanish, ie. (p?+1)-(U +1) =0. But this 
+					 can only happen if p = +i, and the vanishing of the odd terms then shows that 
+					 U = 1. Hence zero is the largest real part for any root p of Equation 8.5. The 
+					 corresponding p is +i and U is 1. This means that there are travelling waves with 
+					 unit (chemical) radian frequency and unit (chemical) velocity. If I is added to ayy, 
+					 dg2, and a33, the instability will become I in place of zero. 
+					 
+					 
+					 32 
+					 
+					 
+					 8. TYPES OF ASYMPTOTIC BEHAVIOUR ...A LAPSE OF TIME 
+					 
+					 
+					 8.6. Oscillatory case of extreme short wavelength 
+					 
+					 
+					 This means that there is metabolic oscillation with neighbouring cells nearly 180° out 
+					 of phase. It can be achieved with three morphogens and the following chemical data: 
+					 
+					 
+					 BD = 1 By, = By; =0 
+					 a = —l a2 = —l 
+					 
+					 aj, = 1 ag, = O 
+					 
+					 a3z1 = O a32 = 1 
+					 
+					 
+					 With these values Equation 8.4 reduces to 
+					 
+					 
+					 pi+p-(U+1)+2p4 
+					 
+					 
+					 Q13 
+					 
+					 
+					 23 
+					 
+					 
+					 33 
+					 
+					 
+					 (8.6) 
+					 
+					 
+					 This may be shown to have all the real parts of its roots negative if U > 0. For if 
+					 U = 0 the roots are near to -0.6, —0.2 + 1.3i, and if U be continuously increased 
+					 the values of p will alter continuously. If they ever attain values with a positive 
+					 real part they must pass through pure imaginary values (or zero). But if p is pure 
+					 imaginary, p* + 2p and (p? + 1)-(U +1) must both vanish, which is impossible if 
+					 U > 0. As U approaches infinity, however, one of the roots approaches i. Thus 
+					 &p = 0 can be approached as closely as desired by large values of U, but not 
+					 
+					 
+					 attained. 
+					 
+					 
+					 33 
+					 
+					 
+					 9. FURTHER CONSIDERATION OF 
+					 THE MATHEMATICS OF THE RING 
+					 
+					 
+					 In this chapter some of the finer points concerning the development of wave patterns 
+					 are considered. These will be of interest mainly to those who wish to do further 
+					 research on the subject, and can well be omitted on a first reading. 
+					 
+					 
+					 9.1. General formule for the two morphogen case 
+					 
+					 
+					 Taking the limiting case of a ring of large radius p (or a filament), one may write! 
+					 
+					 
+					 in Equation 6.12 or 
+					 
+					 
+					 in Equation 7.3 and obtain 
+					 (p—a+KU)-(p—d+KHU) = be, (9.1) 
+					 
+					 
+					 which has the solution 
+					 
+					 
+					 ! / i_ Gt _ 7 
+					 ee a Bt H ys |(% Au 4S") tL bc. (9.2) 
+					 
+					 
+					 2 2 Z 
+					 
+					 
+					 'The angular wave number k = (2) is the number of wavelengths A that fit into the distance 
+					 27x, where x is an arbitrary distance. In the case of a ring with circumference U, and radius p 
+					 the angular wave number is calculated according to 
+					 
+					 Us 2p 
+					 (ee Se 
+					 p p r 
+					 The first term on the r.h.s. represent the quotient of the number of wavelength that correspond 
+					 to a specific length, in this case the radius p. In theoretical considerations or calculations 
+					 respectively the angular wave number is preferred over the wave number which is simply the 
+					 reciprocal of the wavelength. Both numbers therefore differ on the constant factor 27. 
+					 
+					 
+					 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+					 
+					 
+					 One may put I(U) for the real part of this, representing the instability for waves 
+					 of wavelength \ = 27U -2, The dominant waves correspond to the maximum of 
+					 1(U). This maximum may either be at U = 0 or U = ov or at a stationary point 
+					 on the part of the curve which is hyperbolic (rather than straight). When this last 
+					 case occurs the values of p (or I) and U at the maximum are 
+					 
+					 
+					 1 
+					 
+					 
+					 p=U=(d%-aH%-2- RR, Vb) eae 
+					 
+					 
+					 B+ KR 1 
+					 U= a d { us x : Vv —be Say PS 
+						 VKXK (A.-H) 
+						 
+						 
+						 The conditions which lead to the four cases according to section 8.1, section 8.2, 
+	   section 8.3, section 8.4 described in the last chapter are discussed now. 
+	   
+	   
+	   (9.3) 
+	   
+	   
+	   9.1.1. Stationary waves of extreme long wavelength 
+	   
+	   
+	   This occurs if either 
+	   
+	   
+	   i= be =U, 
+	   
+	   d—a Ge+G 
+	   = be = “arid Senes oN 
+	   
+	   abe af Dy D, 
+	   ate ha ee 
+	   
+	   —be 
+	   
+	   
+	   The condition for instability in either case is that either bc > ad ad ora+d> 0. 
+	   
+	   
+	   9.1.2. Oscillating case with extreme long wavelength, i.e. 
+	   synchronized oscillations 
+	   
+	   
+	   This occurs if 
+	   
+	   
+	   d — Al Do De 
+	   be< 0 and -2< ae ; 3 
+	   Vv —be (ZH ar K) 
+	   There is instability, if in addition a+d> 0. 
+	   
+	   
+	   9.1.3. Stationary waves of extreme short wavelength 
+	   
+	   
+	   This occurs if 
+	   be 0D SD =, 
+	   
+	   
+	   There is instability if, in addition, a+d> 0. 
+	   
+	   
+	   39 
+	   
+	   
+	   9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+	   
+	   
+	   9.1.4. Stationary waves of finite wavelength 
+	   
+	   
+	   This occurs if 
+	   
+	   
+	   4-JBR d-a R+HR (9.4) 
+	   
+	   
+	   be >0 and < < : 
+	   (KR+HR) ~ JS-be  SRH 
+	   
+	   
+	   and there is instability if also 
+	   
+	   
+	   d |B a [BR 
+	   : = . = 2. 9.5 
+	   V/—be R VJ-be Ds 2) 
+					 
+					 
+					 It has been assumed that H < FZ > 0. The case where 2, < H, > 0 can be 
+					 obtained by interchanging the two morphogens. In the case Z, = H, = 0 there is 
+					 no co-operation between the cells whatever. 
+					 
+					 Some additional formulze will be given for the case of stationary waves of finite 
+					 wavelength. The marginal reaction rates may be expressed parametrically in terms 
+					 of the diffusibilities, the wavelength, the instability, and two other parameters a 
+					 and x. Of these a may be described as the ratio of X—h to Y —k in the waves. 
+					 The expressions for the marginal reaction rates in terms of these parameters are 
+					 
+					 
+					 a= amy PAU +X) +H 
+					 b= Bera gy (Act MW) -Uo+)-0 - 
+					 Or gray (At A) Uv tx)- | 
+					 d= Kg ay PRU +x) +1. 
+					 
+					 
+					 and when these are substituted into Equation 9.2 it becomes 
+					 
+					 
+					 1 KR+K B+ is ange 
+					 potty BAR ys |(BEB uh) —9ay-w-w" 00 
+					 
+					 
+					 i 
+					 
+					 
+					 Here the factor 27U5 ? is the chemical wavelength and 27U 2 the wavelength of the 
+					 FOURIER component under consideration. y must be positive for case section 8.4 
+					 to apply. 
+					 
+					 If s be regarded as a continuous variable one can consider Equation 9.2 or Equa- 
+					 tion 9.7 as relating s to p, and we and dp have meaning. The value of dp at the 
+					 
+					 
+					 36 
+					 
+					 
+					 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+					 
+					 
+					 maximum is of some interest, and will be used below in this section. Its value is 
+					 
+					 
+					 (9.8) 
+					 
+					 
+					 Pp VKXKX &B VAR ee 1 
+					 
+					 
+					 = , ) : —1 1 
+					 
+					 
+					 9.2. Consideration of statistical noise disturbance 
+					 
+					 
+					 In chapter 6, chapter 7, and chapter 8 it was supposed that the disturbances were 
+					 not continuously operative, and that the marginal reaction rates did not change 
+					 with the passage of time. These assumptions will now be dropped, though it will 
+					 be necessary to make some other, less drastic approximations to replace them. The 
+					 (statistical) amplitude of the noise” disturbances will be assumed constant in time. 
+					 Instead of Equation 6.6, Equation 6.7, one then has 
+					 
+					 
+					 SS = olé +0 + Rll 
+					 : (9.9) 
+					 a = c+ d'n + Rol(t), 
+					 
+					 
+					 where €, 7 have been written for €,, 7, since s may now be supposed fixed. For the 
+					 same reason a — 4 Dy - sin? (45) has been replaced by a’ and d— 4 Dy - sin? (45) by 
+					 d'. The noise disturbances may be supposed to constitute white noise, i.e. if (t1, t2) 
+					 and (t3,t4) are two non-overlapping intervals then lise R(t) dt and fie R(t) dt are 
+					 statistically independent and each is normally distributed eh variances 3 - : — t,) 
+					 and 6, - (ta — t3) respectively, 6, being a constant describing the amplitude of the 
+					 noise. Likewise for R2(t), the constant G, being replaced by (5. If p and p’ are the 
+					 roots of (p—a’)-(p—d’) = bc and p is the greater (both being real), one can make 
+					 
+					 
+					 the substitution 
+					 g=)-(u+0) 
+					 : oe (9.10) 
+					 
+					 
+					 du p-a Ro(t) 
+					 = pu - Ri(t) — ——— 
+					 dt (p' — p) +6 ©) (p' — p) 9.11 
+					 d p—a’ d 1 TD) 
+					 cd GG)-riles). 
+					 dt \(p—p)-b) "at \W =») 
+					 with a similar equation for v, of which the leading terms are “ = pv. This 
+					 
+					 
+					 indicates that v will be small, or at least small in comparison with u after a lapse 
+					 
+					 
+					 37 
+					 
+					 
+					 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+					 
+					 
+					 of time. If it is assumed that v = 0 holds, Equation 9.11 may be written as 
+					 
+					 
+					 “ = qu+ L,(t)Ri(t) + Lo(t) Rat), (9.12) 
+					 where 
+					 2a, 
+					 MO Gap 
+					 -£-il (9.13) 
+					 Pal) = Gy) 
+					 
+					 
+					 q=p+b- L(t). 
+					 
+					 
+					 The solution of this equation is 
+					 
+					 
+					 t t 
+					 c= / {I1(w)Ri(w) + Le(w)Ro(w)} - exp | q(z) ae dw. (9.14) 
+					 One is, however, not so much interested in such a solution in terms of the statistical 
+					 disturbances as in the consequent statistical distribution of values of u, € and 7 
+					 at various times after instability has set in. In view of the properties of ” white 
+					 noise” assumed above, the values of wu at time t will be distributed according to 
+					 the normal error law, with the variance 
+					 
+					 
+					 [. {61 (Li(w))” + Be (L2(w))”} - exp E . fa) ae dw. (9.15) 
+					 
+					 
+					 There are two commonly occurring cases in which one can simplify this expression 
+					 considerably without great loss of accuracy. If the system is in a distinctly stable 
+					 
+					 
+					 state, then q(t) which is near to p(t), will be distinctly negative, and exp fi q(z) az| 
+					 
+					 
+					 will be small unless w is near to t. But then L,(w) and L2(w) may be replaced by 
+					 L,(t) and L(t) in the integral, and also q(z) may be replaced by q(t). With these 
+					 approximations the variance is 
+					 
+					 
+					 {6 (alt)? + Bo (Lalt))?} (9.16) 
+					 —2- q(t) 
+					 
+					 A second case where there is a convenient approximation concerns times when 
+					 the system is ot unstable, so that q(t) > 0. For the approximation concerned to 
+					 apply, 2 - We q(z) dz must have its maximum at the last moment w(= to) when 
+					 q(to) = 0, and it must be the maximum by a considerable margin (e.g. at least 
+					 5) over all other local maxima. These conditions would apply for instance if q(z) 
+					 were always increasing and had negative values at a sufficiently early time. One 
+					 also requires q'(to) (the rate of increase of g at time to) to be reasonably large; it 
+					 
+					 
+					 38 
+					 
+					 
+					 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+					 
+					 
+					 must at least be so large that over a period of time of length (q’ (to))7? near to 
+					 to the changes in L(t) and L(t) are small, and q’(t) itself must not appreciably 
+					 alter in this period. Under these circumstances the integrand is negligible when w 
+					 is considerably different from to in comparison with its values at that time, and 
+					 therefore one may replace L;(w) and L2(w) by Li(to) and Lo(to), and q/(w) by 
+					 q'(to). This gives the value 
+					 
+					 
+					 1 
+					 Vd (to) 
+					 
+					 
+					 for the variance of u. 
+						 
+						 The physical significance of this latter approximation is that the disturbances near 
+						 the time when the instability is zero are the only ones which have any appreciable 
+						 ultimate effect. Those which occur earlier are damped out by the subsequent period 
+						 of stability. Those which occur later have a shorter period of instability within 
+						 which to develop to greater amplitude. This principle is familiar in radio, and is 
+						 fundamental to the theory of the superregenerative receiver. 
+						 
+						 Naturally one does not often wish to calculate Equation 9.17, but it is valuable as 
+						 
+						 
+						 VT: - {81 (Li(to))” + Bo (Lo(to))”} + exp 2. / q(z) ae , (9.17) 
+						 
+						 
+						 justifying a common-sense point of view of the matter. The factor exp i, q(z) dz| 
+						 
+						 
+						 is essentially the integrated instability and describes the extent to which one would 
+						 expect disturbances of appropriate wavelength to grow between times tg, and ft. 
+						 
+						 
+						 1) 
+						 
+						 
+						 Taking the terms in (1, 32 into consideration separately, the factor /73;-(q'(to)) 
+						 (L1(to))” indicates that the disturbances on the first morphogen should be regarded 
+						 as lasting for a time 
+						 1 
+						 qu (to) 
+						 
+						 
+						 The dimensionless quantities b- Li (to), b- Le(to) will not usually be sufficiently 
+						 large or small to justify their detailed calculation. 
+						 
+						 
+						 “(be Lia)? 
+						 
+						 
+						 9.3. Consideration of extend due to the component 
+						 which outdistance others 
+						 
+						 
+						 The extent to which the component, for which p, is greatest, may be expected to 
+						 outdistance the others will now be considered in case section 8.4. The greatest of the 
+						 ps will be called p,,. The two closest competitors to s9 will be so — 1 and sy +1; it is 
+						 required to determine how close the competition is. If the variation in the chemical 
+						 data is sufficiently small it may be assumed that, although the exponents p,, — 1, 
+						 Psp: Pso+1 May themselves vary appreciably in time, the differences p,, — ps,—-1 and 
+						 Psp — Pso+1 are constant. It certainly can happen that one of these differences is 
+						 zero or nearly zero, and there is then ”neck and neck” competition. The weakest 
+						 
+						 
+						 39 
+						 
+						 
+						 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+						 
+						 
+						 competition occurs when p,,-1 = Pso+1- In this case 
+						 1 
+						 Ps — Pso—1 = Pso — Psot = — 5 (Deptt 2g Dep)? 
+						 
+						 
+						 But if so is reasonably large p,,41 — 2Ps, + Ps >—1 Can be set equal to (=) a At 
+						 S=So 
+						 may be concluded that the rate at which the most quickly growing component grows 
+						 
+						 
+						 cannot exceed the rate for its closest competitor by more than about 5 : €3) : 
+						 S=so 
+						 
+						 
+						 The Equation 9.8, by which dp can be estimated, may be regarded as the product 
+						 
+						 
+						 of two factors. The dimensionless factor never exceeds 4. The factor 4 / a? Y may 
+						 
+						 
+						 be described in very rough terms as ”the reciprocal of the time for the morphogens 
+						 to diffuse a length equal to a radius”. In equally rough terms one may say that a 
+						 time of this order of magnitude is required for the most quickly growing component 
+						 to get a lead, amounting to a factor whose logarithm is of the order of unity, over 
+						 its closest competitors, in the favourable case where ps -1 = Pso+1- 
+						 
+						 
+						 9.4. Consideration of non-linear terms 
+						 
+						 
+						 Very little has yet been said about the effect of considering non-linear reaction 
+						 rate functions when far from homogeneity. Any treatment so systematic as that 
+						 given for the linear case seems to be out of the question. It is possible, however, to 
+						 reach some qualitative conclusions about the effects of non-linear terms. Suppose 
+						 that z,, is the amplitude of the FOURIER component which is most unstable (on a 
+						 basis of the linear terms), and which may be supposed to have wavelength A. The 
+						 non-linear terms will cause components with wavelengths 5A, 5A, 5A, ... to appear 
+						 as well as a space-independent component. If only quadratic terms are taken into 
+						 account and if these are somewhat small, then the component of wavelength 5A 
+						 and the space-independent component will be the strongest. Suppose these have 
+						 amplitudes z;, and z. The state of the system is thus being described by the 
+						 numbers Zo, 21, 22. In the absence of non-linear terms they would satisfy equations 
+						 
+						 
+						 dzo 
+						 
+						 —_ = os 
+						 
+						 oF Poo 
+						 dz, 
+						 
+						 ——— SS wh 
+						 
+						 dt P11 
+						 dz 
+						 
+						 ————— z . 
+						 dt P222 
+						 
+						 
+						 and if there is slight instability p; would be a small positive number, but pp and po 
+						 distinctly negative. The effect of the non-linear terms is to replace these equations 
+						 
+						 
+						 40 
+						 
+						 
+						 9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+						 
+						 
+						 by ones of the form? 
+						 
+						 
+						 dz 
+						 
+						 a = pozo + Az + Bzj 
+						 
+						 d 
+						 
+						 a = 91% + C292 + Dzy2y (9.18) 
+						 dz 
+						 
+						 a = p222 + Ez? + F229 . 
+						 
+						 
+						 As a first approximation one may put to = ee = 0 and ignore z/ and higher 
+						 powers; 29 and z; are then found to be proportional to z?, and the equation for 2 
+						 
+						 
+						 can be written as 
+						 dz 
+						 
+						 
+						 dt 
+						 The sign of & in this differential equation is of great importance. If it is positive, 
+						 then the effect of the term kz? is to arrest the exponential growth of z, at the 
+						 value Je . The ”instability” is then very confined in its effect, for the waves can 
+						 only reach a finite amplitude, and this amplitude tends to zero as the instability 
+						 (p1) tends to zero. If, however, k is negative the growth becomes something even 
+						 faster than exponential, and, if the equation da = pz, — kz? held universally, it 
+						 would result in the amplitude becoming infinite in a finite time. This phenomenon 
+						 may be called ” catastrophic instability” .* In the case of two-dimensional systems 
+						 catastrophic instability is almost universal, and the corresponding equation takes 
+						 
+						 
+						 the form ta = p,2, + kz?. Naturally enough in the case of catastrophic instability 
+						 
+						 
+						 = 3 
+						 = Po~1 — kzy : 
+						 
+						 
+						 ?These equations, when 2 = 2, 21 = y, Z2 = Z, are similar to those derived by Lotka mentioned 
+						 earlier, see page 22. The equations then read 
+						 
+						 
+						 d 
+						 7 = pox + Ay* + Bz? 
+						 d 
+						 7 =piy t+ Cyz + Dry 
+						 d 
+						 = = poz + Ey? 4+ Faz, 
+						 
+						 
+						 which are a set of coupled, inhomogeneous nonlinear first-order differential equations (see 
+						 Appendix C). 
+						 
+						 3Catastrophic instability is an immanent part of the theory called Bifurcation theory. It is the 
+						 mathematical study of changes in the qualitative or topological structure of a given family of 
+						 curves, e.g. in R!, R? or R®, such as the integral curves of a family of vector fields, and the 
+						 solutions of a family of differential equations. Most commonly applied to the mathematical study 
+						 of dynamical systems, a bifurcation occurs when a small smooth change made to the parameter 
+						 values (the bifurcation parameters) of a system causes a sudden ” qualitative” or topological 
+						 change in its behavior. Bifurcations occur in both continuous systems (described by ordinary, 
+																								delay or partial differential equations) and discrete systems (described by maps). Furthermore 
+																								bifurcation diagrams are an important tool to illustrate the dependency of the values visited or 
+																								approached asymptotically and the within the system inherent bifurcation parameters. Also of 
+																								great importance in this aspect are the FEIGENBAUM constants 6 and a. 
+																								
+																								
+																								Al 
+																								
+																								
+																								9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+																								
+																								
+																								the amplitude does not really reach infinity, but when it is sufficiently large some 
+																								effect previously ignored becomes large enough to halt the growth. 
+																								
+																								
+																								9.5. Consideration of chemically active morphogens 
+																								
+																								
+																								Case section 8.1 as described in chapter 8 represents a most extremely featureless 
+																								form of pattern development. This may be remedied quite simply by making less 
+																									drastic simplifying assumptions, so that a less gross account of the pattern can 
+																									be given by the theory. It was assumed in chapter 9 that only the most unstable 
+																									FOURIER components would contribute appreciably to the pattern, though it was 
+																									seen above (section 9.3 of this section) that (in case section 8.4) this will only apply 
+																									if the period of time involved is adequate to permit the morphogens, supposed 
+																										for this purpose to be chemically inactive, to diffuse over the whole ring or organ 
+																											concerned. The same may be shown to apply for case section 8.1. If this assumption 
+																											is dropped a much more interesting form of pattern can be accounted for. To do this 
+																											it is necessary to consider not merely the components with U = 0 but some others 
+																											with small positive values of U. One may assume the form At— BU for p. Linearity 
+																											in U is assumed because only small values of U are concerned, and the term At is 
+																											included to represent the steady increase in instability. By measuring time from 
+																											the moment of zero instability the necessity for a constant term is avoided. The 
+																											formula Equation 9.17 may be applied to estimate the statistical distribution of 
+																												
+																												
+																												the amplitudes of the components. Only the factor exp E : nis q(z) az| will depend 
+																												
+																												
+																												very much on U, and taking q(t) = p(t) = At — BU, to must be BU/A and the 
+																												factor is 
+																												
+																												
+																												The term in U? can be ignored if At? is fairly large, for then either B?U?/A? is small 
+																												or the factor is e~24*. But At? certainly is large if the factor e“”, applying when 
+																												U =0, is large. With this approximation the variance takes the form C'- en aU 
+																												with only the two parameters C’, k to distinguish the pattern populations. By 
+																												choosing appropriate units of concentration and length these pattern populations 
+																												may all be reduced to a standard one, e.g. with C = k = 1. Random members of 
+																												this population may be produced by considering any one of the type section 8.1- 
+																												systems to which the approximations used above apply. They are also produced, 
+																												but with only a very small amplitude scale, if a homogeneous one-morphogen 
+																												system undergoes random disturbances without diffusion for a period, and then 
+																												diffusion without disturbance. This process is very convenient for computation, and 
+																												can also be applied to two dimensions. Figure 9.1 shows such a pattern, obtained 
+																												in a few hours by a manual computation. 
+																												
+																												To be more definite, a set of numbers u,., was chosen, each being +1, and taking the 
+																												two values with equal probability. A function f(x,y) is related to these numbers 
+																												
+																												
+																												42 
+																												
+																												
+																												9. FURTHER CONSIDERATION OF THE MATHEMATICS OF THE RING 
+																												
+																												
+																												Figure 9.1.: An example of a” dappled” pattern as resulting from a type section 8.1 
+																												morphogen system. A marker of unit length is shown. See text, chapter 9, 
+																												chapter 11. 
+																												
+																												
+																												by the formula 
+																												
+																												
+																												i(z,y) = > tes exp -5 -((@ — hr)? + (y— hs) 
+																												
+																												
+																												In the actual computation a somewhat crude approximation to the function 
+																												
+																												
+																												was used and h was about 0.7. In the figure the set of points where f(x,y) is 
+																												positive is shown black. The outlines of the black patches are somewhat less 
+																												irregular than they should be due to an inadequacy in the computation procedure. 
+																												
+																												
+																												43 
+																												
+																												
+																												10. ANUMERICAL EXAMPLE 
+																												
+																												
+																												The numerous approximations and assumptions that have been made in the forego- 
+																												ing analysis may be rather confusing to many readers. In the present section it is 
+																												proposed to consider in detail a single example of the case of most interest, namely 
+																												case section 8.4. This will be made as specific as possible. It is unfortunately not 
+																												possible to specify actual chemical reactions with the required properties, but it 
+																												is thought that the reaction rates associated with the imagined reactions are not 
+																												unreasonable. 
+																												
+																												The detail to be specified includes 
+																												
+																												
+																												iL 
+																												2 
+																												3. 
+																												
+																												
+																												The number and dimensions of the cells of the ring. 
+																												The diffusibilities of the morphogens. 
+																												
+																												
+																												The reactions concerned. 
+																												
+																												
+																												. The rates at which the reactions occur. 
+																												. Information about random disturbances. 
+																												
+																												
+																												. Information about the distribution, in space and time, of those morphogens 
+																												
+																												
+																												which are of the nature of evocators. 
+																												
+																												
+																												These will be taken in order. 
+																												
+																												
+																												(i) 
+																												
+																												
+																												It will be assumed that there are twenty cells in the ring, and that they have 
+																												a diameter of 0.1mm each. These cells are certainly on the large rather than 
+																												the small side, but by no means impossibly so. The number of cells in the 
+																												ring has been chosen rather small in order that it should not be necessary to 
+																												make the approximation of continuous tissue. 
+																												
+																												
+																												Two morphogens are considered. They will be called X and Y, and the same 
+																												letters will be used for their concentrations. This will not lead to any real 
+																												confusion. The diffusion constant for X will be assumed to be 5 x 10~$ cm? s7! 
+																												and that for Y to be 2.5 x 10-$cm?s~!. With cells of diameter 0.01 mm 
+																												this means that X flows between neighbouring cells at the rate 5- 107+ of 
+																												
+																												
+																												the difference of X-content of the two cells per second. In other words, if 
+																												
+																												
+																												10. A NUMERICAL EXAMPLE 
+																												
+																												
+																												there is nothing altering the concentrations but diffusion the difference of 
+																												concentrations suffers an exponential decay with time constant 1000s, or 
+																												"half-period” of 700s. These times are doubled for Y. 
+																												
+																												If the cell membrane is regarded as the only obstacle to diffusion the perme- 
+																												ability of the membranes to the morphogen is 5 x 10-°cms™! or 0.018cmh7!?. 
+																												Values as large as 0.1 cmh™! have been observed ([3], figure 28). 
+																												
+																												
+																												(iii) The reactions are the most important part of the assumptions. Four sub- 
+																												stances A, X, Y, B are involved; these are isomeric, i.e. the molecules of the 
+																												four substances are all rearrangements of the same atoms. Substances C, C’, 
+													W will also be concerned. The thermodynamics of the problem will not be 
+													discussed except to say that it is contemplated that of the substances A, X, 
+													Y, B, the one with the greatest free energy is A, and that with the least is 
+													B. Energy for the whole process is obtained by the degradation of A into B. 
+													The substance C' is in effect a catalyst for the reaction Y > X, and may also 
+													be regarded as an evocator, the system being unstable if there is a sufficient 
+													concentration of C. 
+													
+													The reactions postulated are 
+													
+													
+													Y+X>W 
+													W+A—>2Y+8 instantly 
+													2X > W 
+													AX 
+													YB 
+													Y+C—>C" instantly 
+													C'>X+4+C. 
+													
+													
+													(iv) For the purpose of stating the reaction rates, special units will be introduced 
+													(for the purpose of this section only). They will be based on a period of 1000s 
+													as units of time, and 107'! molem™? as concentration unit!. There will be 
+													little occasion to use any but these special units (s.u.). The concentration 
+													of A will be assumed to have the large value of 1000 s.u. and the catalyst 
+													C, together with its combined form C’ the concentration 107° - (1 + 7) s.u., 
+																																		the dimensionless quantity y being often supposed somewhat small, though 
+																																		values over as large a range as from-0.5 to 0.5 may be considered. The rates 
+																																		assumed will be With the values assumed for A and C” the net effect of these 
+																																		reactions is to convert X into Y at the rate # - [50XY +7 M552 (14 7) ] at 
+																																		the same time producing X at the constant rate is and destroying Y at the 
+																																		rate Y /16. If, however, the concentration of Y is zero and the rate of increase 
+																																		
+																																		
+																																		‘A somewhat larger value of concentration unit (e.g. 10~? molem~°) is probably more suitable. 
+																																		The choice of unit only affects the calculations through the amplitude of the random disturbances. 
+																																		
+																																		
+																																		45 
+																																		
+																																		
+																																		10. A NUMERICAL EXAMPLE 
+																																		
+																																		
+																																		SS 
+																																		
+																																		
+																																		Y+X > W at the rate 2 YX 
+																																		2X +> W at the rate a xX? 
+																																		A-7> Xx at the rate = x 10-3A 
+																																		C' + X+C at the rate 8 x 101°C’ 
+																																		Y —> B at the rate a Y 
+																																		
+																																		
+																																		of Y required by these formule is negative, the rate of conversion of Y into X 
+																																		is reduced sufficiently to permit Y to remain zero. 
+																																		In the special units Dy = x, Dye . 
+																																		
+																																		
+																																		Statistical theory describes in detail what irregularities arise from the molecu- 
+																																		lar nature of matter. In a period in which, on the average, one should expect 
+																																		a reaction to occur between n pairs (or other combinations) of molecules, the 
+																																		actual number will differ from the mean by an amount whose mean square is 
+																																		also n, and is distributed according to the normal error law. Applying this 
+																																		to a reaction proceeding at a rate F'(s.u.) and taking the volume of the cell 
+																																		as 10-8 cm? (assuming some elongation tangentially to the ring) it will be 
+																																		found that the root mean square irregularity of the quantity reacting in a 
+																																		period 7 of time (s.u.) is 0.004: /VF-r. 
+																																		
+																																		
+																																		46 
+																																		
+																																		
+																																		10. A NUMERICAL EXAMPLE 
+																																		
+																																		
+																																		first spicemen 
+																																		
+																																		
+																																		ec  -c—--[’  ————_———————\ 
+																																		
+																																		
+																																		four-lobed 
+																																		incipient pattern final pattern second slow equilibrium 
+																																		a specimen: cooking” : 
+																																		a incipient incipient 
+																																		number X Y X Y Y Y X Y 
+																																		0 1.130 0.929 0.741 1.463 0.834 1.057 Lay 0.000 
+																																		t 1423 0.940 0.761 1.469 0.833 0.903 1.685 0.000 
+																																		2 1.154 0.885 0.954 1.255 0.766 0.813 1.445 2.500 
+																																		3 1.215 0.810 1.711 0.000 0.836 0.882 0.445 2.500 
+																																		4 1.249 0.753 1.707 0.000 0.930 1.088 1.685 0.000 
+																																		5 1.158 0.873 0.875 1.385 0.898 1222 1.747 0.000 
+																																		6 1.074 1.003 0.700 1:622 0.770 1.173 1.685 0.000 
+																																		. 1.078 1.000 0.699 1.615 0.740 0.956 0.445 2.500 
+																																		8 1.148 0.896 0.885 1.382 0.846 0.775 0.445 2.500 
+																																		9 1.231 0.775 1.704 0.000 0.937 0.775 1.685 0.000 
+																																		10 1.204 0.820 1.708 0.000 0.986 0.969 1.747 0.000 
+																																		‘lcd 1.149 0.907 0.944 1.273 1.019 1.170 1.685 0.000 
+																																		12 1.156 0.886 0.766 1.451 0.899 1.203 0.445 2.500 
+																																		13 1.170 0.854 0.744 1.442 0.431 1.048 0.445 2.500 
+																																		14 1.131 0.904 0.756 1.478 0.485 0.868 1.685 0.000 
+																																		15 1.090 0.976 0.935 1.308 0.919 0.813 1.747 0.000 
+																																		16 1.109 0.957 LL 0.000 1.035 0.910 1.685 0.000 
+																																		17 1.201 0.820 1.706 0.000 1.003 1.050 0.445 2.500 
+																																		18 1.306 0.675 0.927 1.309 0.899 1.175 0.445 2.500 
+																																		19 LUT 0.811 0.746 1.487 0.820 1.181 1.685 0.000 
+																																		
+																																		
+																																		Table 10.1.: Numerical example: Some stationary-wave patterns computed for two morphogens X, Y 
+																																		
+																																		
+																																		AT 
+																																		
+																																		
+																																		10. A NUMERICAL EXAMPLE 
+																																		
+																																		
+																																		The diffusion of a morphogen from a cell to a neighbour may be treated as 
+																																		if the passage of a molecule from one cell to another were a monomolecular 
+																																			reaction; a molecule must be imagined to change its form slightly as it passes 
+																																			the cell wall. If the diffusion constant for a wall is Y,, and quantities M;, Me 
+																																			of the relevant morphogen lie on the two sides of it, the root-mean-square 
+																																			irregularity in the amount passing the wall in a period T is 
+																																			
+																																			
+																																			0.004 - \/(M; +M2)- Dy 
+																																			
+																																			
+																																			These two sources of irregularity are the most significant of those which 
+																																			arise from truly statistical cause, and are the only ones which are taken into 
+																																			account in the calculations whose results are given below. There may also be 
+																																			disturbances due to the presence of neighbouring anatomical structures, and 
+																																			other similar causes. These are of great importance, but of too great variety 
+																																			and complexity to be suitable for consideration here. 
+																																			
+																																			
+																																			The only morphogen which is being treated as an evocator is C’. Changes in 
+																																			the concentration of A might have similar effects, but the change would have 
+																																			to be rather great. It is preferable to assume that A is a ”fuel substance” 
+																																			(e.g. glucose) whose concentration does not change. The concentration of C, 
+																																		together with its combined form C’, will be supposed the same in all cells, but 
+																																		it changes with the passage of time. Two different varieties of the problem 
+																																		will be considered, with slightly different assumptions. 
+																																		
+																																		
+																																		The results are shown in Table 10.1. There are eight columns, each of which gives 
+																																		the concentration of a morphogen in each of the twenty cells; the circumstances 
+																																		to which these concentrations refer differ from column to column. The first five 
+																																		columns all refer to the same ” variety” of the imaginary organism, but there are 
+																																		two specimens shown. The specimens differ merely in the chance factors which 
+																																		were involved. With this variety the value of y was allowed to increase at the rate 
+																																		of 2~" s.u. from the value —F to +i. At this point a pattern had definitely begun 
+																																		to appear, and was recorded. The parameter y was then allowed to decrease at the 
+																																		same rate to zero and then remained there until there was no more appreciable 
+																																		change. 
+																																		
+																																		
+																																		48 
+																																		
+																																		
+																																		10. A NUMERICAL EXAMPLE 
+																																		
+																																		
+																																		012345 6 7 8 9 10 Il 12 13 14 15 16 17 18 19 
+																																		
+																																		
+																																		Figure 10.1.: Concentrations of Y in the development of the first specimen (taken 
+																																		from Table 10.1). — —- —-—— original homogeneous equilibrium; ///// incipient 
+																																		pattern; final equilibrium 
+																																		
+																																		
+																																		The pattern was then recorded again. The concentrations of Y in these two 
+																																		recordings are shown in Figure 10.1 as well as in Table 10.1. For the second 
+																																		specimen only one column of figures is given, viz. those for the Y morphogen in 
+																																		the incipient pattern. At this stage the X values are closely related to the Y values, 
+													as may be seen from the first specimen (or from theory). The final values can be 
+													made almost indistinguishable from those for the first specimen by renumbering 
+													the cells and have therefore not been given. These two specimens may be said to 
+													belong to the ” variety with quick cooking”, because the instability is allowed to 
+													increase so quickly that the pattern appears relatively soon. The effect of this haste 
+													might be regarded as rather unsatisfactory, as the incipient pattern is very irregular. 
+													In both specimens the four-lobed component is present in considerable strength 
+													in the incipient pattern. It ” beats” with the three-lobed component producing 
+													considerable irregularity. The relative magnitudes of the three- and four-lobed 
+													components depend on chance and vary from specimen to specimen. The four-lobed 
+													
+													
+													49 
+													
+													
+													10. A NUMERICAL EXAMPLE 
+													
+													
+													component may often be the stronger, and may occasionally be so strong that the 
+													final pattern is four-lobed. How often this happens is not known, but the pattern, 
+													when it occurs, is shown in the last two columns of Table 10.1. In this case the 
+													disturbances were supposed to be removed for some time before recording, so as to 
+													give a perfectly regular pattern. 
+													The remaining column refers to a second variety, one with ”slow cooking”. In this 
+													the value of y was allowed to increase only at the rate 107°. Its initial value was 
+													-0.010, but is of no significance. The final value was 0.003. With this pattern, when 
+													shown graphically, the irregularities are definitely perceptible, but are altogether 
+													overshadowed by the three-lobed component. The possibility of the ultimate 
+													pattern being four-lobed is not to be taken seriously with this variety. 
+													The set of reactions chosen is such that the instability becomes ” catastrophic 
+													when the second-order terms are taken into account, i.e. the growth of the waves 
+													tends to make the whole system more unstable than ever. This effect is finally 
+													halted when (in some cells) the concentration of Y has become zero. The constant 
+													conversion of Y into X through the agency of the catalyst C’ can then no longer 
+													continue in these cells, and the continued growth of the amplitude of the waves is 
+													arrested. When y = 0 there is of course an equilibrium with X = Y = 1 in all cells, 
+													which is very slightly stable. There are, however, also other stable equilibria with 
+													y = 0, two of which are shown in the table. These final equilibria may, with some 
+													trouble but little difficulty, be verified to be solutions of Equation 6.1 with 
+													
+													dX dyY 
+													
+													
+													ce 
+													
+													
+													” 
+													
+													
+													and 
+													
+													
+													32- f(X, Y) =57 -—50XY-7Y’ 
+													32 -9(X, Y) = 50 XY +7Y7 =2Y —55. 
+													
+													
+													The morphogen concentrations recorded at the earlier times connect more directly 
+													with the theory given in chapter 6, chapter 7, chapter 8, and chapter 9. The 
+													amplitude of the waves was then still sufficiently small for the approximation of 
+													linearity to be still appropriate, and consequently the ” catastrophic” growth had 
+													not yet set in. 
+													
+													The functions f(X,Y) and g(X, Y) of chapter 6 depend also on ¥ and are 
+													
+													
+													1 
+													f(X,Y) = a5 [—7 X? —50 XY +57 + 557] 
+													
+													1 
+													9 (X,Y) = 35 + [7X? +50X¥ —2Y —55 — 55] - 
+													
+													
+													In applying the theory it will be as well to consider principally the behaviour of 
+													the system when 7 remains permanently zero. Then for equilibrium f(X,Y) = 
+													
+													
+													50 
+													
+													
+													10. A NUMERICAL EXAMPLE 
+													
+													
+													g(X, Y) = 0 which means that X = Y = 1, ie. h =k = 1. One also finds the 
+													following values for various quantities mentioned in chapter 6, chapter 7, chapter 8, 
+													and chapter 9 
+													
+													
+													a=-—2 
+													
+													b = —1.5625 
+													
+													c=2 
+													
+													d = 1.500 
+													
+													8 = 3.333 
+													
+													I=0 
+													
+													a = 0.625 
+													
+													y = 0.500 
+													d-—a 
+													avin 1.980 
+													
+													BAM _ 949) 
+																												
+																												
+																												po = —0.25 + 0.251 
+																												
+																												
+																												po = —0.0648 
+																												p3 = —0.0034 
+																												pa = —0.0118 
+																												
+																												
+																												(The relation between p and U for these chemical data, and the values p,, can be 
+																												seen in Figure 8.1, the values being so related as to make the curves apply to this 
+																												example as well as that in chapter 8.) The value s = 3.333 leads one to expect 
+																												a three-lobed pattern as the commonest, and this is confirmed by the values py. 
+																												The four-lobed pattern is evidently the closest competitor. The closeness of the 
+																												competition may be judged from the difference p3 — py = 0.0084, which suggests 
+																												that the three-lobed component takes about 120 s.u. or about 33h to gain an 
+																												advantage of a neper (i.e. about 2.7:1) over the four-lobed one. However, the 
+																												fact that + is different from 0 and is changing invalidates this calculation to some 
+																												extent. 
+																												
+																												The figures in Table 10.1 were mainly obtained with the aid of the Manchester 
+																												University Computer. 
+																												
+																												Although the above example is quite adequate to illustrate the mathematical prin- 
+																												ciples involved it may be thought that the chemical reaction system is somewhat 
+																												artificial. The following example is perhaps less so. The same ”special units” are 
+																												used. The reactions assumed are 
+																												
+																												
+																												51 
+																												
+																												
+																												10. A NUMERICAL EXAMPLE 
+																												
+																												
+																												A- at the rate 10-3A, A = 102 
+																												X+Y¥Y = C at the rate 10°- XY 
+																												C + X+Y_ atthe rate 10°-C 
+																												C > D at the rate 62.5-C 
+																												B+C 7 at the rate 0.125. BC, B = 10° 
+																												W — Y4C - instantly 
+																												Yno E at the rate 0.0625 - Y 
+																												Y4+V > V' instantly 
+																												V'’ + E+Y atthe rate 62.5-Y, V’=107-°- 86 
+																												
+																												
+																												The effect of the reactions X+Y — C is that C = 10-3. XY. The reaction 
+																												C' — D destroys C, and therefore in effect both X and Y, at the rate 7 -XY. The 
+																												reaction A — X forms X at the constant rate 1, and the pair Y+V > V’ > E+V 
+																												destroys Y at the constant rate 4-8. The pair B+ C —+ W - Y+4+C forms Y 
+																												
+																												
+																												16 
+																												at the rate 2- XY, and Y > E destroys it at the rate 4+ -Y. The total effect 
+																												
+																												
+																												therefore is that X is produced at the rate f(X,Y) = %- (16 — XY), and Y at the 
+																												rate g(X,Y) = 4 -(XY—Y-—£). However, g(X,Y) = 0 if Y < 0. The diffusion 
+																												constants will be supposed to be Z = ‘, N= ce The homogeneity condition 
+																												gives hk = 16, k = 16—. It will be seen from conditions in Equation 9.4 that case 
+																												section 8.4 applies if and only if 4 + k < 2.75, ie. if k lies between 1.725 and 9.257. 
+																												The condition in Equation 9.5 shows that there will be instability if in addition 
+																												8 + & Sao on ie. if k does not lie between 4.98 and 12.8. It will also be found 
+																												that the wavelength corresponding to k = 4.98 is 4.86 cell diameters. 
+																												
+																												In the case of a ring of six cells with 6 = 12 there is a stable equilibrium, as shown 
+																												in Table 10.2. 
+																												
+																												
+																												cell 0 1 2 3 4 5 
+																												X 7.5 35 2.5 2.5 3.5 7.5 
+																												Y 0 8 8 8 8 0 
+																												
+																												
+																												Table 10.2.: Numerical example with six cells resulting in a stable (dynamic) 
+																												equilibrium 
+																												
+																												
+																												52 
+																												
+																												
+																												10. A NUMERICAL EXAMPLE 
+																												
+																												
+																												It should be recognized that these equilibria are only dynamic equilibria. The 
+																												molecules which together make up the chemical waves are continually changing, 
+																												though their concentrations in any particular cell are only undergoing small statis- 
+																												tical fluctuations. Moreover, in order to maintain the wave pattern, a continual 
+																												supply of free energy is required. It is clear that this must be so since there is a 
+																												continual degradation of energy through diffusion. This energy is supplied through 
+																												the ” fuel substances” (A, B in the last example), which are degraded into ” waste 
+																												products” (D, E). 
+																												
+																												
+																												53 
+																												
+																												
+																												11. RESTATEMENT AND BIOLOGICAL 
+																												INTERPRETATION OF THE 
+																												RESULTS 
+																												
+																												
+																												Certain readers may have preferred to omit the detailed mathematical treatment 
+																												of chapter 6, chapter 7, chapter 8, chapter 9, and chapter 10. For their benefit the 
+																												assumptions and results will be briefly summarized, with some change of emphasis. 
+																												The system considered was either a ring of cells each in contact with its neighbours, 
+																												or a continuous ring of tissue. The effects are extremely similar in the two cases. 
+																												For the purposes of this summary it is not necessary to distinguish between them. 
+																												A system with two or three morphogens only was considered, but the results apply 
+																												quite generally. The system was supposed to be initially in a stable homogeneous 
+																												condition, but disturbed slightly from this state by some influences unspecified, 
+																												such as BROWNian movement or the effects of neighbouring structures or slight 
+																												irregularities of form. It was supposed also that slow changes are taking place in 
+																												the reaction rates (or, possibly, the diffusibilities) of the two or three morphogens 
+																												under consideration. These might, for instance, be due to changes of concentration 
+																												of other morphogens acting in the role of catalyst or of fuel supply, or to a concur- 
+																												rent growth of the cells, or a change of temperature. Such changes are supposed 
+																												ultimately to bring the system out of the stable state. The phenomena when the 
+																												system is just unstable were the particular subject of the inquiry. In order to make 
+																												the problem mathematically tractable it was necessary to assume that the system 
+																												never deviated very far from the original homogeneous condition. This assumption 
+																												was called the ” linearity assumption” because it permitted the replacement of the 
+																												general reaction rate functions by linear ones. This linearity assumption is a serious 
+																												one. Its justification lies in the fact that the patterns produced in the early stages 
+																												when it is valid may be expected to have strong qualitative similarity to those 
+																												prevailing in the later stages when it is not. Other, less important, assumptions 
+																												were also made at the beginning of the mathematical theory, but the detailed effects 
+																												of these were mostly considered in chapter 9, and were qualitatively unimportant. 
+																												The conclusions reached were as follows. After the lapse of a certain period of time 
+																												from the beginning of instability, a pattern of morphogen concentrations appears 
+																												which can best be described in terms of ” waves”. There are six types of possibilities 
+																												which may arise. 
+																												
+																												
+																												11. RESTATEMENT AND ...INTERPRETATION OF THE RESULTS 
+																												
+																												
+																												a) 
+																												
+																												
+																												The equilibrium concentrations and reaction rates may become such that 
+																												there would be instability for an isolated cell with the same content as any 
+																												one of the cells of the ring. If that cell drifts away from the equilibrium 
+																												position, like an upright stick falling over, then, in the ring, each cell may 
+																												be expected to do likewise. In neighbouring cells the drift may be expected 
+																												to be in the same direction, but in distant cells, e.g. at opposite ends of a 
+																												diameter there is no reason to expect this to be so. 
+																												
+																												This is the least interesting of the cases. It is possible, however, that it 
+																												might account for ”dappled” colour patterns, and an example of a pattern in 
+																												two dimensions produced by this type of process is shown in Figure 9.1 for 
+																												comparison with ”dappling”. If dappled patterns are to be explained in this 
+																												way they must be laid down in a latent form when the foetus is only a few 
+																												inches long. Later the distances would be greater than the morphogens could 
+																												travel by diffusion. 
+																												
+																												
+																												This case is similar to (a), except that the departure from equilibrium is not 
+																												a unidirectional drift, but is oscillatory. As in case (a) there may not be 
+																												agreement between the contents of cells at great distances. 
+																												
+																												There are probably many biological examples of this metabolic oscillation, 
+																												but no really satisfactory one is known to the author. 
+																												
+																												
+																												There may be a drift from equilibrium, which is in opposite directions in 
+																												contiguous cells. 
+																												No biological examples of this are known. 
+																												
+																												
+																												There is a stationary wave pattern on the ring, with no time variation, apart 
+																												from a slow increase in amplitude, i.e. the pattern is slowly becoming more 
+																												marked. In the case of a ring of continuous tissue the pattern is sinusoidal, i.e. 
+																												the concentration of one of the morphogens plotted against position on the 
+																												ring is a sine curve. The peaks of the waves will be uniformly spaced round the 
+																												ring. The number of such peaks can be obtained approximately by dividing 
+																												the so-called ” chemical wavelength” of the system into the circumference of 
+																												the ring. The chemical wavelength is given for the case of two morphogens 
+																												by Equation 9.3. This formula for the number of peaks of course does not 
+																												give a whole number, but the actual number of peaks will always be one of 
+																												the two whole numbers nearest to it, and will usually be the nearest. The 
+																												degree of instability is also shown in Equation 9.3. 
+																												
+																												The mathematical conditions under which this case applies are given in 
+																												Equation 9.4, Equation 9.5. 
+																												
+																												Biological examples of this case are discussed at some length below. 
+																												
+																												
+																												For a two-morphogen system only the alternatives (a) to (d) are possible, but 
+																												with three or more morphogens it is possible to have travelling waves. With a 
+																												ring there would be two sets of waves, one travelling clockwise and the other 
+																												
+																												
+																												59 
+																												
+																												
+																												11. RESTATEMENT AND ... INTERPRETATION OF THE RESULTS 
+																												
+																												
+																												anticlockwise. There is a natural chemical wavelength and wave frequency in 
+																												this case as well as a wavelength; no attempt was made to develop formulee 
+																												for these. 
+																													
+																													In looking for biological examples of this there is no need to consider only 
+																													rings. The waves could arise in a tissue of any anatomical form. It is 
+																													important to know what wavelengths, velocities and frequencies would be 
+																													consistent with the theory. These quantities are determined by the rates at 
+																													which the reactions occur (more accurately by the ”marginal reaction rates”, 
+																																			   which have the dimensions of the reciprocal of a time), and the diffusibilities 
+																																			   of the morphogens. The possible range of values of the reaction rates is 
+																																			   so immensely wide that they do not even give an indication of orders of 
+																																			   magnitude. The diffusibilities are more helpful. If one were to assume that 
+																																			   all the dimensionless parameters in a system of travelling waves were the 
+																																			   same as in the example given in chapter 8, one could say that the product 
+																																			   of the velocity and wavelength of the waves was 37 times the diffusibility of 
+																																			   the most diffusible morphogen. But this assumption is certainly false, and 
+																																			   it is by no means obvious what is the true range of possible values for the 
+																																			   numerical constant (here 37). The movements of the tail of a spermatozoon 
+																																			   suggest themselves as an example of these travelling waves. That the waves 
+																																			   are within one cell is no real difficulty. However, the speed of propagation 
+																																			   seems to be somewhat greater than can be accounted for except with a rather 
+																																			   large numerical constant. 
+																																			   
+																																			   
+																																			   f) Metabolic oscillation with neighbouring cells in opposite phases. 
+																																			   No biological examples of this are known to the author. 
+																																			   
+																																			   
+																																			   It is difficult also to find cases to which case (d) applies directly, but this is 
+																																			   simply because isolated rings of tissue are very rare. On the other hand, systems 
+																																			   that have the same kind of symmetry as a ring are extremely common, and it is 
+																																			   to be expected that under appropriate chemical conditions, stationary waves may 
+																																			   develop on these bodies, and that their circular symmetry will be replaced by a 
+																																			   polygonal symmetry. Thus, for instance, a plant shoot! may at one time have 
+																																			   circular symmetry, i.e. appear essentially the same when rotated through any angle 
+																																			   about a certain axis; this shoot may later develop a whorl! of leaves, and then it will 
+																																			   only suffer rotation through the angle which separates the leaves, or any multiple 
+																																			   of it. This same example demonstrates the complexity of the situation when more 
+																																			   than one dimension is involved. The leaves on the shoots may not appear in whorls, 
+																																			   but be imbricated. This possibility is also capable of mathematical analysis, and 
+																																			   will be considered in detail in a later paper. The cases which appear to the writer 
+																																			   
+																																			   
+																																			   'In botany, a plant shoot consists of any plant stem together with its appendages like, leaves 
+																																			   and lateral buds, flowering stems, and flower buds. The new growth from seed germination that 
+																																			   grows upward is a shoot where leaves will develop. In the spring, perennial plant shoots are the 
+																																			   new growth that grows from the ground in herbaceous plants or the new stem or flower growth 
+																																			   that grows on woody plants. 
+																																			   
+																																			   
+																																			   56 
+																																			   
+																																			   
+																																			   11. RESTATEMENT AND ... INTERPRETATION OF THE RESULTS 
+																																			   
+																																			   
+																																			   to come closest biologically to the ”isolated ring of cells” are the tentacles of (e.g.) 
+																																			   Hydra, Figure 11.2, and the whorls of leaves of certain plants such as Woodruff 
+																																			   (Asperula odorata), see Figure 11.1. 
+																																			   
+																																			   
+																																			   Figure 11.2.: Hydra, a genus of 
+																																			   Figure 11.1.: The flowering small freshwater organisms 
+																																			   perennial plant Galium odor- 
+																																			   atum, the sweet woodruff or 
+																																			   sweetscented bedstraw 
+																																			   
+																																			   
+																																			   Hydra is something like a sea-anemone but lives in fresh water and has from 
+																																			   about five to ten tentacles. A part of a Hydra cut off from the rest will rearrange 
+																																			   itself so as to form a complete new organism. At one stage of this proceeding the 
+																																			   organism has reached the form of a tube open at the head end and closed at the 
+																																			   other end. The external diameter is somewhat greater at the head end than over 
+																																			   the rest of the tube. The whole still has circular symmetry. At a somewhat later 
+																																			   stage the symmetry has gone to the extent that an appropriate stain will bring 
+																																			   out a number of patches on the widened head end. These patches arise at the 
+																																			   points where the tentacles are subsequently to appear ([1], p. 101 and figure 30). 
+																																			   According to morphogen theory it is natural to suppose that reactions, similar to 
+																																			   those which were considered in connection with the ring of tissue, take place in 
+																																			   the widened head end, leading to a similar breakdown of symmetry. The situation 
+																																			   is more complicated than the case of the thin isolated ring, for the portion of the 
+																																			   Hydra concerned is neither isolated nor very thin. It is not unreasonable to suppose 
+																																			   that this head region is the only one in which the chemical conditions are such as 
+																																			   to give instability. But substances produced in this region are still free to diffuse 
+																																			   through the surrounding region of lesser activity. There is no great difficulty in 
+																																			   extending the mathematics to cover this point in particular cases. But if the active 
+																																			   region is too wide the system no longer approximates the behaviour of a thin ring 
+																																			   
+																																			   
+																																			   57 
+																																			   
+																																			   
+																																			   11. RESTATEMENT AND ... INTERPRETATION OF THE RESULTS 
+																																			   
+																																			   
+																																			   and one can no longer expect the tentacles to form a single whorl. This also cannot 
+																																			   be considered in detail in the present paper. 
+																																			   
+																																			   In the case of woodruff the leaves appear in whorls on the stem, the number of 
+																																			   leaves in a whorl varying considerably, sometimes being as few as five or as many 
+																																			   as nine. The numbers in consecutive whorls on the same stem are often equal, but 
+																																			   by no means invariably. It is to be presumed that the whorls originate in rings 
+																																			   of active tissue in the meristematic area, and that the rings arise at sufficiently 
+																																			   great distance to have little influence on one another. The number of leaves in 
+																																			   the whorl will presumably be obtainable by the rule given above, viz. by dividing 
+																																			   the chemical wavelength into the circumference, though both these quantities will 
+																																			   have to be given some new interpretation more appropriate to woodruff than to 
+																																			   the ring. Another important example of a structure with polygonal symmetry is 
+																																			   provided by young root fibres just breaking out from the parent root. Initially 
+																																			   these are almost homogeneous in cross-section, but eventually a ring of fairly 
+																																			   evenly spaced spots appear, and these later develop into vascular strands. In this 
+																																			   case again the full explanation must be in terms of a two-dimensional or even a 
+																																			   three-dimensional problem, although the analysis for the ring is still illuminating. 
+																																			   When the cross-section is very large the strands may be in more than one ring, or 
+																																			   more or less randomly or hexagonally arranged. The two-dimensional theory (not 
+																																			   expounded here) also goes a long way to explain this. 
+																																			   
+																																			   Flowers might appear superficially to provide the most obvious examples of polygo- 
+																																			   nal symmetry, and it is probable that there are many species for which this ” waves 
+																																			   round a ring” theory is essentially correct. But it is certain that it does not apply 
+																																			   for all species. If it did it would follow that, taking flowers as a whole, i.e. mixing 
+																																				   up all species, there would be no very markedly preferred petal (or corolla, segment, 
+																																																					stamen, etc.) numbers, see Figure 11.3. For when all species are taken into account 
+																																																					
+																																																					
+																																																					Figure 11.3.: Flower with five petals of Plumeria, also known as frangipani 
+																																																					
+																																																					
+																																																					58 
+																																																					
+																																																					
+																																																					11. RESTATEMENT AND ...INTERPRETATION OF THE RESULTS 
+																																																					
+																																																					
+																																																					one must expect that the diameters of the rings concerned will take on nearly 
+																																																					all values within a considerable range, and that neighbouring diameters will be 
+																																																					almost equally common. There may also be some variation in chemical wavelength. 
+																																																					Neighbouring values of the ratio circumferences to wavelength should therefore be 
+																																																					more or less equally frequent, and this must mean that neighbouring petal numbers 
+																																																					will have much the same frequency. But this is not borne out by the facts. The 
+																																																					number five is extremely common, and the number seven rather rare. Such facts 
+																																																					are, in the author’s opinion, capable of explanation on the basis of morphogen 
+																																																					theory, and are closely connected with the theory of phyllotaxis. They cannot be 
+																																																					considered in detail here. 
+																																																					
+																																																					The case of a filament of tissue calls for some comment. The equilibrium patterns 
+																																																					on such a filament will be the same as on a ring, which has been cut at a point 
+																																																					where the concentrations of the morphogens are a maximum or a minimum. This 
+																																																					could account for the segmentation of such filaments. It should be noticed, however, 
+																																																					that the theory will not apply unmodified for filaments immersed in water. 
+																																																					
+																																																					
+																																																					59 
+																																																					
+																																																					
+																																																					12. CHEMICAL WAVES ON SPHERES. 
+																																																					GASTRULATION 
+																																																					
+																																																					
+																																																					The treatment of homogeneity breakdown on the surface of a sphere is not much 
+																																																					more difficult than in the case of the ring. The theory of spherical harmonics, 
+																																																					on which it is based, is not, however, known to many that are not mathematical 
+																																																					specialists. Although the essential properties of spherical harmonics that are used 
+																																																					are stated below, many readers will prefer to proceed directly to the last paragraph 
+																																																					of this section. 
+																																																					
+																																																					The anatomical structure concerned in this problem is a hollow sphere of continuous 
+																																																					tissue such as a blastula. It is supposed sufficiently thin that one can treat it as a 
+																																																					” spherical shell”. This latter assumption is merely for the purpose of mathematical 
+																																																					simplification; the results are almost exactly similar if it is omitted. As in chapter 7 
+																																																					there are to be two morphogens, and a, b, c, d, A, H, h, k are also to have the 
+																																																					same meaning as they did there. The operator V? will be used here to mean the 
+																																																					superficial part of the LAPLACE operator, i.e. V? V will be an abbreviation of 
+																																																					
+																																																					
+																																																					Oy. 4 a Aa 
+																																																					
+																																																					
+																																																					p? O¢?  p? sin? 6 00 Ne 
+																																																					
+																																																					
+																																																					where @ and @¢ are spherical polar co-ordinates on the surface of the sphere and p 
+																																																					is its radius. The equations corresponding to Equation 7.1 may then be written as 
+																																																					
+																																																					
+																																																					on =a-(X—h) +b-(Y-k) + R-V?2X 
+																																																					t (12.1) 
+																																																					
+																																																					
+																																																					or =e. (X—h) +d. (Yk) +R VW°Y 
+																																																					
+																																																					
+																																																					It is well known (e.g. [2], chapter 8.) that any function on the surface of the sphere, 
+																																																					or at least any that is likely to arise in a physical problem, can be ”expanded in 
+																																																					spherical surface harmonics”. This means that it can be expressed in the form 
+																																																					
+																																																					
+																																																					=) AP" (cos 0) - anh 
+																																																					
+																																																					
+																																																					n=0 \m=—-n 
+																																																					
+																																																					
+																																																					The expression in the square bracket is described as a ”surface harmonic of degree 
+																																																					n”. Its nearest analogue in the ring theory is a FOURIER component. The essential 
+																																																					property of a spherical harmonic of degree n is that when the operator V? is applied 
+																																																					
+																																																					
+																																																					12. CHEMICAL WAVES ON SPHERES. GASTRULATION 
+																																																					
+																																																					
+																																																					to it, the effect is the same as multiplication by eee In view of this fact it is 
+																																																					
+																																																					
+																																																					evident that a solution of Equation 12.1 is 
+																																																					
+																																																					
+																																																					xh+S> S> es elt 4 BM. att Pico se 
+																																																					
+																																																					
+																																																					akan (12.2) 
+																																																					
+																																																					
+																																																					Yk+ Cm. eldet + Dm. eit) P™(cos 9) - el? , 
+																																																					ae 
+																																																					
+																																																					
+																																																					n=0 m=—n 
+																																																					
+																																																					
+																																																					where gq, and qj, are the two roots of 
+																																																					
+																																																					
+																																																					Gi Gl 
+																																																					(1-a+ Mn-(n+1))-(a—a+ Bn (n+) = be (12.3) 
+																																																					and 
+																																																					AB (a —a Pen 1)) = 8c 
+																																																					ie (12.4) 
+																																																					i Ca Xn -(n )) = Dp. 
+																																																					p 
+																																																					
+																																																					
+																																																					This is the most general solution, since the coefficients A’, and B!” can be chosen 
+																																																					to give any required values of X, Y when t = 0, except when Equation 12.3 has two 
+																																																					equal roots, in which case a treatment is required which is similar to that applied 
+																																																					in similar circumstances in chapter 7. The analogy with chapter 7 throughout will 
+																																																					indeed be obvious, though the summation with respect to m does not appear there. 
+																																																					The meaning of this summation is that there are a number of different patterns 
+																																																					with the same wavelength, which can be superposed with various amplitude factors. 
+																																																					Then supposing that, as in chapter 8, one particular wavelength predominates, 
+																																																					Equation 12.2 reduces to 
+																																																					
+																																																					
+																																																					X—h = etro! . % Am P™ (cos 8) - ei™ 
+																																																					m=—np (12.5) 
+																																																					
+																																																					
+																																																					/ 
+																																																					
+																																																					
+																																																					= ap eo bs (X_ 
+																																																					b- (Yk) = (tn A ( +1) (X—h). 
+																																																					
+																																																					
+																																																					In other words, the concentrations of the two morphogens are proportional, and 
+																																																					both of them are surface harmonics of the same degree no, viz. that which makes 
+																																																					the greater of the roots qno, gj, have the greatest value. 
+																																																					
+																																																					It is probable that the forms of various nearly spherical structures, such as radio- 
+																																																					larian skeletons, are closely related to these spherical harmonic patterns. The most 
+																																																					important application of the theory seems, however, to be to the gastrulation of 
+																																																					a blastula, Figure 12.1. Suppose that the chemical data, including the chemical 
+																																																					
+																																																					
+																																																					61 
+																																																					
+																																																					
+																																																					12. CHEMICAL WAVES ON SPHERES. GASTRULATION 
+																																																					
+																																																					
+																																																					wavelength, remain constant as the radius of the blastula increases. 'To be quite 
+																																																					specific suppose that 
+																																																					
+																																																					
+																																																					R= 2 
+																																																					Qe= 1 
+																																																					a=-4 
+																																																					
+																																																					=-8 
+																																																					e=4 
+																																																					=F 
+																																																					
+																																																					
+																																																					With these values the system is quite stable so long as the radius is less than about 
+																																																					2. Near this point, however, the harmonics of degree 1 begin to develop and a 
+																																																					pattern of form according to Equation 12.5 with nop = 1 makes its appearance. 
+																																																					Making use of the facts that 
+																																																					
+																																																					
+																																																					P?(cos 0) = cos 
+																																																					Pi (cos 0) = P, ‘(cos @) = sin@ 
+																																																					
+																																																					
+																																																					it is seen that X —h is of the form 
+																																																					X—-h=A-cos0+B-sinOcos@¢+C-sinOsing, (12.6) 
+																																																					
+																																																					which may also be interpreted as 
+																																																					X—h = A’- cos 6! (12.7) 
+																																																					
+																																																					
+																																																					where @’ is the angle which the radius 6, 6 makes with the fixed direction having 
+																																																					direction cosines proportional to B, C, A and A’ = VA?+ B24 C®. 
+																																																					
+																																																					
+																																																					The outcome of the analysis therefore is quite simply this. Under certain not very 
+																																																					restrictive conditions (which include a requirement that the sphere be relatively 
+																																																					small but increasing in size) the pattern of the breakdown of homogeneity is axially 
+																																																					symmetrical, not about the original axis of spherical polar co-ordinates, but about 
+																																																					some new axis determined by the disturbing influences. The concentrations of the 
+																																																					first morphogen are given by Equation 12.7, where 6’ is measured from this new 
+																																																					axis; and Y —k is proportional to X —h. Supposing that the first morphogen is, 
+																or encourages the production of a growth hormone, one must expect the blastula 
+																to grow in an axially symmetric manner, but at a greater rate at one end of the 
+																axis than at the other. This might under many circumstances lead to gastrulation, 
+																though the effects of such growth are not very easily determinable. They depend on 
+																the elastic properties of the tissue as well as on the growth rate at each point. This 
+																growth will certainly lead to a solid of revolution with a marked difference between 
+																the two poles, unless, in addition to the chemical instability, there is a mechanical 
+																
+																
+																62 
+																
+																
+																12. CHEMICAL WAVES ON SPHERES. GASTRULATION 
+																
+																
+																Figure 12.1.: Scanning Electron Microscopy (SEM) observations of early develop- 
+																mental stages. a. Blastula 14.5h after insemination. Similar sized blastomeres are 
+																evident arrayed underneath the egg envelope. b . An inner view of the blastula 
+																of the same stage as in a. The blastula consists of tall columnar cells about 
+																35 to 45 ym in height and tapering from 5 to 15m in width arrayed around a 
+																narrow blastocoel of about 201m. c . Early gastrula 22h after fertilization . The 
+																ectodermal cells have shortened and the vegetal plate cells have elongated. Arrow 
+																indicates egg envelope. d. Gastrula 38h after insemination. The invaginated 
+																archenteron has expanded to fill the blastocoel. Arrow: chorion, double arrow: 
+																fertilization envelope. e and f. Young tornaria just after the hatching at 44h after 
+																insemination. Ciliary bands (arrowheads) and future telotroch (arrow) are already 
+																differentiated. (Scale bars: 10 pm), taken from [10] 
+																
+																
+																63 
+																
+																
+																12. CHEMICAL WAVES ON SPHERES. GASTRULATION 
+																
+																
+																instability causing the breakdown of axial symmetry. The direction of the axis of 
+																gastrulation will be quite random according to this theory. It may be that it is 
+																found experimentally that the axis is normally in some definite direction such as 
+																that of the animal pole. This is not essentially contradictory to the theory, for 
+																any small asymmetry of the zygote may be sufficient to provide the ” disturbance” 
+																which determines the axis. 
+																
+																
+																64 
+																
+																
+																13. NON-LINEAR THEORY. USE OF 
+																DIGITAL COMPUTERS 
+																
+																
+																The ” wave” theory which has been developed here depends essentially on the 
+																assumption that the reaction rates are linear functions of the concentrations, an 
+																assumption which is justifiable in the case of a system just beginning to leave a 
+																homogeneous condition. Such systems certainly have a special interest as giving 
+																the first appearance of a pattern, but they are the exception rather than the rule. 
+																Most of an organism, most of the time, is developing from one pattern into another, 
+																rather than from homogeneity into a pattern. One would like to be able to follow 
+																this more general process mathematically also. The difficulties are, however, such 
+																that one cannot hope to have any very embracing theory of such processes, beyond 
+																the statement of the equations. It might be possible, however, to treat a few 
+																particular cases in detail with the aid of a digital computer. This method has 
+																the advantage that it is not so necessary to make simplifying assumptions as it 
+																is when doing a more theoretical type of analysis. It might even be possible to 
+																take the mechanical aspects of the problem into account as well as the chemical, 
+																when applying this type of method. The essential disadvantage of the method is 
+																that one only gets results for particular cases. But this disadvantage is probably 
+																of comparatively little importance. Even with the ring problem, considered in 
+																this paper, for which a reasonably complete mathematical analysis was possible, 
+																the computational treatment of a particular case was most illuminating. The 
+																morphogen theory of phyllotaxis, to be described, as already mentioned, in a later 
+																paper, will be covered by this computational method. Non-linear equations will be 
+																used. 
+																
+																It must be admitted that the biological examples which it has been possible to 
+																give in the present paper are very limited. This can be ascribed quite simply to 
+																the fact that biological phenomena are usually very complicated. Taking this in 
+																combination with the relatively elementary mathematics used in this paper one 
+																could hardly expect to find that many observed biological phenomena would be 
+																covered. It is thought, however, that the imaginary biological systems which have 
+																been treated, and the principles which have been discussed, should be of some help 
+																in interpreting real biological forms. 
+																
+																
+																A. REPTATION. SELF-DIFFUSIBILITY 
+																OF MACROMOLECULES 
+																
+																
+																Reptation theory, in principle, describes quantitatively time- and space-averaged 
+																relaxation modes of single chains occurring at different time- and length scales. 
+																Within single chains there are understood natural polymers or macromolecules 
+																such as DNA, and actin filaments as well as synthetic polymers. Reptation means, 
+																that macromolecules perform wormlike displacements inside a strongly cross-linked 
+																polymeric solution with obstacles. Finally, the theory describes the effect of polymer 
+																chain entanglements based on a relationship between molecular mass .W and chain 
+																relaxation time 7,. The reptation model predicts that the relaxation time 7, and 
+																the viscosity 4 should scale with the molecular weight .@ to the power 3. The 
+																power 3.4 is observed experimentally. Furthermore due to the reptation motion of 
+																the single chains or macromolecules respectively the coefficient of self-diffusion Dot 
+																depend on the length of macromolecule as « a. This is shown in what follows. 
+																
+																
+																A.1. A Model for Reptation 
+																
+																
+																We follow the article by de Gennes, [4]: 
+																
+																
+																We consider a freely jointed chain consisting of ”N” independent ”monomers” or 
+																position vectors r;, 27 = 1,2,---,N, respectively, i.e. ”N” is the total number of 
+																chain monomers per one macromolecule. This means that the orientation and length 
+																of each bond is independent of all others. The positions of successive monomers are 
+																labeled r1,1r2,--- ,n,--- ,tn- The vector intervals or N bond vectors respectively 
+																with n =0,1,2,---,N 
+																
+																
+																O 
+																A= ta =~ (A.1a) 
+																and 
+																Or 
+																
+																
+																Am =Llm4i—lm > Ain (A.1b) 
+																
+																
+																A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+																
+																
+																stored length b 
+																
+																
+																(a) 
+																
+																
+																6 a 
+																
+																
+																Figure A.1.: A ”defect” moves from A towards C along the chain. When it crosses 
+																monomer B, this monomer is displaced by an amount b. 
+																
+																
+																are assumed, as stated before, statistically independent:! 
+																(an(t) bd Am (t)) a Oni 3 a” ; (A.2) 
+																
+																
+																where 6 is the DirAc-delta function and a is the statistical segment or KUHN 
+																length which is proportional to the end-to-end vector, P = ry — rp = a Pe 
+																of the chain molecule. That implies that the real chain is replaced with a KUHN 
+																chain that consists of N statistical segments of length a. The actual KUHN chain 
+																has therefore a contour length N - a. 
+																We assume that the length of the chain is very large when compared to the distance 
+																between neighboring links in the fixed network: then the possible chain motions 
+																are strongly restricted. We postulate that the only allowed motions correspond to 
+																the migration of certain ” defects” along the chain. A qualitative picture for such a 
+																defect is shown on Figure A.1. The curvilinear interval between two monomers (n) 
+																and (m) would be equal to (n — m) - a in the absence of defects. But if we have v 
+																defects in this interval, each of them storing an amount b of length, the curvilinear 
+																interval becomes 
+																
+																Sn — Sm =(n—m)-a—vb. (A.3) 
+																
+																
+																For simplicity we take all defects with the same ” stored length” b. (A distribution of 
+																b values can easily be included, but leads to no interesting change in the-final results). 
+																The most important consequence of Equation A.3 is that there is a conservation 
+																law on defect number: v changes only when a defect crosses one of the end points 
+																(n or m) of the interval. This conservation law, plus an assumption of short-range 
+																forces (no backflow effects of the Zimm type), leads to a one-dimensional diffusion 
+																	
+																	
+																	'The ”e” sign means vector dot product which is an algebraic operation that takes to coordinate 
+																	vectors and returns a single number, i.e. a scalar (a, i.e. the KUHN length) which has a value 
+																	but no direction in space. 
+																	
+																	
+																	67 
+																	
+																	
+																	A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+																	
+																	
+																	equation for the gas of defects along the chain. To write down this equation, 
+																let us introduce the number p of defects per unit length of the extended chain. 
+																p= Toma im the example of Equation A.3). We shall constantly assume that 
+																p is small, i.e., that we have a dilute gas of defects. Let us also define a defect 
+																current Y, (= number of defects passing through point n per unit time). Then 
+																the conservation law is 
+																
+																
+																Opie,.< ls SO, 
+																 pee =0, A.4 
+																 Ot a On : ae 
+																 and Y,, has the explicit form 
+																 1 Op | p 
+																 =D-4---—+——. ; A. 
+																 
+																 
+																 ® is the diffusion coefficient of the defects along the chain: It is a microscopic 
+																 constant, characteristic of local jump processes (BROWNian motion), and is inde- 
+																 pendent of the molecular mass .@ (for large .@, i.e. for large chained molecules). 
+																 The term in brackets in Equation A.5 represents the drift of defects due to external 
+																 forces f, applied on the monomers. Y, is the force per defect; to relate y, to fp, 
+																	 we write down the work performed when one defect moves by an amount (a-6n) 
+																	 along the chain: this means that 6n monomers are displaced, each of them by an 
+																	 amount b, where b is a vector of magnitude b, tangential to the chain. Thus 
+																	 
+																	 
+																	 dn-f, eb=a-dn- Qn, 
+																 
+																 
+																 1 
+																 (n= —:bef,. (A.6) 
+																 
+																 a 
+																 Equation A.4 and Equation A.5 for the gas of defects must be supplemented by 
+																 boundary conditions at both ends of the chain n = 0 and n = N. We assume that, 
+				  at the ends, the density p relaxes very rapidly towards a constant equilibrium value 
+				  P; 
+				  
+				  Po = PN = P- 
+				  
+				  In the absence of external forces, the general solution of the diffusion Equation A.4 
+				  and Equation A.5 then takes the form 
+				  
+				  
+				  N 
+				  fn - P= > e+ sin (“*) em, (A.7) 
+				  
+				  
+				  where r is a positive integer, labeling the various relaxation modes, c, is a constant, 
+				  and the relaxation times 7, are given by 
+				  
+				  
+				  (A.8) 
+				  
+				  
+				  68 
+				  
+				  
+				  A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+				  
+				  
+				  The longest among these relaxation times is 
+				  
+				  
+				  (Na)? 
+				  1 D 
+				  
+				  
+				  Ta = Tra = (A.9) 
+				  and it is proportional to the square of the molecular mass, as the molecular mass 
+				  M is directly proportional to the number N of monomers which constitute one 
+				  single chain or the macromolecule repsectively. We may say that Ty is the time for 
+				  equilibration of the gas of defects. 
+				  
+				  When the defects move, the chain progresses. The velocity of the n-th monomer is 
+				  related to the defect current Y, by 
+				  
+				  
+				  ay; 
+				  
+				  ag TT b* Pra: (A.10) 
+				  Equation A.10 must also be supplemented by boundary conditions. For instance, 
+				  when a defect leaves the chain at the extremity (VV), a new terminal arc (of length 
+				  b) is set up and may take various orientations: in zoological terms, i.e. to speak in 
+				  the words of reptation, the head of the snake must decide which gate it will choose 
+				  in the cross-linked network. We assume that this choice is at random, i.e., that the 
+				  last vector b is completely uncorrelated to the preceding ones. 
+				  The reptation Equation A.4 , Equation A.6, and Equation A.10 are significantly 
+				  more complicated than the same equations for a free chain. However, as we shall see 
+				  in the following section, it is possible to extract from them some definite predictions 
+				  on the stochastic behavior. 
+				  
+				  
+				  A.2. Elementary Calculation of the Over-All Mobility 
+				  
+				  
+				  Let us assume for the moment that the time 7}. for complete renewal of the chain 
+				  conformation is much larger than the equilibration time of the defects Ty. When it 
+				  holds — what can be shown —, we can derive the chain mobility defined as 
+				  
+				  
+				  v 
+				  Die r (A.11) 
+				  by a very simple argument. v is the velocity of the chain when it is pulled by a 
+				  force f,, . 
+					  Consider the chain P in reptation under a constant (weak) force F, applied along a 
+					  certain direction (z). The force per monomer is f, = F/N with N being the total 
+					  number of monomers. The force on one defect is, according to Equation A.6 
+					  
+					  
+					  _beF 
+					  
+					  
+					  7 (A.12) 
+					  
+					  
+					  Pn 
+					  
+					  
+					  69 
+					  
+					  
+					  A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+					  
+					  
+					  The vectors b are time dependent, but they change only on the scale T).. On the 
+					  other hand, the gas of defects reaches a steady state under external forces in a 
+					  much shorter time Ty. Thus, we can treat the y,’s as constants, and write down 
+					  the response of the gas of defects as a steady state conduction current Ba ; 
+					  
+					  
+					  “ N 
+					  £7 EE, 
+					  ea ‘ dnipn , (A.13) 
+					  where [4 
+					  _ dD 
+					  ce Ts 
+					  (or 
+					  
+					  
+					  is the defect mobility according to the EINSTEIN relation of BROWNian motion, 
+		[5]. From Equation A.12 we get 
+		
+		
+		= N 
+		Bae | F edi (A.15) 
+		0 
+		
+		
+		where dl is the line element of the chain. The integral 
+		
+		
+		[ dl=P (A.16) 
+		
+		
+		is the end-to-end vector, and we have for the average defect current 
+		
+		
+		— pubE 
+		
+		
+		The center of gravity g of the chain moves with a velocity 
+		
+		
+		dg. 1 [ow 
+		ae Nee 
+		
+		
+		We can transform r, by Equation A.10, obtaining 
+		
+		
+		pe ik ee 
+		ae i : bdn = 4 B (A.18) 
+		
+		
+		70 
+		
+		
+		A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+		
+		
+		and insert Equation A.17 for the current Y to give 
+		
+		
+		. ppb b 
+		
+		—- . P. . . P 
+		I= (Na? * Na 
+		
+		__ pub?F -(P.-P) 
+		
+		7 (Na)? 
+		
+		
+		Averaging over the values of P we are left with one non-vanishing velocity component 
+		in z-direction: 
+		Jz = tot * i, 
+	  
+	  
+	  where the overall mobility pot is explicitly given by 
+	  
+	  
+	  neon 
+	  
+	  
+	  = ner (A.19) 
+	  
+	  
+	  and where we have used the relation that the average end-to-end distance or 
+	  end-to-end vector respectively 
+	  
+	  
+	  Pxa 
+	  SP oa 
+	  
+	  
+	  and because we have a KUHN chain with N segments it follows that 
+	  (Py oe Na, 
+	   
+	   
+	   Equation A.19 may also be written in terms of the self-diffusion coefficient Aor 
+	   according to EINSTEINs relation: 
+	   
+	   
+	   Boor. = Kal Mor - (A.20) 
+	   
+	   
+	   If Equation A.20 is taken instead of Equation A.14 as the overall chain mobility, 
+	
+	the combination of Equation A.20 and Equation A.19 for 4.4 as the sum off all 
+	
+	defect mobilities yu gives 
+	
+	ppb?kpT 
+	Nea - 
+	
+	Both coefficients are seen, as is noted by A. TURING on page 11 to decrease like 
+	
+	N~? (or @~?, see page 69). 
+	
+	
+	Deo a (A.21) 
+	
+	
+	In general, the self-diffusion coefficient Aor; is the diffusion coefficient of species 
+	i, when the chemical potential gradient equals zero. It is linked to the diffusion 
+	
+	
+	val 
+	
+	
+	A. REPTATION. SELF-DIFFUSIBILITY OF MACROMOLECULES 
+	
+	
+	coefficient D; by the equation: 
+	
+	
+	Olnc; 
+	‘ Alna; 
+	
+	
+	Q, =D 
+	
+	
+	Here, a; is the activity of the species 7 in the solution and c; is the concentration of 
+	i. The self-diffusion coefficient plays an important role in molecular diffusion and 
+	BRowWNian motion of which reptation of macromolecules is a part of. 
+	
+	
+	2 
+	
+	
+	B. ILLUSTRATION "EXTREME LONG 
+	WAVELENGTH’ AN "EXTREME 
+	SHORT WAVELENGTH" 
+	
+	
+	To illustrate the ” case of extreme long wavelength” and of ” extreme short wave- 
+	length” one my look at Figure B.1 and Figure B.2 which show two sine functions, 
+	one with an argument — 0, and the other one with an argument > 1. For an 
+	extreme long wavelength , sin? ( 70) must equal 0, i.e. the term in brackets must 
+	be 0 as sin(0) = 0. Therefore (422) = 0 for s9 = 0. For an extreme short wavelength 
+	A, sin? (#22) shall be as large as possible, ic. 4? must equal 7/2 or a multiple of 
+	= as sin(7/2) = 1. Therefore 42 = % which gives 289 = N or so = 5N. The same 
+	applies for s9 = 5+ (N —1). 
+	
+	
+	Figure B.1.: The function sin (42) with A = 207 
+	
+	
+	Figure B.2.: The function sin (9x) with A = = 
+	
+	
+	C. FURTHER CONSIDERATIONS OF 
+	
+	
+	Equation 9.18 
+	
+	
+	In the following it will be shown, how the set of coupled differential Equation 9.18 
+	can be transformed into another notation. As already mentioned in the footnote 
+	
+	
+	on page 41, Equation 9.18 can be written as 
+	
+	
+	d 
+	= = por + Ay? + Bz? 
+	d 
+	7 = py + Cyz + Day 
+	d 
+	Gy = Pax + By? + Faz. 
+	
+	
+	Let < ( ) act on these equations which then become 
+	
+	
+	d?x dx 
+	qe Pow 2Ay + 2Bz 
+	d?y dy dy dz dx dy 
+	= + D + DX 
+	ae ap age “ode ar dt 
+	d?z dz dx dz 
+	= 2hyt+F + Fr : 
+	diz at Bot pe ode 
+	Solving Equation C.2a for He gives 
+	dx 1 d?x 
+	=—- — 2Ay—2B 
+	dt — po ( di? ? 
+	
+	
+	and inserting in Equation C.2b and Equation C.2c gives 
+	
+	
+	(C.1a) 
+	(C.1b) 
+	
+	
+	(C.1c) 
+	
+	
+	(C.3) 
+	
+	
+	(C.4b) 
+	
+	
+	dy dy dz... 1 d?z 
+	
+	ee 1D ! CAN Dy = DAD SO BD. C.4 
+	qa — it Cz + Da) + Cye " ( ap y yz) (C.4a) 
+	d2z dz 1 dx 
+	
+	mci F bQhy a ( he—— =2Arye = 2B FS |... 
+	
+	qe as ( “ar a “ ) 
+	
+	
+	C. FURTHER CONSIDERATIONS OF Equation 9.18 
+	
+	
+	Solving Equation C.4b for 1 and inserting in Equation C.4a gives 
+	d*y — d’z Cy 
+	dt? dt? po + Fa 
+	
+	
+	d*x y Cz 5 
+	dt? po \potFa 
+	
+	
+	d 
+	a (Pa + Cz + Dx) 
+	1 2CE 2ACF 
+	a ee CEpo _ ope + 24D) 
+	Po \pet Fa pot Fa 
+	1 2IBCFz 
+	by a( S - 2BD:) (C.5) 
+	Po Pop Es 
+	
+	
+	Let af = 2pow and substituting u for eae then Equation C.5 becomes 
+	
+	
+	d?z 2 2 2 
+	= Gp | pou — (Fzup — Dy”): 
+	CD D 
+	t (pr + Oz + - En) Spotb 
+	
+	
+	2C 
+	uF 
+	
+	
+	6po 
+	
+	
+	2 
+	— gv . (Epou — AF pouz + ADpo) + 2y. (BFuv _ BDz) ; (C.6) 
+	
+	
+	2 
+	
+	
+	Now substituting @ = a and a = a gives 
+	
+	
+	2a da 
+	ae (18CDF wy) + ae (6CF*¢°y") 
+	+ a? - (54CDF pow) 
+	+ a+ (54F popit) + 9CF pod?) — 54D pope) 
+		—12ADF po” — 6BDF dy? — 108F po) 
+					  =" - (1ZEppb? — 18p9¢ — BFS") . 
+					  
+					  
+					  75 
+					  
+					  
+					  Bibliography 
+					  
+					  
+					  [1] 
+					  
+					  
+					  C. M. Child. Patterns and Problems of Development, University of Chicago 
+					  Press, lst Edition, 1941. https://www.biodiversitylibrary.org/item/ 
+					  28806#page/7/mode/1up. 
+					  
+					  
+					  J. Jeans. The mathematical theory of elasticity and magnetism, Cam- 
+					  bridge University Press, 5th Edition, 1927. https://ia904707. 
+					  us.archive.org/8/items/in.ernet.dli.2015.126027/2015.126027. 
+					  The-Mathematical-Theory-Of-Electricity-And-Magnetism-Ed-5th_ 
+					  text.pdf. 
+					  
+					  
+					  H. Davson and J. F. Danielli. The permeability of natural membranes. Cam- 
+					  bridge University Press, 1 edition, 1943. 
+					  
+					  
+					  P. G. De Gennes. Reptation of a Polymer Chain in the Presence of Fixed 
+					  Obstacles. The Journal of Chemical Physics, 55(2):572-579, 1971. 
+					  
+					  
+					  A. Einstein. Uber die von der molekularkinetischen Theorie der Warme 
+					  geforderte Bewegung von in ruhenden Flissigkeiten suspendierten Teilchen. 
+					  Annalen der Physik, 17:549—-560, 1905. 
+					  
+					  
+					  H. Haken. Synergetics: Introduction and advanced topics. Springer Berlin, 
+					  Heidelberg, 1 edition, 2004. Originally published in 2 Volumes as Volume 1 in 
+					  the series ” Springer Series in Synergetics” . 
+					  
+					  
+					  A. J. Lotka. Contribution to the theory of periodic reaction. Journal of 
+					  Physical Chemistry, 14(3):271-274, 1910. 
+					  
+					  
+					  A. J. Lotka. Zur Theorie der periodischen Reaktionen. Zeitschrift ftir physikali- 
+					  sche Chemie, 72(1):508-511, 1910. 
+					  
+					  
+					  L. Michaelis and M. L. Menten. Die Kinetik der Invertinwirkung. Biochemische 
+					  Zeitschrift, 49:333-369, 1913. 
+					  
+					  
+					  Y. Nakajima, T. Humphreys, H. Kaneko, and K. Tagawa. Development and 
+					  Neural Organization of the Tornaria Larva of the Hawaiian Hemichordate, 
+					  Ptychodera flava. Zoological Science, 21(1):69-78, 2004. 
+					  
+					  
+					  C. H. Waddington. Organisers and genes. Cambridge biological studies. 
+					  Cambridge University Press, 1 edition, 1940. 
+					  
+					  
+					  
