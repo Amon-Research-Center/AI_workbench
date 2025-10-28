@@ -1,0 +1,447 @@
+import React, { useState, useMemo } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend, Area, ComposedChart } from 'recharts';
+
+const EdgeNavigationModel = () => {
+  const [riskTolerance, setRiskTolerance] = useState(0.3);
+  const [adaptability, setAdaptability] = useState(0.7);
+
+  // Model different zones
+  const generateData = useMemo(() => {
+    const data = [];
+    
+    for (let x = 0; x <= 10; x += 0.1) {
+      // Discontinuity at x = 5 (represents major life disruption)
+      const distanceFromChaos = Math.abs(x - 5);
+      
+      // Performance function - peaks near the edge, crashes in chaos
+      let performance;
+      if (distanceFromChaos > 3) {
+        // Comfort zone - stable but low insight
+        performance = 0.6 + 0.1 * Math.sin(x);
+      } else if (distanceFromChaos > riskTolerance) {
+        // Edge zone - high performance, high insight
+        const edgeFactor = (3 - distanceFromChaos) / 3;
+        performance = 0.6 + 0.4 * edgeFactor * adaptability;
+      } else {
+        // Chaos zone - performance crashes
+        const chaosFactor = riskTolerance - distanceFromChaos;
+        performance = Math.max(0.1, 0.6 - 2 * chaosFactor / riskTolerance);
+      }
+      
+      // Insight function - increases as you approach chaos
+      const insight = distanceFromChaos > 2 ? 
+        0.3 + 0.1 * Math.exp(-(distanceFromChaos - 2)) :
+        0.3 + 0.7 * Math.exp(-distanceFromChaos);
+      
+      // Stress function - increases near chaos
+      const stress = distanceFromChaos > 1 ?
+        0.2 + 0.3 / (distanceFromChaos + 0.5) :
+        0.2 + 0.8 * Math.exp(-distanceFromChaos * 2);
+      
+      // Optimal zone (where you want to be)
+      const isOptimalZone = distanceFromChaos > riskTolerance && 
+                           distanceFromChaos < riskTolerance + 1.5;
+      
+      data.push({
+        position: parseFloat(x.toFixed(1)),
+        performance: parseFloat(performance.toFixed(3)),
+        insight: parseFloat(insight.toFixed(3)),
+        stress: parseFloat(stress.toFixed(3)),
+        optimalZone: isOptimalZone ? 1 : 0,
+        chaosCenter: x === 5 ? 1 : 0
+      });
+    }
+    return data;
+  }, [riskTolerance, adaptability]);
+
+  // Find optimal position
+  const optimalPosition = useMemo(() => {
+    let bestScore = 0;
+    let bestPos = 0;
+    
+    generateData.forEach(point => {
+      // Score = performance + insight - stress
+      const score = point.performance + point.insight - point.stress;
+      if (score > bestScore) {
+        bestScore = score;
+        bestPos = point.position;
+      }
+    });
+    return bestPos;
+  }, [generateData]);
+
+  return (
+    <div className="p-6 max-w-6xl mx-auto bg-white">
+      <h2 className="text-2xl font-bold mb-6 text-center">Mathematical Model: Tiptoeing on the Edge</h2>
+      
+      {/* Controls */}
+      <div className="grid md:grid-cols-2 gap-6 mb-6">
+        <div>
+          <label className="block text-sm font-medium mb-2">
+            Risk Tolerance: {riskTolerance.toFixed(2)}
+          </label>
+          <input
+            type="range"
+            min="0.1"
+            max="1.0"
+            step="0.1"
+            value={riskTolerance}
+            onChange={(e) => setRiskTolerance(parseFloat(e.target.value))}
+            className="w-full"
+          />
+          <p className="text-xs text-gray-600 mt-1">How close to chaos can you get before performance crashes?</p>
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium mb-2">
+            Adaptability: {adaptability.toFixed(2)}
+          </label>
+          <input
+            type="range"
+            min="0.1"
+            max="1.0"
+            step="0.1"
+            value={adaptability}
+            onChange={(e) => setAdaptability(parseFloat(e.target.value))}
+            className="w-full"
+          />
+          <p className="text-xs text-gray-600 mt-1">How well do you perform under uncertainty?</p>
+        </div>
+      </div>
+
+      {/* Graph */}
+      <div className="mb-6 bg-gray-50 p-4 rounded-lg">
+        <ResponsiveContainer width="100%" height={400}>
+          <ComposedChart data={generateData}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis 
+              dataKey="position" 
+              label={{ value: 'Distance from Major Discontinuity', position: 'insideBottom', offset: -5 }}
+            />
+            <YAxis 
+              label={{ value: 'Level (0-1)', angle: -90, position: 'insideLeft' }}
+            />
+            <Legend />
+            
+            {/* Optimal zone background */}
+            <Area
+              dataKey="optimalZone"
+              fill="#22c55e"
+              fillOpacity={0.1}
+              stroke="none"
+            />
+            
+            <Line 
+              type="monotone" 
+              dataKey="performance" 
+              stroke="#2563eb" 
+              strokeWidth={3}
+              name="Performance"
+              dot={false}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="insight" 
+              stroke="#16a34a" 
+              strokeWidth={2}
+              name="Insight Gained"
+              dot={false}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="stress" 
+              stroke="#dc2626" 
+              strokeWidth={2}
+              name="Stress Level"
+              dot={false}
+            />
+          </ComposedChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Analysis */}
+      <div className="grid md:grid-cols-3 gap-4 mb-6">
+        <div className="bg-blue-50 p-4 rounded-lg">
+          <h3 className="font-bold text-blue-800 mb-2">Comfort Zone</h3>
+          <p className="text-sm text-blue-700">
+            Position: Far from chaos (8-10)<br/>
+            Performance: Stable but limited<br/>
+            Insight: Low<br/>
+            Strategy: Safe but stagnant
+          </p>
+        </div>
+        
+        <div className="bg-green-50 p-4 rounded-lg">
+          <h3 className="font-bold text-green-800 mb-2">Edge Zone (Optimal)</h3>
+          <p className="text-sm text-green-700">
+            Position: {optimalPosition}<br/>
+            Performance: High<br/>
+            Insight: High<br/>
+            Strategy: Maximum growth potential
+          </p>
+        </div>
+        
+        <div className="bg-red-50 p-4 rounded-lg">
+          <h3 className="font-bold text-red-800 mb-2">Chaos Zone</h3>
+          <p className="text-sm text-red-700">
+            Position: Too close to discontinuity<br/>
+            Performance: Crashes<br/>
+            Insight: Overwhelming<br/>
+            Strategy: Survival mode only
+          </p>
+        </div>
+      </div>
+
+      {/* Mathematical Formulation */}
+      <div className="bg-gray-50 p-4 rounded-lg">
+        <h3 className="font-bold mb-3">Mathematical Model:</h3>
+        <div className="text-sm space-y-2 font-mono">
+          <p><strong>Distance from chaos:</strong> d = |x - chaos_point|</p>
+          <p><strong>Performance:</strong> P(d) = base_performance + edge_bonus × adaptability (if d > risk_tolerance)</p>
+          <p><strong>Performance:</strong> P(d) = crashes exponentially (if d ≤ risk_tolerance)</p>
+          <p><strong>Insight:</strong> I(d) = increases as d → 0</p>
+          <p><strong>Optimal position:</strong> max(P(d) + I(d) - Stress(d))</p>
+        </div>
+        <p className="text-xs text-gray-600 mt-3">
+          This models your strategy: stay close enough to gain insight, far enough to maintain performance.
+        </p>
+      </div>
+
+      <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
+        <p className="text-sm text-yellow-800">
+          <strong>Key insight:</strong> Your "tiptoeing" strategy is mathematically optimal! 
+          You maximize the function (Performance + Insight - Stress) by finding the sweet spot 
+          where you can still compute useful derivatives while gaining maximum insight from proximity to chaos.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default EdgeNavigationModel;
+
+
+
+
+
+import React, { useState, useMemo } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend, Area, ComposedChart } from 'recharts';
+
+const EdgeNavigationModel = () => {
+  const [riskTolerance, setRiskTolerance] = useState(0.3);
+  const [adaptability, setAdaptability] = useState(0.7);
+
+  // Model different zones
+  const generateData = useMemo(() => {
+    const data = [];
+    
+    for (let x = 0; x <= 10; x += 0.1) {
+      // Discontinuity at x = 5 (represents major life disruption)
+      const distanceFromChaos = Math.abs(x - 5);
+      
+      // Performance function - peaks near the edge, crashes in chaos
+      let performance;
+      if (distanceFromChaos > 3) {
+        // Comfort zone - stable but low insight
+        performance = 0.6 + 0.1 * Math.sin(x);
+      } else if (distanceFromChaos > riskTolerance) {
+        // Edge zone - high performance, high insight
+        const edgeFactor = (3 - distanceFromChaos) / 3;
+        performance = 0.6 + 0.4 * edgeFactor * adaptability;
+      } else {
+        // Chaos zone - performance crashes
+        const chaosFactor = riskTolerance - distanceFromChaos;
+        performance = Math.max(0.1, 0.6 - 2 * chaosFactor / riskTolerance);
+      }
+      
+      // Insight function - increases as you approach chaos
+      const insight = distanceFromChaos > 2 ? 
+        0.3 + 0.1 * Math.exp(-(distanceFromChaos - 2)) :
+        0.3 + 0.7 * Math.exp(-distanceFromChaos);
+      
+      // Stress function - increases near chaos
+      const stress = distanceFromChaos > 1 ?
+        0.2 + 0.3 / (distanceFromChaos + 0.5) :
+        0.2 + 0.8 * Math.exp(-distanceFromChaos * 2);
+      
+      // Optimal zone (where you want to be)
+      const isOptimalZone = distanceFromChaos > riskTolerance && 
+                           distanceFromChaos < riskTolerance + 1.5;
+      
+      data.push({
+        position: parseFloat(x.toFixed(1)),
+        performance: parseFloat(performance.toFixed(3)),
+        insight: parseFloat(insight.toFixed(3)),
+        stress: parseFloat(stress.toFixed(3)),
+        optimalZone: isOptimalZone ? 1 : 0,
+        chaosCenter: x === 5 ? 1 : 0
+      });
+    }
+    return data;
+  }, [riskTolerance, adaptability]);
+
+  // Find optimal position
+  const optimalPosition = useMemo(() => {
+    let bestScore = 0;
+    let bestPos = 0;
+    
+    generateData.forEach(point => {
+      // Score = performance + insight - stress
+      const score = point.performance + point.insight - point.stress;
+      if (score > bestScore) {
+        bestScore = score;
+        bestPos = point.position;
+      }
+    });
+    return bestPos;
+  }, [generateData]);
+
+  return (
+    <div className="p-6 max-w-6xl mx-auto bg-white">
+      <h2 className="text-2xl font-bold mb-6 text-center">Mathematical Model: Tiptoeing on the Edge</h2>
+      
+      {/* Controls */}
+      <div className="grid md:grid-cols-2 gap-6 mb-6">
+        <div>
+          <label className="block text-sm font-medium mb-2">
+            Risk Tolerance: {riskTolerance.toFixed(2)}
+          </label>
+          <input
+            type="range"
+            min="0.1"
+            max="1.0"
+            step="0.1"
+            value={riskTolerance}
+            onChange={(e) => setRiskTolerance(parseFloat(e.target.value))}
+            className="w-full"
+          />
+          <p className="text-xs text-gray-600 mt-1">How close to chaos can you get before performance crashes?</p>
+        </div>
+        
+        <div>
+          <label className="block text-sm font-medium mb-2">
+            Adaptability: {adaptability.toFixed(2)}
+          </label>
+          <input
+            type="range"
+            min="0.1"
+            max="1.0"
+            step="0.1"
+            value={adaptability}
+            onChange={(e) => setAdaptability(parseFloat(e.target.value))}
+            className="w-full"
+          />
+          <p className="text-xs text-gray-600 mt-1">How well do you perform under uncertainty?</p>
+        </div>
+      </div>
+
+      {/* Graph */}
+      <div className="mb-6 bg-gray-50 p-4 rounded-lg">
+        <ResponsiveContainer width="100%" height={400}>
+          <ComposedChart data={generateData}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis 
+              dataKey="position" 
+              label={{ value: 'Distance from Major Discontinuity', position: 'insideBottom', offset: -5 }}
+            />
+            <YAxis 
+              label={{ value: 'Level (0-1)', angle: -90, position: 'insideLeft' }}
+            />
+            <Legend />
+            
+            {/* Optimal zone background */}
+            <Area
+              dataKey="optimalZone"
+              fill="#22c55e"
+              fillOpacity={0.1}
+              stroke="none"
+            />
+            
+            <Line 
+              type="monotone" 
+              dataKey="performance" 
+              stroke="#2563eb" 
+              strokeWidth={3}
+              name="Performance"
+              dot={false}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="insight" 
+              stroke="#16a34a" 
+              strokeWidth={2}
+              name="Insight Gained"
+              dot={false}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="stress" 
+              stroke="#dc2626" 
+              strokeWidth={2}
+              name="Stress Level"
+              dot={false}
+            />
+          </ComposedChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Analysis */}
+      <div className="grid md:grid-cols-3 gap-4 mb-6">
+        <div className="bg-blue-50 p-4 rounded-lg">
+          <h3 className="font-bold text-blue-800 mb-2">Comfort Zone</h3>
+          <p className="text-sm text-blue-700">
+            Position: Far from chaos (8-10)<br/>
+            Performance: Stable but limited<br/>
+            Insight: Low<br/>
+            Strategy: Safe but stagnant
+          </p>
+        </div>
+        
+        <div className="bg-green-50 p-4 rounded-lg">
+          <h3 className="font-bold text-green-800 mb-2">Edge Zone (Optimal)</h3>
+          <p className="text-sm text-green-700">
+            Position: {optimalPosition}<br/>
+            Performance: High<br/>
+            Insight: High<br/>
+            Strategy: Maximum growth potential
+          </p>
+        </div>
+        
+        <div className="bg-red-50 p-4 rounded-lg">
+          <h3 className="font-bold text-red-800 mb-2">Chaos Zone</h3>
+          <p className="text-sm text-red-700">
+            Position: Too close to discontinuity<br/>
+            Performance: Crashes<br/>
+            Insight: Overwhelming<br/>
+            Strategy: Survival mode only
+          </p>
+        </div>
+      </div>
+
+      {/* Mathematical Formulation */}
+      <div className="bg-gray-50 p-4 rounded-lg">
+        <h3 className="font-bold mb-3">Mathematical Model:</h3>
+        <div className="text-sm space-y-2 font-mono">
+          <p><strong>Distance from chaos:</strong> d = |x - chaos_point|</p>
+          <p><strong>Performance:</strong> P(d) = base_performance + edge_bonus × adaptability (if d > risk_tolerance)</p>
+          <p><strong>Performance:</strong> P(d) = crashes exponentially (if d ≤ risk_tolerance)</p>
+          <p><strong>Insight:</strong> I(d) = increases as d → 0</p>
+          <p><strong>Optimal position:</strong> max(P(d) + I(d) - Stress(d))</p>
+        </div>
+        <p className="text-xs text-gray-600 mt-3">
+          This models your strategy: stay close enough to gain insight, far enough to maintain performance.
+        </p>
+      </div>
+
+      <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
+        <p className="text-sm text-yellow-800">
+          <strong>Key insight:</strong> Your "tiptoeing" strategy is mathematically optimal! 
+          You maximize the function (Performance + Insight - Stress) by finding the sweet spot 
+          where you can still compute useful derivatives while gaining maximum insight from proximity to chaos.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default EdgeNavigationModel;

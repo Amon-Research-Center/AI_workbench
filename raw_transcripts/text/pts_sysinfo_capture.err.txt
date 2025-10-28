@@ -1,0 +1,15 @@
+pipenv run python pts_sysinfo_capture.py
+Creating a virtualenv for this project...
+Pipfile: /home/nfs/vtrust/vt-cis/phoronix-test-suite-master/Pipfile
+Using /usr/bin/python3 (3.11.2) to create virtualenv...
+⠋ Creating virtual environment...created virtual environment CPython3.11.2.final.0-64 in 458ms
+creator CPython3Posix(dest=/home/eklectic/.local/share/virtualenvs/phoronix-test-suite-master-YIKUu0lx, clear=False, no_vcs_ignore=False, global=False)
+seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/eklectic/.local/share/virtualenv)
+added seed packages: pip==23.0.1, setuptools==66.1.1, wheel==0.38.4
+activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment!
+Virtualenv location: /home/eklectic/.local/share/virtualenvs/phoronix-test-suite-master-YIKUu0lx
+Creating a Pipfile for this project...
+/home/eklectic/.local/share/virtualenvs/phoronix-test-suite-master-YIKUu0lx/bin/python: can't open file '/home/nfs/vtrust/vt-cis/phoronix-test-suite-master/pts_sysinfo_capture.py': [Errno 2] No such file or directory
+┌─[✗]─[eklectic@parrot]─[/home/nfs/vtrust/vt-cis/phoronix-test-suite-master]

@@ -1,0 +1,221 @@
+import React, { useState, useMemo } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Legend } from 'recharts';
+
+const AccelerationCurves = () => {
+  const [showVelocity, setShowVelocity] = useState(true);
+  const [showAcceleration, setShowAcceleration] = useState(true);
+
+  // Ideal smooth acceleration curve
+  const idealVelocity = (t) => {
+    // Smooth s-curve approach to 60 mph
+    return 60 * (1 - Math.exp(-0.8 * t));
+  };
+
+  const idealAcceleration = (t) => {
+    // Derivative of ideal velocity
+    return 48 * Math.exp(-0.8 * t);
+  };
+
+  // More realistic acceleration with physical constraints
+  const realVelocity = (t) => {
+    // Gear shifts at t=1.5 and t=2.8
+    // Turbo lag until t=0.5
+    // Air resistance becomes significant after 40 mph
+    
+    if (t < 0.5) {
+      // Turbo lag - slow start
+      return 8 * t * t;
+    } else if (t < 1.5) {
+      // First gear power band
+      const base = 8 * 0.25; // from turbo lag phase
+      return base + 25 * (t - 0.5) - 4 * (t - 0.5) * (t - 0.5);
+    } else if (t < 1.7) {
+      // Gear shift - brief acceleration drop
+      const prevVel = 8 * 0.25 + 25 * 1.0 - 4 * 1.0;
+      return prevVel + 8 * (t - 1.5); // reduced acceleration during shift
+    } else if (t < 2.8) {
+      // Second gear
+      const shiftVel = 8 * 0.25 + 25 * 1.0 - 4 * 1.0 + 8 * 0.2;
+      return shiftVel + 18 * (t - 1.7) - 2 * (t - 1.7) * (t - 1.7);
+    } else if (t < 3.0) {
+      // Another gear shift
+      const prev = 8 * 0.25 + 25 * 1.0 - 4 * 1.0 + 8 * 0.2 + 18 * 1.1 - 2 * 1.1 * 1.1;
+      return prev + 6 * (t - 2.8);
+    } else {
+      // Third gear - air resistance dominates
+      const prev = 8 * 0.25 + 25 * 1.0 - 4 * 1.0 + 8 * 0.2 + 18 * 1.1 - 2 * 1.1 * 1.1 + 6 * 0.2;
+      return prev + 12 * (t - 3.0) - 3 * (t - 3.0) * (t - 3.0);
+    }
+  };
+
+  const realAcceleration = (t, dt = 0.01) => {
+    // Numerical derivative of real velocity
+    return (realVelocity(t + dt) - realVelocity(t - dt)) / (2 * dt);
+  };
+
+  const generateData = useMemo(() => {
+    const data = [];
+    for (let t = 0; t <= 4; t += 0.05) {
+      const idealVel = idealVelocity(t);
+      const idealAccel = idealAcceleration(t);
+      const realVel = realVelocity(t);
+      const realAccel = realAcceleration(t);
+      
+      data.push({
+        time: parseFloat(t.toFixed(2)),
+        idealVelocity: parseFloat(idealVel.toFixed(1)),
+        realVelocity: parseFloat(Math.max(0, realVel).toFixed(1)),
+        idealAcceleration: parseFloat(idealAccel.toFixed(1)),
+        realAcceleration: parseFloat(realAccel.toFixed(1))
+      });
+    }
+    return data;
+  }, []);
+
+  return (
+    <div className="p-6 max-w-6xl mx-auto bg-white">
+      <h2 className="text-2xl font-bold mb-6 text-center">Ideal vs Real 0-60 Acceleration</h2>
+      
+      {/* Controls */}
+      <div className="mb-6 flex gap-4">
+        <label className="flex items-center">
+          <input
+            type="checkbox"
+            checked={showVelocity}
+            onChange={(e) => setShowVelocity(e.target.checked)}
+            className="mr-2"
+          />
+          Show Velocity Curves
+        </label>
+        <label className="flex items-center">
+          <input
+            type="checkbox"
+            checked={showAcceleration}
+            onChange={(e) => setShowAcceleration(e.target.checked)}
+            className="mr-2"
+          />
+          Show Acceleration Curves
+        </label>
+      </div>
+
+      {/* Graph */}
+      <div className="mb-6 bg-gray-50 p-4 rounded-lg">
+        <ResponsiveContainer width="100%" height={400}>
+          <LineChart data={generateData}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis 
+              dataKey="time" 
+              label={{ value: 'Time (seconds)', position: 'insideBottom', offset: -5 }}
+            />
+            <YAxis 
+              label={{ value: 'Velocity (mph) / Acceleration (mph/s)', angle: -90, position: 'insideLeft' }}
+            />
+            <Legend />
+            
+            {showVelocity && (
+              <>
+                <Line 
+                  type="monotone" 
+                  dataKey="idealVelocity" 
+                  stroke="#2563eb" 
+                  strokeWidth={2}
+                  name="Ideal Velocity"
+                  dot={false}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="realVelocity" 
+                  stroke="#dc2626" 
+                  strokeWidth={2}
+                  name="Real Velocity"
+                  dot={false}
+                />
+              </>
+            )}
+            
+            {showAcceleration && (
+              <>
+                <Line 
+                  type="monotone" 
+                  dataKey="idealAcceleration" 
+                  stroke="#7c3aed" 
+                  strokeWidth={2}
+                  strokeDasharray="5 5"
+                  name="Ideal Acceleration"
+                  dot={false}
+                />
+                <Line 
+                  type="monotone" 
+                  dataKey="realAcceleration" 
+                  stroke="#ea580c" 
+                  strokeWidth={2}
+                  strokeDasharray="5 5"
+                  name="Real Acceleration"
+                  dot={false}
+                />
+              </>
+            )}
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+
+      {/* Equations */}
+      <div className="grid md:grid-cols-2 gap-6">
+        {/* Ideal */}
+        <div className="bg-blue-50 p-4 rounded-lg">
+          <h3 className="font-bold text-blue-800 mb-3">Ideal (Mathematical) Model</h3>
+          <div className="text-sm text-blue-700 space-y-2">
+            <p><strong>Velocity:</strong> v(t) = 60(1 - e^(-0.8t))</p>
+            <p><strong>Acceleration:</strong> a(t) = 48e^(-0.8t)</p>
+            <div className="mt-3">
+              <p className="font-medium">Characteristics:</p>
+              <ul className="text-xs space-y-1 ml-4">
+                <li>• Perfectly smooth exponential approach</li>
+                <li>• Continuous everywhere</li>
+                <li>• All derivatives exist</li>
+                <li>• Starts at maximum acceleration, decreases smoothly</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Real */}
+        <div className="bg-red-50 p-4 rounded-lg">
+          <h3 className="font-bold text-red-800 mb-3">Real (Physical) Model</h3>
+          <div className="text-sm text-red-700 space-y-2">
+            <p><strong>Piecewise function with:</strong></p>
+            <div className="text-xs space-y-1 ml-4">
+              <li>• t &lt; 0.5s: Turbo lag (v = 8t²)</li>
+              <li>• 0.5s - 1.5s: First gear power</li>
+              <li>• 1.5s - 1.7s: Gear shift (reduced acceleration)</li>
+              <li>• 1.7s - 2.8s: Second gear</li>
+              <li>• 2.8s - 3.0s: Another gear shift</li>
+              <li>• t &gt; 3.0s: Air resistance dominates</li>
+            </div>
+            <div className="mt-3">
+              <p className="font-medium">Characteristics:</p>
+              <ul className="text-xs space-y-1 ml-4">
+                <li>• Discontinuities at gear shifts</li>
+                <li>• Limits don't exist at transition points</li>
+                <li>• Non-smooth acceleration drops</li>
+                <li>• Multiple physical constraints</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Key Insights */}
+      <div className="mt-6 p-4 bg-yellow-50 rounded-lg">
+        <h3 className="font-bold text-yellow-800 mb-3">Key Insights About Limits:</h3>
+        <div className="text-sm text-yellow-700 space-y-2">
+          <p><strong>Ideal curve:</strong> lim[t→c] f(t) exists everywhere - perfectly predictable</p>
+          <p><strong>Real curve:</strong> Limits don't exist at t = 1.5s, 2.8s (gear shifts) - sudden changes</p>
+          <p><strong>Engineering reality:</strong> We use the ideal as a target, but design around the real limits</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AccelerationCurves;

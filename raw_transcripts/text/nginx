@@ -1,0 +1,70 @@
+version: "3.9"
+
+services:
+  nginx:
+    image: nginx:1.27
+    container_name: web-nginx
+    depends_on:
+      - php
+      - db
+      - api
+      - jupyter
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - drupal-code:/var/www/html:ro
+      - ./nginx/includes:/etc/nginx/includes:ro
+    networks: [webnet]
+
+  php:
+    image: drupal:10-fpm
+    container_name: web-php
+    environment:
+      PHP_MEMORY_LIMIT: 512M
+    volumes:
+      - drupal-code:/var/www/html
+      - ./drupal/modules/custom:/var/www/html/modules/custom
+      - ./drupal/themes/custom:/var/www/html/themes/custom
+      - ./drupal/sites:/var/www/html/sites
+    networks: [webnet]
+
+  db:
+    image: postgres:16
+    container_name: web-db
+    environment:
+      POSTGRES_DB: drupal
+      POSTGRES_USER: drupal
+      POSTGRES_PASSWORD: drupal
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks: [webnet]
+
+  api:
+    image: python:3.11-slim
+    container_name: web-api
+    working_dir: /app
+    command: bash -lc "pip install fastapi uvicorn pydantic && uvicorn app:app --host 0.0.0.0 --port 8000"
+    volumes:
+      - ./api:/app
+    networks: [webnet]
+
+  jupyter:
+    image: jupyter/minimal-notebook:latest
+    container_name: web-jupyter
+    environment:
+      JUPYTER_TOKEN: "changeme-please"
+      JUPYTER_ENABLE_LAB: "yes"
+      # Allow reverse proxy + iframe by same-site nginx
+      JUPYTER_CONFIG_DIR: /home/jovyan/.jupyter
+    command: start-notebook.sh --LabApp.allow_origin="*" --LabApp.base_url=/lab/ --LabApp.token=${JUPYTER_TOKEN:-changeme-please}
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    networks: [webnet]
+
+networks:
+  webnet:
+
+volumes:
+  drupal-code:
+  pgdata:

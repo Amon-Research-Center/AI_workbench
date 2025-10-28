@@ -1,0 +1,5 @@
+Prompt Prefix (paste before the task):
+Follow Four-Stage Policy. Controller advances stages. Tools forbidden until stage=final.
+Before final, run self_test with ≥12 tests covering the required criteria, list all violations,
+and set decision accordingly. If any fail, do NOT proceed to final.
+Return only schema-shaped JSON, no extra prose.
