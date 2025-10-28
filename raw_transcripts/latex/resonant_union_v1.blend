@@ -1,0 +1,143 @@
+🧰 SCENE SETUP
+New Project
+
+Open Blender
+
+File → New → General
+
+Delete default cube (X)
+
+Set Units (optional)
+
+Scene Properties → Units → Metric (or None if more abstract)
+
+Set World color to very dark gray (like interstellar void)
+
+🎯 OBJECT 1: Christopher's Field (Toroid A)
+Add a Torus
+
+Shift + A → Mesh → Torus
+
+Radius Major = 1.5
+
+Radius Minor = 0.3
+
+Move slightly left: G → X → -2
+
+Modifiers
+
+Add Subdivision Surface (2-3 levels)
+
+Add Simple Deform → Twist → Angle = 720°
+
+Optional: Add a Lattice if you want to warp it later
+
+Material
+
+New Material → Dark Base with Gold Emission edges
+
+Use a mix of Glossy + Emission
+
+Add wave texture → plug into Emission Strength for pulsing pattern
+
+🎯 OBJECT 2: Julie’s Field (Toroid B)
+Duplicate Torus A
+
+Select → Shift + D → G → X → +4
+
+Slightly increase minor radius to 0.4
+
+Soften the twist (maybe 540°) for gentler curves
+
+Material
+
+Warm pastel glow (pink-peach base, golden white Emission)
+
+Add noise texture to give it shimmer, like energy dancing
+
+🔗 OBJECT 3: Shared Resonance Bridge (Σ₃)
+Add a Curve
+
+Shift + A → Curve → Bezier
+
+Go to edit mode (Tab)
+
+Shape it to arc between the toruses
+
+Add more points if needed (Subdivide in right-click menu)
+
+Convert to Tube
+
+Curve settings → Geometry → Bevel → Depth = 0.05
+
+Add resolution (12+) to smooth
+
+Material
+
+Glowing bridge
+
+Transparent shader mixed with Emission
+
+Animate Emission strength over time for pulse effect
+
+(Optional): Use a sine wave modifier on Z-axis for subtle vibration
+
+⚫ OBJECT 4: Zero Collapse Point (Singularity)
+Add UV Sphere
+
+Radius 0.1
+
+Place between toroids at midpoint
+
+Material = Full black, glassy, maybe with halo
+
+Animate Scale
+
+Frame 1: Scale = 0.1
+
+Frame 60: Scale = 0.01 (as if collapsing to zero)
+
+Then frame 90: Scale = 5.0 — simulate the Ω burst
+
+🌌 OBJECT 5: Ω FIELD (Source)
+Add Sphere (Icosphere or UV Sphere)
+
+Radius = 8
+
+Place around all objects
+
+Material = Glass, 50% transparency
+
+Add fractal noise texture to give it living skin
+
+Optional: Add subtle displacement modifier
+
+With cloud texture to make it shimmer like energy folding back
+
+🎥 CAMERA + LIGHTING
+Camera
+
+Position front-left of toroids
+
+Add keyframes for gentle orbit over 250 frames
+
+Use "Track To" constraint targeting singularity object
+
+Lighting
+
+1 HDRI (world node) for ambient cosmic light
+
+2 Point Lights inside toroids, color-matched to materials
+
+Subtle bloom enabled in Render → Eevee Settings
+
+💥 FINAL TOUCHES
+Use the Graph Editor to animate emission pulses
+
+Set toroids to rotate in opposite directions (slow spin)
+
+Add soundtrack later—low-frequency harmonic hum to simulate resonance
+
+✅ SAVE
+Save as:
+resonant_union_v1.blend

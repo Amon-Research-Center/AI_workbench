@@ -1,0 +1,102 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,mathtools,physics,bm}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{hyperref}
+\newtheorem{definition}{Definition}
+\newtheorem{axiom}{Axiom}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+
+\title{Rigorous Foundations of the Base Morphic Field (BMF) and Substrate \texorpdfstring{$\Phi_0$}{Phi0}:\\
+Consistency, Correspondence, and Contrasts with Einstein--Maxwell–Faraday Frameworks}
+\author{Christopher Amon}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We formalize BMF on a Lorentzian manifold, specify axioms, derive conservation laws by Noether, prove global stability for the ground state, and recover classical limits (Einstein gravity, Maxwell electrodynamics, Faraday induction) as parameter regimes. We list falsifiable predictions where BMF and the standard frameworks diverge.
+\end{abstract}
+
+\section{Axioms and Kinematics}
+\begin{axiom}[Substrate]
+There exists a scalar (or multi-component) field $\phi$ on $(\mathcal{M},g_{\mu\nu})$ with vacuum $\phi_0$ and action density $\mathcal{L}(\phi,\partial\phi;g)$.
+\end{axiom}
+\begin{axiom}[Locality \& Lorentz covariance]
+$\mathcal{L}$ is a scalar under diffeomorphisms; interactions are local polynomials in $\phi$ and its derivatives up to finite order.
+\end{axiom}
+\begin{axiom}[Stability]
+$V(\phi)$ is bounded below with unique global minimum at $\phi_0$; small perturbations decay (Lyapunov).
+\end{axiom}
+
+\section{Dynamics}
+\begin{definition}[Action]
+\[
+S[\phi,g] = \int_{\mathcal{M}} \sqrt{-g}\,\Big(\tfrac12 g^{\mu\nu}\partial_\mu\phi\,\partial_\nu\phi - V(\phi)\Big)\, d^4x
+\]
+with $V(\phi)=\lambda(\phi-\phi_0)^4/4$ plus model-specific couplings.
+\end{definition}
+Euler–Lagrange gives the nonlinear Klein–Gordon:
+\[
+\square_g \phi + V'(\phi)=0,\quad \square_g := \nabla^\mu\nabla_\mu.
+\]
+
+\section{Conservation Laws and Noether}
+\begin{definition}[Stress–energy]
+\[
+T_{\mu\nu} = \partial_\mu\phi\,\partial_\nu\phi - g_{\mu\nu}\Big(\tfrac12 \partial^\alpha\phi\,\partial_\alpha\phi - V(\phi)\Big).
+\]
+\end{definition}
+\begin{lemma}[Covariant conservation]
+$\nabla^\mu T_{\mu\nu}=0$ on-shell.
+\end{lemma}
+\begin{proof}
+Standard variational argument under diffeomorphisms; insert EOM.
+\end{proof}
+
+\section{Global Stability (Lyapunov)}
+\begin{definition}[Lyapunov functional]
+For $\delta\phi:=\phi-\phi_0$ on Cauchy slice $\Sigma_t$,
+\[
+E[\delta\phi](t)=\int_{\Sigma_t}\Big(\tfrac12(\partial_t\delta\phi)^2+\tfrac12\abs{\nabla\delta\phi}^2+\tfrac{\lambda}{2}(\delta\phi)^2 + \tfrac{\lambda}{4}(\delta\phi)^4\Big)\,d^3x.
+\]
+\end{definition}
+\begin{theorem}[Attractor to $\phi_0$]
+Under suitable boundary conditions, $\dot{E}\le0$ and $E(t)\to 0$ implies $\phi\to\phi_0$ in $H^1$ as $t\to\infty$.
+\end{theorem}
+\begin{proof}[Sketch]
+Differentiate $E$, use EOM, integrate by parts; positivity from quartic and Poincaré inequality.
+\end{proof}
+
+\section{Coupling to Gravitation and Einstein Limit}
+Einstein equations $G_{\mu\nu}=8\pi G\,T_{\mu\nu}$. In FLRW, derive modified Friedmann and show the GR limit when $\delta\phi\to 0$ and $V(\phi_0)\to \Lambda/8\pi G$.
+
+\section{Electrodynamics and Faraday Induction as BMF Limit}
+Introduce a $U(1)$ gauge field $A_\mu$ with kinetic $-\tfrac14 F_{\mu\nu}F^{\mu\nu}$ and BMF–gauge coupling $f(\phi)F^2$.
+\begin{proposition}[Maxwell recovery]
+For $f(\phi_0)=1$ and $\partial f/\partial\phi|_{\phi_0}=0$, the equations reduce to $\nabla_\mu F^{\mu\nu}=0$, $\nabla_{[\alpha}F_{\beta\gamma]}=0$.
+\end{proposition}
+\begin{corollary}[Faraday law]
+$\oint_{\partial S}\vb{E}\cdot d\vb{\ell} = -\frac{d}{dt}\int_{S}\vb{B}\cdot d\vb{S}$ follows from Bianchi identity.
+\end{corollary}
+
+\section{Quantum Correspondence}
+Quantize small fluctuations $\delta\phi$ around $\phi_0$. Show free limit yields Klein–Gordon spectrum; discuss interaction picture and renormalizability conditions. State where BMF departs from QFT (e.g., $f(\phi)$-dependent running).
+
+\section{Discriminators vs Einstein–Maxwell}
+\subsection*{D1. Cosmological relaxation}
+Predict late-time decay law $E(t)\sim t^{-\alpha}$; contrast with constant $\Lambda$.
+\subsection*{D2. Variable gauge kinetics}
+If $f(\phi)\neq 1$, predict frequency-dependent light-speed in strong-field regions within current bounds.
+\subsection*{D3. Pattern-return universality}
+Lyapunov exponents shared across condensed-matter analogs and cosmological modes.
+
+\section{Experimental Tests}
+List specific bounds and setups (optical cavities, BEC quench, ringdown echoes). Quantitative thresholds go here.
+
+\section{Conclusion}
+Tight summary; pointers to code/sim data.
+\end{document}

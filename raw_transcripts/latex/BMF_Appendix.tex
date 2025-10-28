@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[a4paper, margin=1in]{geometry}
+
+\title{Appendix: Mathematical Derivations for Base Morphic Field (BMF)}
+\author{Christopher Amon}
+\date{October 16, 2025}
+
+\begin{document}
+\maketitle
+
+\section{Action and Euler-Lagrange Equation}
+The action is:
+\[
+S[\phi_0, g, M] = \int \sqrt{-g} \left[ \frac{1}{2} g^{\mu\nu} \partial_\mu \phi_0 \partial_\nu \phi_0 - \frac{\lambda}{4} (\phi_0 - \phi_{vac})^4 + f(\phi_0, M) F_{\alpha\beta} F^{\alpha\beta} + \kappa \int M(\phi_0(x'), \partial \phi_0(x')) K(x, x') \, d^4x' \right] d^4x,
+\]
+where \(K(x, x') = \theta(x^0 - x'^0) \frac{e^{-|x - x'|^2 / \sigma^2}}{(2\pi \sigma^2)^{3/2}}\) is the causal kernel. Varying w.r.t. \(\phi_0\) yields:
+\[
+\square_g \phi_0 + \lambda (\phi_0 - \phi_{vac})^3 + \kappa \int \left[ \frac{\partial M}{\partial \phi_0(x')} + \partial_\mu' \left( \frac{\partial M}{\partial (\partial_\mu' \phi_0(x'))} \right) \right] K(x, x') \, d^4x' = 0.
+\]
+
+\section{Noether's Theorem and Stress-Energy Tensor}
+For translation symmetry, the conserved current leads to:
+\[
+T_{\mu\nu} = \partial_\mu \phi_0 \partial_\nu \phi_0 - g_{\mu\nu} \left[ \frac{1}{2} \partial^\alpha \phi_0 \partial_\alpha \phi_0 - \frac{\lambda}{4} (\phi_0 - \phi_{vac})^4 + \kappa M \right],
+\]
+with \(\nabla^\mu T_{\mu\nu} = 0\) on-shell.
+
+\section{Stability via Lyapunov Functional}
+The Lyapunov functional is:
+\[
+E = \int \left[ \frac{1}{2} (\partial_t \delta \phi_0)^2 + \frac{1}{2} |\nabla \delta \phi_0|^2 + \frac{\lambda}{2} (\delta \phi_0)^2 + \frac{\lambda}{4} (\delta \phi_0)^4 + \kappa \int \delta M \, d\delta \phi_0 \right] d^3x,
+\]
+where \(\dot{E} \leq 0\) ensures \(\phi_0 \to \phi_{vac}\).
+
+\section{Feedback Request}
+Please review for:
+- Consistency with QFT (e.g., renormalization of \(\kappa\) term).
+- Causal kernel validity (e.g., \(\sigma\) scale).
+- Suggestions for physical ties (e.g., units for \(\phi_{vac}\)).
+
+\end{document}
