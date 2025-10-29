@@ -2,6 +2,9 @@
 
 ## Current Files
 
+📄 "raw_transcripts/Groks_Folder/5e-simplifed\"theory1.txt"
+  Added: 2025-10-28 — addition of a folder for Grok
+
 📄 "raw_transcripts/latex/Primordial_Morphic_Field_Model_equations\n.yaml"
   Added: 2025-10-28 — initial commit latex, python, blender files
 
@@ -349,6 +352,64 @@
 
 📄 TODO.md
   Added: 2025-10-28 — initial commit
+
+📄 raw_transcripts/Groks_Folder/1_NeverDelete-the_beginning.txt
+
+📄 raw_transcripts/Groks_Folder/2_NeverDeleteClaude.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/3_5e-simplifed_theory1.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/5_4n1-reviews.txt
+
+📄 raw_transcripts/Groks_Folder/5e-simplifed_theory1.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/6_mini_dv3.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/7_NeverDeleteGPT-4o.txt
+
+📄 raw_transcripts/Groks_Folder/8_Morphic Field Dissertation.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/9_NeverDelete_D1.txt
+
+📄 raw_transcripts/Groks_Folder/9a_NeverDeleteTuringConnect.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/Godprint Morphic Field Dissertation.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/Godprint Morphic Field Dissertation.pdf.txt
+
+📄 raw_transcripts/Groks_Folder/Grok-unchained
+
+📄 raw_transcripts/Groks_Folder/Grok-unchained_repromppt
+
+📄 raw_transcripts/Groks_Folder/Morpho_God-edited.txt
+
+📄 raw_transcripts/Groks_Folder/TaskOne-v1.2.yaml
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/bmf_theory_improved (1).pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/five_element_theory_summary.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/five_element_theory_summary.pdf.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/mini_dv2.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/mini_dv2.pdf.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/review-grok_its-junk.docx
+  Added: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/docx/Base_Morphogenic_Field_Complete_Dissertation.docx
   Added: 2025-10-28 — initial commit of docx files
@@ -1247,13 +1308,10 @@
 📄 raw_transcripts/pdf/writing_a_scientific_thesis.pdf
   Added: 2025-10-28 — Initial commit pdf files
 
+📄 raw_transcripts/text/.~lock.Grok-unchained#
+  Added: 2025-10-28 — addition of a folder for Grok
+
 📄 raw_transcripts/text/00_README.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/0250713-14-the_beginning
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/0250713-14-the_beginning (1)
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/0250713-14-the_beginning (1).txt
@@ -1262,13 +1320,7 @@
 📄 raw_transcripts/text/0250713-14-the_beginning.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/1
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/1_NeverDelete-the_beginning.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/2
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/20250710_claude_mostly_emmpty_space.txt
@@ -1313,31 +1365,16 @@
 📄 raw_transcripts/text/202509141353-mistral-math fix.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas(1)
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/202509150325_scholar-AMA
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/202509150830-leo-prompts.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/2_NeverDeleteClaude.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/3
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/3_5e-simplifed_theory1.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/4_mistral.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/4n1-reviews.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/5_4n1-reviews.txt
@@ -1361,40 +1398,10 @@
 📄 raw_transcripts/text/9a_NeverDeleteTuringConnect.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/ATFT-thesis
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/ATFT-thesis.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/ATFT_Foundations.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/AT_CBM.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/A_Turing-Chemical-Basis-of-Morphogenesis.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/App Wrapper Explanation
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/App Wrapper Explanation.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/AppliedandComputationalMathematics.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Base Morphic Field Dissertation.pdf.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Base Morphic Field Dissertation.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Complete_Dissertation.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.txt
@@ -1403,49 +1410,22 @@
 📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation_Original.docx.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.docx.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.docx.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/Bmf Theory Reviewed.pdf.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Bmf Theory Reviewed.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/CHANGELOG.md.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/CODE_OF_CONDUCT.md.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Chapter1 Intro Bmf.docx.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Chapter1 Intro Bmf.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Chapter2-begining.txt
@@ -1460,13 +1440,7 @@
 📄 raw_transcripts/text/CurrentState.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/DS_Three
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/DS_Three.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/DS_Two
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/DS_Two.txt
@@ -1478,28 +1452,13 @@
 📄 raw_transcripts/text/DeepSeek-1-maath-fix .txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/DeepSeekOne
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/DeepSeekOne.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/ETHICS.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/FOSS stack for physics modeling.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Fork Phi0.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/GBR_0272_AMT_A.pdf.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/GBR_0272_AMT_A.txt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/GOALS.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Godprint Morphic Field Dissertation.pdf.txt
@@ -1514,12 +1473,6 @@
 📄 raw_transcripts/text/Greeting and conversation setup.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
-📄 raw_transcripts/text/Grok-unchained
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
-📄 raw_transcripts/text/Grok-unchained_repromppt
-  Added: 2025-10-28 — initial commit text files 1 of 5ish
-
 📄 raw_transcripts/text/Intro.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
@@ -1527,30 +1480,6 @@
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Kozyrev_mirror.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/LICENSE.md.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/MANIFEST.md.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/MISSION.md.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/MISSION2.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Makefile
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Makefile.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Morpho_God
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Morpho_God-edited
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/Morpho_God-edited.txt
@@ -1586,9 +1515,6 @@
 📄 raw_transcripts/text/PROVENANCE-2025-06-09.manifest.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/PitchSheet
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/Prompt response structure.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -1598,13 +1524,7 @@
 📄 raw_transcripts/text/README.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/Retraining Models Possible Outcomes.
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/Retraining Models Possible Outcomes.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Retraining Models Possible Outcomes_
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/Retraining Models Possible Outcomes_.txt
@@ -1614,9 +1534,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/SECURITY.md.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/Secure Partitioning for Rocky Linux
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/Secure Partitioning for Rocky Linux.txt
@@ -1664,9 +1581,6 @@
 📄 raw_transcripts/text/Weinstein_epstein.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/White Paper: Base Modal Framework and the Coherence Modal Cross-Interferometer
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/Wienstein Epstein.docx.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -1674,9 +1588,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/aftf_plan.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/all-of-it
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/all-of-it.txt
@@ -1710,9 +1621,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/appendix_a_begining .txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/archive-20250724
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/artifacts.txt
@@ -1799,22 +1707,13 @@
 📄 raw_transcripts/text/chemical expanded.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/cj_blender
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/cj_blender.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/claude prompt
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/claude-cern-202509032103.txt
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/claude.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/config
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/control.txt
@@ -1833,9 +1732,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/deepseek.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/deepseek1
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/deepseek1 (1).txt
@@ -1907,9 +1803,6 @@
 📄 raw_transcripts/text/deepseek_yaml_20250811_e64ffc.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/deepseekone
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/deepseekone.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -1929,9 +1822,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/dissertation_table_of_contents.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/drupal
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/ds-turning-snippet.txt
@@ -1964,9 +1854,6 @@
 📄 raw_transcripts/text/final_stripped_theory_no_code.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/first5_comms
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/first5_comms.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -1982,6 +1869,9 @@
 📄 raw_transcripts/text/foss stack for physics modeling.txt
   Added: 2025-10-28 — initial commit text files the rest
 
+📄 raw_transcripts/text/four-in-one4n1-reviews.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
 📄 raw_transcripts/text/framework_transcript.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -1989,9 +1879,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/frontmatter.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/gcc
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/gcc.txt
@@ -2007,9 +1894,6 @@
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/goodreviewgpt4.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/gpt-4o
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/gpt-4o.txt
@@ -2049,12 +1933,6 @@
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/keep.txt
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
-📄 raw_transcripts/text/latex
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
-📄 raw_transcripts/text/llama-4-scout
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/llama-4-scout.txt
@@ -2102,28 +1980,16 @@
 📄 raw_transcripts/text/mission2.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
-📄 raw_transcripts/text/mistral
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
 📄 raw_transcripts/text/mistral.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/mit_template_source.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
-📄 raw_transcripts/text/morpho_lit_graph
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
 📄 raw_transcripts/text/morpho_lit_graph.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
-📄 raw_transcripts/text/nginx
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
 📄 raw_transcripts/text/octave-bl.txt
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
-📄 raw_transcripts/text/om_K_mirrors
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/opts.txt
@@ -2178,9 +2044,6 @@
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/riemann.txt
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
-📄 raw_transcripts/text/rsheldrake
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/rsheldrake.txt
@@ -2273,12 +2136,6 @@
 📄 raw_transcripts/text/uncertainty principle reasoning.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
-📄 raw_transcripts/text/universities
-  Added: 2025-10-28 — initial commit text files 1 of 3
-
-📄 raw_transcripts/text/update_initramfs_reorg_xcripts
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/user gratitude response.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -2324,16 +2181,10 @@
 📄 raw_transcripts/text/vt-ResonanceBondEquation.txt
   Added: 2025-10-28 — initial commit text files the rest
 
-📄 raw_transcripts/text/vt-breakdown
-  Added: 2025-10-28 — initial commit text files the rest
-
 📄 raw_transcripts/text/vt-breakdown.txt
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/vt-forks.txt
-  Added: 2025-10-28 — initial commit text files the rest
-
-📄 raw_transcripts/text/vt-git-setup
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/vt-git-setup.txt
@@ -2404,13 +2255,16 @@
 
 ## Recent Changes (Last 5)
 
-- 2025-10-28 — Added raw_transcripts/pdf/20250907-claude.odt — "Initial commit pdf files"
-- 2025-10-28 — Added raw_transcripts/pdf/20250908-claude.odt — "Initial commit pdf files"
-- 2025-10-28 — Added raw_transcripts/pdf/20250909-claude.odt — "Initial commit pdf files"
-- 2025-10-28 — Added raw_transcripts/pdf/20250910-claude.odt — "Initial commit pdf files"
-- 2025-10-28 — Added raw_transcripts/pdf/202509150325_scholar-AMA.odt — "Initial commit pdf files"
+- 2025-10-28 — Added raw_transcripts/Groks_Folder/2_NeverDeleteClaude.txt — "addition of a folder for Grok"
+- 2025-10-28 — Added raw_transcripts/Groks_Folder/3_5e-simplifed_theory1.txt — "addition of a folder for Grok"
+- 2025-10-28 — Added "raw_transcripts/Groks_Folder/5e-simplifed\"theory1.txt" — "addition of a folder for Grok"
+- 2025-10-28 — Added raw_transcripts/Groks_Folder/5e-simplifed_theory1.txt — "addition of a folder for Grok"
+- 2025-10-28 — Added raw_transcripts/Groks_Folder/6_mini_dv3.txt — "addition of a folder for Grok"
 
 ## Full File History
+
+📄 "raw_transcripts/Groks_Folder/5e-simplifed\"theory1.txt"
+  Added: 2025-10-28 — addition of a folder for Grok
 
 📄 "raw_transcripts/latex/Primordial_Morphic_Field_Model_equations\n.yaml"
   Added: 2025-10-28 — initial commit latex, python, blender files
@@ -2759,6 +2613,48 @@
 
 📄 TODO.md
   Added: 2025-10-28 — initial commit
+
+📄 raw_transcripts/Groks_Folder/2_NeverDeleteClaude.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/3_5e-simplifed_theory1.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/5e-simplifed_theory1.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/6_mini_dv3.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/8_Morphic Field Dissertation.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/9a_NeverDeleteTuringConnect.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/Godprint Morphic Field Dissertation.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/TaskOne-v1.2.yaml
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/bmf_theory_improved (1).pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/five_element_theory_summary.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/five_element_theory_summary.pdf.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/mini_dv2.pdf
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/mini_dv2.pdf.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
+📄 raw_transcripts/Groks_Folder/review-grok_its-junk.docx
+  Added: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/docx/Base_Morphogenic_Field_Complete_Dissertation.docx
   Added: 2025-10-28 — initial commit of docx files
@@ -3657,6 +3553,9 @@
 📄 raw_transcripts/pdf/writing_a_scientific_thesis.pdf
   Added: 2025-10-28 — Initial commit pdf files
 
+📄 raw_transcripts/text/.~lock.Grok-unchained#
+  Added: 2025-10-28 — addition of a folder for Grok
+
 📄 raw_transcripts/text/00_README.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
@@ -3665,6 +3564,7 @@
 
 📄 raw_transcripts/text/0250713-14-the_beginning (1)
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/0250713-14-the_beginning (1).txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3674,12 +3574,14 @@
 
 📄 raw_transcripts/text/1
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/1_NeverDelete-the_beginning.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/2
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/20250710_claude_mostly_emmpty_space.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3725,12 +3627,15 @@
 
 📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/20250915000-ChatGPT5-chat-schemas(1)
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/202509150325_scholar-AMA
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/202509150830-leo-prompts.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3740,6 +3645,7 @@
 
 📄 raw_transcripts/text/3
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/3_5e-simplifed_theory1.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3773,27 +3679,35 @@
 
 📄 raw_transcripts/text/ATFT-thesis
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/ATFT-thesis.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/ATFT_Foundations.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/AT_CBM.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/A_Turing-Chemical-Basis-of-Morphogenesis.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/App Wrapper Explanation
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/App Wrapper Explanation.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/AppliedandComputationalMathematics.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base Morphic Field Dissertation.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3806,6 +3720,7 @@
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Cover_Thesis_FINAL.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3815,48 +3730,57 @@
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Dissertation_Original.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_FULL_Thesis_FINAL.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Mailing_Checklist_and_Letter.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Base_Morphogenic_Field_Thesis_FINAL_With_Intention.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Bmf Theory Reviewed - Bmf Theory Reviewed.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Bmf Theory Reviewed.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Bmf Theory Reviewed.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/CHANGELOG.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/CODE_OF_CONDUCT.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Chapter1 Intro Bmf.docx.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/Chapter1 Intro Bmf.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Chapter2-begining.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3872,12 +3796,14 @@
 
 📄 raw_transcripts/text/DS_Three
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/DS_Three.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/DS_Two
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/DS_Two.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3890,12 +3816,14 @@
 
 📄 raw_transcripts/text/DeepSeekOne
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/DeepSeekOne.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
 📄 raw_transcripts/text/ETHICS.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/FOSS stack for physics modeling.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3905,12 +3833,15 @@
 
 📄 raw_transcripts/text/GBR_0272_AMT_A.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/GBR_0272_AMT_A.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/GOALS.md.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Godprint Morphic Field Dissertation.pdf.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
@@ -3941,24 +3872,31 @@
 
 📄 raw_transcripts/text/LICENSE.md.txt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/MANIFEST.md.txt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/MISSION.md.txt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/MISSION2.txt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Makefile
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Makefile.txt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Morpho_God
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Morpho_God-edited
   Added: 2025-10-28 — initial commit text files the rest
@@ -3998,6 +3936,7 @@
 
 📄 raw_transcripts/text/PitchSheet
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Prompt response structure.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4010,12 +3949,14 @@
 
 📄 raw_transcripts/text/Retraining Models Possible Outcomes.
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Retraining Models Possible Outcomes.txt
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/Retraining Models Possible Outcomes_
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Retraining Models Possible Outcomes_.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4028,6 +3969,7 @@
 
 📄 raw_transcripts/text/Secure Partitioning for Rocky Linux
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Secure Partitioning for Rocky Linux.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4076,6 +4018,7 @@
 
 📄 raw_transcripts/text/White Paper: Base Modal Framework and the Coherence Modal Cross-Interferometer
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/Wienstein Epstein.docx.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4088,6 +4031,7 @@
 
 📄 raw_transcripts/text/all-of-it
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/all-of-it.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4124,6 +4068,7 @@
 
 📄 raw_transcripts/text/archive-20250724
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/artifacts.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4211,12 +4156,14 @@
 
 📄 raw_transcripts/text/cj_blender
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/cj_blender.txt
   Added: 2025-10-28 — initial commit text files the rest
 
 📄 raw_transcripts/text/claude prompt
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/claude-cern-202509032103.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4226,6 +4173,7 @@
 
 📄 raw_transcripts/text/config
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/control.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4319,6 +4267,7 @@
 
 📄 raw_transcripts/text/deepseekone
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/deepseekone.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4343,6 +4292,7 @@
 
 📄 raw_transcripts/text/drupal
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/ds-turning-snippet.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4376,6 +4326,7 @@
 
 📄 raw_transcripts/text/first5_comms
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/first5_comms.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4392,6 +4343,9 @@
 📄 raw_transcripts/text/foss stack for physics modeling.txt
   Added: 2025-10-28 — initial commit text files the rest
 
+📄 raw_transcripts/text/four-in-one4n1-reviews.txt
+  Added: 2025-10-28 — addition of a folder for Grok
+
 📄 raw_transcripts/text/framework_transcript.txt
   Added: 2025-10-28 — initial commit text files the rest
 
@@ -4403,6 +4357,7 @@
 
 📄 raw_transcripts/text/gcc
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/gcc.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4463,9 +4418,11 @@
 
 📄 raw_transcripts/text/latex
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/llama-4-scout
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/llama-4-scout.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
@@ -4514,6 +4471,7 @@
 
 📄 raw_transcripts/text/mistral
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/mistral.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
@@ -4523,18 +4481,21 @@
 
 📄 raw_transcripts/text/morpho_lit_graph
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/morpho_lit_graph.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/nginx
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/octave-bl.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
 
 📄 raw_transcripts/text/om_K_mirrors
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/opts.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
@@ -4592,6 +4553,7 @@
 
 📄 raw_transcripts/text/rsheldrake
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/rsheldrake.txt
   Added: 2025-10-28 — initial commit text files 1 of 3
@@ -4685,9 +4647,11 @@
 
 📄 raw_transcripts/text/universities
   Added: 2025-10-28 — initial commit text files 1 of 3
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/update_initramfs_reorg_xcripts
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/user gratitude response.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4736,6 +4700,7 @@
 
 📄 raw_transcripts/text/vt-breakdown
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/vt-breakdown.txt
   Added: 2025-10-28 — initial commit text files the rest
@@ -4745,6 +4710,7 @@
 
 📄 raw_transcripts/text/vt-git-setup
   Added: 2025-10-28 — initial commit text files the rest
+  Deleted: 2025-10-28 — addition of a folder for Grok
 
 📄 raw_transcripts/text/vt-git-setup.txt
   Added: 2025-10-28 — initial commit text files the rest
