@@ -1109,6 +1109,144 @@
 📄 raw_transcripts/markdown/web_database_prototype.md
   Added: 2025-10-28 — initial commit markdown file first half
 
+📄 raw_transcripts/pdf/20250907-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250908-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250909-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250910-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/202509150325_scholar-AMA.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF Theory_ Enhanced Academic Version-v2.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF Theory_ Enhanced Academic Version.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF_Appendix.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Base Morphic Field Dissertation.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Bmf Theory Reviewed.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Chapter1 Intro Bmf.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Chapter2-begining.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Untitled 1.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Vector Trust Brochure.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Vectortrust Push Plan.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/academic_pitch_deck.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/amon_field_whitepaper.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/amon_field_whitepaper.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/appendix_a_begining .odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/blank.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/bmf layers.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/bmf_theory_improved (1).pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/calibration.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-I-have-a-few-minutes-to-spare.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-bmf_theory_thesis-parsable.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-dev-setup.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-framework.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-git.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude_times-up.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/emergent_AI_issues.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/frontis_matter.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/g_knapp.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/hu, jiayi thesis final.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/installation.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/mit-thesis-template.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/r_sheldrake.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/read_this_20250906.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/snakeoil.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/sne.26.2.10332.on.OA.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/strictly_mathematical_validation_paper.html
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/style-and-format-thesis.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/template-for-journal-of-the-royal-statistical-society-series-c-applied-statistics.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/thesiswalloutline.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/wiring.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/writing_a_scientific_thesis.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
 📄 raw_transcripts/text/00_README.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
 
@@ -2266,11 +2404,11 @@
 
 ## Recent Changes (Last 5)
 
-- 2025-10-28 — Added raw_transcripts/text/Kozyrev_mirror.txt — "initial commit text files the rest"
-- 2025-10-28 — Added raw_transcripts/text/LICENSE.md.txt — "initial commit text files the rest"
-- 2025-10-28 — Added raw_transcripts/text/MANIFEST.md.txt — "initial commit text files the rest"
-- 2025-10-28 — Added raw_transcripts/text/MISSION.md.txt — "initial commit text files the rest"
-- 2025-10-28 — Added raw_transcripts/text/MISSION2.txt — "initial commit text files the rest"
+- 2025-10-28 — Added raw_transcripts/pdf/20250907-claude.odt — "Initial commit pdf files"
+- 2025-10-28 — Added raw_transcripts/pdf/20250908-claude.odt — "Initial commit pdf files"
+- 2025-10-28 — Added raw_transcripts/pdf/20250909-claude.odt — "Initial commit pdf files"
+- 2025-10-28 — Added raw_transcripts/pdf/20250910-claude.odt — "Initial commit pdf files"
+- 2025-10-28 — Added raw_transcripts/pdf/202509150325_scholar-AMA.odt — "Initial commit pdf files"
 
 ## Full File History
 
@@ -3380,6 +3518,144 @@
 
 📄 raw_transcripts/markdown/web_database_prototype.md
   Added: 2025-10-28 — initial commit markdown file first half
+
+📄 raw_transcripts/pdf/20250907-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250908-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250909-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/20250910-claude.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/202509150325_scholar-AMA.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF Theory_ Enhanced Academic Version-v2.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF Theory_ Enhanced Academic Version.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/BMF_Appendix.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Base Morphic Field Dissertation.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Bmf Theory Reviewed - Bmf Theory Reviewed.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Bmf Theory Reviewed.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Chapter1 Intro Bmf.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Chapter2-begining.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Untitled 1.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Vector Trust Brochure.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/Vectortrust Push Plan.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/academic_pitch_deck.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/amon_field_whitepaper.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/amon_field_whitepaper.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/appendix_a_begining .odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/blank.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/bmf layers.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/bmf_theory_improved (1).pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/calibration.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-I-have-a-few-minutes-to-spare.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-bmf_theory_thesis-parsable.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-dev-setup.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-framework.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude-git.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/claude_times-up.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/emergent_AI_issues.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/frontis_matter.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/g_knapp.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/hu, jiayi thesis final.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/installation.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/mit-thesis-template.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/r_sheldrake.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/read_this_20250906.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/snakeoil.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/sne.26.2.10332.on.OA.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/strictly_mathematical_validation_paper.html
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/style-and-format-thesis.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/template-for-journal-of-the-royal-statistical-society-series-c-applied-statistics.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/thesiswalloutline.odt
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/wiring.pdf
+  Added: 2025-10-28 — Initial commit pdf files
+
+📄 raw_transcripts/pdf/writing_a_scientific_thesis.pdf
+  Added: 2025-10-28 — Initial commit pdf files
 
 📄 raw_transcripts/text/00_README.txt
   Added: 2025-10-28 — initial commit text files 1 of 5ish
