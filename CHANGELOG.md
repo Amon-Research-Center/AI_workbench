@@ -2,13 +2,18 @@
 
 ## Summary (Last 5 Commits)
 
+- 2025-11-10 — add transcripts — Author: eklectic
+- 2025-11-10 — restructure — Author: eklectic
 - 2025-10-28 — manifest and changelog update — Author: vectortrust
 - 2025-10-28 — addition of a folder for Grok — Author: vectortrust
 - 2025-10-28 — Initial commit pdf files — Author: vectortrust
-- 2025-10-28 — initial commit updated Manifest and changelog — Author: vectortrust
-- 2025-10-28 — initial commit updated Manifest and changelog — Author: vectortrust
 
 ## Full History
+
+### 2025-11-10
+
+- add transcripts — eklectic
+- restructure — eklectic
 
 ### 2025-10-28
 
