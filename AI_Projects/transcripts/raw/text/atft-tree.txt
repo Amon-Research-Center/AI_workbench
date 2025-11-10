@@ -1,0 +1,11 @@
+amon-turing-theory/  
+├── theory/  
+│   ├── master_equations.pdf  # Formalized ATFT equations  
+│   ├── derivations/          # Angular momentum, E=mc², etc.  
+│   └── turing_bridge/        # Side-by-side with Turing's 1952 paper  
+├── simulations/  
+│   ├── bmf_turing.py         # Core simulator  
+│   └── validation_results/   # Initial quantum gravity tests  
+└── outreach/  
+    ├── academic_pitch_deck.pdf  
+    └── email_templates/  

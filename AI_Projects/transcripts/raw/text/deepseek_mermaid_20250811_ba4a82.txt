@@ -1,0 +1,5 @@
+flowchart TB
+    A[1. Finalize math appendix] --> B[2. File provisional IP]
+    B --> C[3. arXiv submission]
+    C --> D[4. PRResearch submission]
+    D --> E[5. Present at APS March Meeting]

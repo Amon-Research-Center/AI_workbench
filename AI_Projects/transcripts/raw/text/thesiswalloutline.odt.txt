@@ -1,0 +1,183 @@
+Amon Research Labs – Amon-Turing Field Theory Dissertation
+
+Wall Outline (Headings Only)
+
+1.  Executive Summary
+    1.1 Purpose & Scope
+2.  1.2 Thesis Statement
+    1.3 Contributions & Claims
+    1.4 Document Structure
+3.  Introduction
+    2.1 Context & Motivation
+    2.2 Problem Statement
+    2.3 Definitions, Terminology, and Notation
+    2.4 Assumptions & Constraints
+4.  Background & Literature
+    3.1 Historical Overview (Morphogenesis, Field Theories)
+    3.2 Standard Model & Quantum Mechanics
+    3.3 Relativity (SR/GR) and Unification Attempts
+    3.4 Morphic Field Hypotheses & Related Work
+    3.5 Gaps, Tensions, and Open Questions
+5.  Formal Framework: Amon‑Turing Field Theory (ATFT)
+    4.1 First Principles & Axioms
+    4.2 Five‑Element Field Construct
+    4.3 Governing Equations
+    4.4 Symmetries, Conservation Laws, and Invariants
+    4.5 Limiting Cases & Recoveries (Newtonian, SR/GR, QM)
+6.  Mathematical Foundations
+    5.1 Spaces, Metrics, and Topology
+    5.2 Operators, Spectra, and Functional Analysis
+    5.3 Nonlinear Dynamics & PDEs (incl. reaction–diffusion)
+    5.4 Variational Principles & Lagrangian/Hamiltonian Formulations
+    5.5 Scaling, Dimensional Analysis, and Non‑dimensional Groups
+7.  Model Mechanics
+    6.1 Collapse‑and‑Return Logic
+    6.2 Resonance Mapping
+    6.3 Morphic Memory & Hysteresis
+    6.4 Neural‑Field Couplings
+    6.5 Boundary & Initial Conditions
+8.  Computational Implementation
+    7.1 Reference Architecture & Toolchain
+    7.2 Numerical Methods & Solvers
+    7.3 Discretization (Mesh/Grid, Time‑Stepping)
+    7.4 Stability, Convergence, and Verification (VCV&V)
+    7.5 Native‑Compiled Vector Graphics Pipeline (Real‑Time Viz)
+    7.6 Data Management, Reproducibility, and Provenance
+9.  Simulation & Visualization
+    8.1 Scenario Library & Test Cases
+    8.2 Parameter Sweeps & Sensitivity Analysis
+    8.3 Emergent Structures & Phenomenology
+    8.4 Benchmarks vs. Canonical Physics
+    8.5 Rendering & Presentation (e.g., Blender Pipeline)
+10. Experimental Program
+    9.1 Testable Predictions
+    9.2 Measurement, Instrumentation, and Calibration
+    9.3 Protocols, Controls, and Validation
+    9.4 Data Analysis & Statistics
+    9.5 Risk, Safety, and Ethics
+11. Results
+    10.1 Simulation Results
+    10.2 Experimental Results
+    10.3 Comparative Analysis (SM/GR/QM)
+    10.4 Failure Modes & Anomalies
+12. Discussion
+    11.1 Interpretation and Implications
+    11.2 Limitations and Sensitivities
+    11.3 Alternative Explanations & Counterarguments
+    11.4 Integration with Existing Theory
+13. Applications & Operations
+    12.1 Engineering & Technology Applications
+    12.2 Biology & Medicine
+    12.3 Information, Computation, and Control
+    12.4 Business Strategy & Decision Support
+    12.5 Operational Concept (CONOPS) for Vector Trust
+14. Governance, Ethics, and Policy
+    13.1 Ethical Framework & Safety‑by‑Design
+    13.2 Governance & Oversight
+    13.3 Societal Impact & Policy Considerations
+15. Program Plan & Economics
+    14.1 Milestones & Roadmap (3‑Year Plan)
+    14.2 Budget, Resources, and Logistics
+    14.3 Team Roles, Training, and SOPs
+    14.4 Outreach & Peer Review Plan
+    14.5 IP, Licensing, and Compliance
+16. Conclusion
+17. Future Work
+18. Glossary & Abbreviations
+19. Equation Catalog (Mini‑Thesaurus of Imported Results)
+    18.1 Entry Schema (Date, Source, Original Role, Adaptation, Effect)
+    18.2 Accepted / Deferred / Rejected Lists
+20. Appendices
+    19.1 Detailed Derivations & Proofs
+    19.2 Datasets, Code Manifests, and Build Recipes
+    19.3 SOPs & Checklists
+    19.4 QA/Compliance Artifacts
+    19.5 Acknowledgements
+
+DECISIONS.md — Military‑Grade Decision Log (Template)
+
+Document Control
+
+-   Version: 0.1
+-   Owner: ____
+-   Repo/Project: ____
+-   Effective Date: ____
+-   Review Cycle: monthly
+
+Status Legend (Text‑Only Colors)
+
+-   [BLUE] Adopted / Enacted
+-   [GREEN] Addressed / Resolved (no further action)
+-   [YELLOW] Tabled / Parked (revisit later)
+-   [RED] Rejected / Do Not Pursue
+
+Usage Rules
+
+1.  One decision per entry. Immutable history (append‑only).
+2.  Link each decision to evidence (issues, PRs, papers, experiments).
+3.  Record owner, rationale, and impact. Assign actions & due dates.
+4.  Keep entries under one screen; attach detail elsewhere.
+
+Decision Register
+
+  ------- ------ --------------------- ------ ---------- ----------------------------------------------------------- ----------------- -----------------------------
+  D‑001   ____   LAW: Citation Style   ____   [BLUE]     IEEE numeric as project default; single .bib; CSL‑driven.   #____ / PR‑____   Repo‑wide consistency
+  D‑002   ____   Intake Rule           ____   [BLUE]     DOI/URL mandatory at capture; rest via Zotero sync.         #____             Faster metadata, zero drift
+  D‑003   ____   Discussion Tags       ____   [BLUE]     Use [DECISION]/[ACTION]/[INFO]/[RISK] in minutes.           #____             Clear comms
+  D‑004   ____   Native‑Compiled Viz   ____   [YELLOW]   Evaluate toolchain for real‑time vector graphics.           #____             Perf boost potential
+  D‑005   ____   ______                ____   [GREEN]    ______                                                      #____             ______
+  D‑006   ____   ______                ____   [RED]      ______                                                      #____             ______
+  ------- ------ --------------------- ------ ---------- ----------------------------------------------------------- ----------------- -----------------------------
+
+  Add rows as needed; never delete. When status changes, add a new row
+  with same ID and increment a suffix (e.g., D‑004‑A) or add a REV
+  column.
+
+Decision Entry Template (copy per new decision)
+
+### D‑XXX — <Title>
+
+- **Date (UTC):** ____
+
+- **Owner:** ____
+
+- **Status:** [BLUE]|[GREEN]|[YELLOW]|[RED]
+
+- **Context:** (1–3 bullets)
+
+- **Options Considered:** (A/B/C)
+
+- **Decision:** (one sentence)
+
+- **Rationale:** (why this, why now)
+
+- **Evidence/Links:** (#issues, PRs, DOIs)
+
+- **Impact:** (scope, teams, artifacts)
+
+- **Actions & Due Dates:**
+
+ - [ ] Task 1 — Owner — Due ____
+
+ - [ ] Task 2 — Owner — Due ____
+
+- **Review Date:** ____
+
+Discussion Minutes Template (tags)
+
+# YYYY‑MM‑DD — Stand‑Up / Review
+
+- [INFO] ______
+
+- [RISK] ______
+
+- [ACTION] ______ (Owner, Due)
+
+- [DECISION] ______ (link D‑ID)
+
+Enforcement (optional)
+
+-   Pre‑commit: block if .md/.tex contains [@...] keys not found in
+    refs/refs.bib.
+-   PR checklist: confirm decision/link when introducing or changing
+    conventions.

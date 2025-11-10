@@ -1,0 +1,15 @@
+In 1854, Riemann’s lecture called, “On the Hypotheses Which Lie at the Foundations of Geometry,” founded the field of Riemannian geometry. In the lecture, Riemann introduced the concepts of the metric tensor, curved spaces of arbitrary dimension, geodesics, and the curvature tensor which now bears his name.
+Riemannian geometry versus Euclidian geometry
+
+Euclidean geometry concerns flat, 2D spaces. It contains five postulates (axioms):
+1. A straight line segment may be drawn from any given point to any other.
+2. A straight line may be extended to any finite length.
+3. A circle may be described with any given point as its center and any distance as its radius.
+4. All right angles are congruent (equal to one another).
+5. Through any given point not on a line there passes exactly one line parallel to that line in the same plane.
+
+Riemannian Geometry concerns curved, 3D surfaces such as a cylinder or a sphere, and it threw out Euclid’s fifth postulate, also known as the Parallel Postulate, and forever changed the second postulate. In Euclidean geometry, two parallel lines are taken to be everywhere equidistant, while in Riemannian geometry, there are no lines parallel to a given line because, in Riemannian geometry, parallel lines do not exist.
+
+In Riemannian geometry, the shortest curve between any pair of points on a curved surface is called a minimal geodesic. You can find a minimal geodesic between two points on a curved surface by stretching a rubber band between them.
+
+When you do that, you will notice that sometimes there is more than one minimal geodesic between the two points. For example, there are many minimal geodesics between the north and south poles on a globe, and these correspond to longitude lines on Earth. Many parallel lines pass through the two points at the poles, and this contradicts Euclid’s Parallel Postulate.

@@ -1,0 +1,232 @@
+version: 1
+project: "Amon–Turing / BMF Corpus Audit"
+description: >
+  Traverse all transcripts and manuscripts, extract (1) mathematical proofs/derivations,
+  (2) peer/AI reviews and critiques, then synthesize (3) missing pieces / gaps and
+  (4) strengths already achieved. Write clean, linked summaries to separate files with
+  per-snippet provenance (filename, page/line, hash).
+
+io:
+  input_dir: "."          # scan entire curation directory
+  include_globs:
+    - "**/*.pdf"
+    - "**/*.md"
+    - "**/*.txt"
+    - "**/*.odt"
+    - "**/*.docx"
+    - "**/*.yaml"
+    - "**/*.yml"
+  exclude_globs:
+    - "**/node_modules/**"
+    - "**/.git/**"
+    - "**/build/**"
+    - "**/dist/**"
+  output_dir: "OUTPUT-GOES-HERE"    # reports will be written here
+
+preprocess:
+  pdf:
+    enabled: true
+    extractor: "ocr+textlayer"     # "textlayer" | "ocr" | "ocr+textlayer"
+    keep_page_breaks: true
+    page_marker_format: "<PAGE {n}>"
+  odt:
+    enabled: true
+    extractor: "pandoc"
+  tex:
+    enabled: true
+    strip_macros: false
+  general:
+    normalize_unicode: true
+    collapse_whitespace: false
+    line_numbers: true             # add [L###] markers every line
+    checksum_per_block: "sha1"     # to create stable snippet IDs
+
+chunking:
+  strategy: "paged+semantic"
+  max_chars: 4000
+  min_chars: 800
+  overlap_chars: 300
+  keep_equation_blocks_together: true
+  keep_code_blocks_together: true
+  semantic_break_hints:
+    - "^\\s*(Theorem|Lemma|Proposition|Corollary)\\b"
+    - "^\\s*(Proof|Derivation|Sketch)\\b"
+    - "\\$\\$[\\s\\S]*?\\$\\$"      # LaTeX display math
+    - "\\\\begin\\{equation\\}[\\s\\S]*?\\\\end\\{equation\\}"
+    - "^\\s*Abstract\\b"
+    - "^\\s*Review\\b|^\\s*Critique\\b|^\\s*Feedback\\b"
+
+detectors:
+  proofs:
+    regex_any:
+      - "^\\s*(Theorem|Lemma|Proposition|Claim)\\b"
+      - "^\\s*(Proof|Derivation|Sketch)\\b"
+      - "\\\\begin\\{(proof|equation|align|gather)\\}[\\s\\S]*?\\\\end\\{\\1\\}"
+      - "\\$\\$[\\s\\S]*?\\$\\$"
+      - "\\b(Lagrangian|action functional|Euler–Lagrange|Noether|commutator|Hamiltonian|Klein–Gordon|Schrödinger|Poisson|Laplacian|curvature|metric|dimensionally consistent)\\b"
+  reviews:
+    regex_any:
+      - "^\\s*(Review|Critique|Peer Review|AI Review|Feedback|Comments)\\b"
+      - "\\b(issues?|holes?|gaps?|missing|unclear|inconsistent|conflict|does not follow|handwavy|hand-wavy|unjustified)\\b"
+      - "\\b(strengths?|solid|validated|sound|consistent|works|derives)\\b"
+      - "\\b(Claude|GPT|Mistral|Llama|ScholarGPT|peer review|referee)\\b"
+  gaps_signals:
+    keywords_any:
+      - "TODO"
+      - "TBD"
+      - "future work"
+      - "missing definition"
+      - "units?"
+      - "dimensional inconsistency"
+      - "needs proof"
+      - "handwave"
+      - "undefined"
+      - "ambiguous"
+      - "not derived"
+      - "we assume without proof"
+  strengths_signals:
+    keywords_any:
+      - "proved"
+      - "we derive"
+      - "follows from"
+      - "consistent with"
+      - "dimensionally consistent"
+      - "validated"
+      - "conservation via Noether"
+      - "action functional established"
+      - "operator algebra closed"
+
+classification:
+  labels: ["PROOF", "DERIVATION", "REVIEW_POS", "REVIEW_NEG", "GAP", "STRENGTH", "META"]
+  instructions: |
+    You are auditing a research corpus on the Base Morphogenic Field (BMF) / Amon–Turing framework.
+    For each chunk:
+      1) Decide if it contains a formal mathematical statement or derivation ("PROOF"/"DERIVATION").
+      2) Decide if it is a review/critique; tag "REVIEW_POS" for praise/validation, "REVIEW_NEG" for critiques or holes.
+      3) Extract explicit GAPS (missing definitions, unit mismatches, unjustified steps, TODOs) as "GAP".
+      4) Extract STRENGTHS (completed derivations, action principle, Noether results, closed commutators).
+      5) Preserve exact equations verbatim and keep provenance: filename, page(s), line range(s).
+    Output JSON for each chunk with fields:
+      {
+        "labels": [...],
+        "title": "<optional heading>",
+        "equations": ["..."],
+        "claims": ["..."],
+        "criticisms": ["..."],
+        "gaps": ["..."],
+        "strengths": ["..."],
+        "units_flags": ["..."],
+        "dimensional_flags": ["..."],
+        "provenance": {
+          "file": "...",
+          "pages": [..],
+          "lines": "L12-L48",
+          "sha1": "..."
+        }
+      }
+
+gap_analysis:
+  cluster_method: "semantic+kmeans"
+  k: 8
+  rubric:
+    - "Undefined operators or ambiguous domains/codomains"
+    - "Dimensional analysis missing or inconsistent"
+    - "Lagrangian/action link incomplete"
+    - "Operator algebra closure/commutators not proven"
+    - "Derivations from BMF to known physics (Newton, Schrödinger, Maxwell) incomplete"
+    - "Biology mapping (DNA operator, morphogenesis) formalization gaps"
+    - "Cosmology coupling (gravity, dark sector) missing steps"
+    - "Experimental predictions not operationalized"
+  deliverables:
+    - id: "G1"
+      title: "Dimensional Consistency Pass"
+      success_criteria:
+        - "All equations have SI units attached and balanced"
+        - "Λ term defined with units and physical interpretation"
+    - id: "G2"
+      title: "Action → EoM Derivations"
+      success_criteria:
+        - "Euler–Lagrange gives stated master equation"
+        - "Noether currents derived and verified"
+    - id: "G3"
+      title: "Operator Algebra Closure"
+      success_criteria:
+        - "All listed commutators computed"
+        - "Algebra classified or counterexample noted"
+
+strength_synthesis:
+  include_examples: 3
+  include_equation_ids: true
+  dedupe_threshold: 0.85
+
+ranking:
+  sort_order:
+    - key: "impact"
+      weight: 0.6
+    - key: "effort"
+      weight: -0.2
+    - key: "dependency"
+      weight: 0.2
+
+outputs:
+  files:
+    - name: "01_proofs_and_derivations.md"
+      format: "markdown"
+      sections:
+        - "Top Findings (Most Important First)"
+        - "Proofs / Theorems"
+        - "Derivations"
+      include:
+        labels_any: ["PROOF","DERIVATION"]
+        with_equations: true
+        provenance_links: true
+    - name: "02_reviews_compiled.md"
+      format: "markdown"
+      sections:
+        - "Critical Reviews (Gaps & Holes First)"
+        - "Positive Reviews (Validated Strengths)"
+      include:
+        labels_any: ["REVIEW_POS","REVIEW_NEG"]
+        group_by: "label"
+        provenance_links: true
+    - name: "03_gaps_priority_list.md"
+      format: "markdown"
+      sections:
+        - "Priority Gap List (Most Important First)"
+        - "Gap Clusters & Work Packages"
+        - "Direct Quotes (for context)"
+      include:
+        labels_any: ["GAP","REVIEW_NEG"]
+        ranked: true
+        cluster_summary: true
+    - name: "04_strengths_summary.md"
+      format: "markdown"
+      sections:
+        - "Validated Strengths (Most Important First)"
+        - "Representative Equations"
+        - "Cross-refs"
+      include:
+        labels_any: ["STRENGTH","REVIEW_POS"]
+        ranked: true
+    - name: "index.json"
+      format: "json"
+      include_all_extractions: true
+
+provenance:
+  link_style: "relative"
+  include_page_line: true
+  include_sha1: true
+
+execution:
+  parallel_workers: 6
+  temperature: 0.2
+  max_tokens_per_chunk: 2048
+  retry_on_rate_limit: true
+  cache_intermediate_json: true
+
+safety:
+  redact:
+    patterns:
+      - "(?i)(email|phone|address)\\s*:\\s*[^\\s]+"
+  preserve_equations_verbatim: true
+

@@ -1,0 +1,5 @@
+flowchart TB
+    A[Experimental Collaboration<br>@ GT Bioquant Lab] --> B[Precision Test #1:<br>BMF Coherence Signatures]
+    B --> C[Phys Rev Lett Submission<br>2026-Q3]
+    C --> D[Science Cover Feature<br>2027-Q1]
+    D --> E[Stockholm Invitation<br>2028]

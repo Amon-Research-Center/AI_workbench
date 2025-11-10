@@ -1,0 +1,31 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"file","name":"CHANGELOG.md.txt"},
+    {"type":"file","name":"CODE_OF_CONDUCT.md.txt"},
+    {"type":"file","name":"dir-docs.file-ABSTRACT.md.txt"},
+    {"type":"file","name":"dir-docs.file-OUTLINE.md.txt"},
+    {"type":"file","name":"dir-nootbooks.file-01_demo.ipynb.txt"},
+    {"type":"directory","name":"docs"},
+    {"type":"file","name":"ETHICS.md.txt"},
+    {"type":"file","name":"git_toolbox.py.txt"},
+    {"type":"file","name":"GOALS.md.txt"},
+    {"type":"directory","name":"hooks"},
+    {"type":"file","name":"LICENSE.md"},
+    {"type":"file","name":"LICENSE.md.txt"},
+    {"type":"file","name":"MANIFEST.md.txt"},
+    {"type":"file","name":"MISSION.md"},
+    {"type":"file","name":"MISSION.md.txt"},
+    {"type":"directory","name":"notebooks"},
+    {"type":"file","name":"NOTICE.md"},
+    {"type":"file","name":"NOTICE.md.txt"},
+    {"type":"file","name":"POLICIES.md.txt"},
+    {"type":"file","name":"README.md"},
+    {"type":"file","name":"README.md.txt"},
+    {"type":"directory","name":"scripts"},
+    {"type":"file","name":"SECURITY.md.txt"},
+    {"type":"file","name":"TODO.md.txt"},
+    {"type":"file","name":"tree.txt"}
+  ]}
+,
+  {"type":"report","directories":5,"files":21}
+]

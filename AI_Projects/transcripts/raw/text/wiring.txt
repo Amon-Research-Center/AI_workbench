@@ -1,0 +1,12 @@
+[COIL X]--Preamp----> ADC IN1
+[COIL Y]--Preamp----> ADC IN2
+[COIL Z]--Preamp----> ADC IN3
+[E+][-E]--InstrAmp-> ADC IN4
+[BPW34]--TIA--------> ADC IN5
+[Dummy Ref]---------> ADC IN6
+[Env Sensors]-------> Host USB
+[RTL-SDR]-----------> Host USB
+
+USB ISOLATOR between ADC and Host
+All grounds -> star ground -> chassis
+

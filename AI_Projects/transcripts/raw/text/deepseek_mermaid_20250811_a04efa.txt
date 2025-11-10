@@ -1,0 +1,4 @@
+flowchart LR
+    A[Patient MRI Scans] --> B[BMF Operator Mapping]
+    B --> C[Identify Coherence Deficits]
+    C --> D[Targeted Transcranial Stimulation]

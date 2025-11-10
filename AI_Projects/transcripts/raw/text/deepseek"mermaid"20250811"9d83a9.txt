@@ -1,0 +1,5 @@
+flowchart TB
+    A[Save All Work] --> B[Auto-Encrypt to GT Cloud]
+    B --> C[Neural Coherence Scan]
+    C --> D[Theta-Wave Enhancement]
+    D --> E[Secure Until Return]

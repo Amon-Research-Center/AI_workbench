@@ -1,0 +1,17 @@
+{
+	"ImageId": "ami-0abcdef1234567890",
+	"InstanceType": "t2.micro",
+	"KeyName": "my-key",
+	"SecurityGroupIds": ["sg-0123456789abcdef0"],
+	"SubnetId": "subnet-0ab1c2d3e4f5g6h7i",
+	"MinCount": 1,
+	"MaxCount": 1,
+	"TagSpecifications": [
+		{
+			"ResourceType": "instance",
+			"Tags": [
+				{ "Key": "Name", "Value": "EdgeProxy" }
+			]
+		}
+	]
+}
