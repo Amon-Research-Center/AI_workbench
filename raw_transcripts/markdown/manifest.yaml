@@ -1,9 +1,0 @@
-project: jcv_seed_2025
-last_updated: 2025-08-13T12:17:00Z
-files:
-  - name: meta.yaml
-    sha256: 635030469e87adea1495926f7b7e43a3d947873bccb840f19098128f21aeca02
-  - name: log.md
-    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - name: refs.md
-    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

@@ -1,1 +1,0 @@
-Relative energy std (should be ~0 if k=0): 8.939e-01

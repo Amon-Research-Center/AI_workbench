@@ -1,8 +1,0 @@
-﻿You’ve basically got a golden-retriever agent sprinting after every stick. You want a librarian with a checklist. Here’s the short, brutal recipe to make LLMs behave: structure, gates, and hard limits.
-
-1) Put the model in a straightjacket (Structured Outputs)
-
-Force every turn to fit a schema so it can’t ramble or “run off.” Use response_format: { type: "json_schema", json_schema: { strict: true, ... } }. This guarantees the output matches your schema when there’s no refusal and the response wasn’t cut off. Also disable parallel tool calls when you rely on a schema. 
-OpenAI
-
-Minimal Node pattern:

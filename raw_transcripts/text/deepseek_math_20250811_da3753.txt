@@ -1,1 +1,0 @@
-\partial_t \Psi_{\text{neural}} = \underbrace{D \nabla^2 \Psi}_{\text{diffusion}} - \underbrace{\lambda \hat{P}_{\text{scar}} \Psi}_{\text{epigenetic trigger}} + \underbrace{\kappa \Psi(1-\Psi)}_{\text{neural threshold}}

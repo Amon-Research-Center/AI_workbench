@@ -1,4 +1,0 @@
-flowchart LR
-    A[APS March Meeting\nFeb 2026] --> B[GR21 Conference\nJun 2026]
-    B --> C[Quantum Biology Intl\nSep 2026]
-    C --> D[Science of Consciousness\nApr 2027]

@@ -1,4 +1,0 @@
-flowchart LR
-    A[arXiv:quant-ph<br>2025-09-15] --> B[PRResearch Submission<br>2025-10-01]
-    B --> C[GT Technical Report<br>2025-10-15]
-    C --> D[Royal Society Interface<br>2026-01-15]

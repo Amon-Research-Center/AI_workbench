@@ -1,9 +1,0 @@
-﻿Chapter 2: Literature Review
-2.1 Purpose
-This chapter is not a critique for its own sake. It is a contrast — a mirror held up to the great towers of contemporary theoretical physics to ask a simple but often ignored question: what are they built on?
-The purpose here is not to tear down the work of others. Many of the theories we examine — general relativity, quantum field theory, string theory, loop quantum gravity — are marvels of mathematical consistency and predictive power. They have revealed astonishing truths about the fabric of the universe. But even these remarkable frameworks rest on foundations that are often taken for granted: the existence of spacetime, the availability of quantized fields, the necessity of symmetry.
-The Base Morphogenic Field does not replace these theories. It asks what must exist before they can. What makes a geometry possible? What allows a wave to propagate? What defines mass, or energy, or curvature before we measure it?
-This chapter evaluates existing theories not by their correctness, but by their generative depth. Can they survive when we remove the scaffolding of pre-assumed space, time, or field structure? Can they operate without the very fabric they are built upon? BMF is tested the same way: through extremal thinking, recursive iteration, and philosophical transparency.
-By applying BMF logic to these frameworks — testing their behavior under boundary conditions, observing their breakdowns at singularities, and examining what they fail to define — we do not seek superiority. We seek clarity. If a model fails at the extremes, it is already compromised at the center, just not yet visibly. The purpose of this chapter is to find those fractures and show how BMF, by beginning at the root, avoids the need for such scaffolding altogether.
-Shall we proceed into 2.2 Method next?
-

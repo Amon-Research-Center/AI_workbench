@@ -1,5 +1,0 @@
-flowchart LR
-    A[Priority Challenge] --> B[arXiv Timestamp<br>+ GT Notary]
-    C["'Too Speculative'"] --> D[Emphasize Eq 3.1→F=ma Derivation]
-    E[Concept Theft] --> F[Patent PCT/US2025/048229]
-    G[Credibility Attacks] --> H[Staged Release:<br>Physics→Bio→Consciousness]
