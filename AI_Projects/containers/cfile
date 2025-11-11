@@ -1,0 +1,15 @@
+# Containerfile: Python 3.11 for Project 42 with /stoall mount
+# Version: 1.0.2
+# Description: Minimal Python env for math proofs and BMF simulations
+# Date: 2025-11-01
+# Instructions: podman build -t project42:1.0.2 .
+FROM python:3.11-slim
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential e2fsprogs && \
+    pip install --no-cache-dir sympy==1.12 numpy==1.26.4 matplotlib==3.8.2 && \
+    apt-get remove -y build-essential && apt-get autoremove -y && \
+    rm -rf /var/lib/apt/lists/*
+RUN mkdir -p /stoall
+COPY . .
+CMD ["bash"]

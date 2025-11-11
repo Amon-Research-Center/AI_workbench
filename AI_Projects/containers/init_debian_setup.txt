@@ -1,0 +1,21 @@
+Setting Up Minimal Debian with Podman
+For a fresh minimal Debian (Trixie or Bookworm), boot from ISO, select minimal install (no desktop, just standard utils). Add Podman for daemonless, rootless containers—great for your setup as it runs without root privileges, isolating apps like Python envs or compilers. Here's a step-by-step:
+
+Reinstall Minimal Debian (If Needed): Download ISO from debian.org, boot, install with netinstall for basics. Post-install: apt update; apt install sudo vim htop ssh (admin tools).
+
+Install Podman (One-and-Done): On Debian 12+: apt install podman (pulls ~100MB deps like runc; for rootless, no extra config needed). If on older/minimal, add backports: echo "deb http://deb.debian.org/debian bookworm-backports main" >> /etc/apt/sources.list; apt update; apt install -t bookworm-backports podman.wiki.debian.org
+
+Configure Rootless Mode: podman system migrate (sets up user namespaces). Test: podman run --rm hello-world (pulls/runs image rootlessly).
+
+Containerize Apps: For isolation, create containers for non-basics (e.g., Python with MKL):
+
+Dockerfile example for Python env: FROM debian:bookworm\nRUN apt update && apt install -y python3-numpy python3-scipy\nCMD ["python3"]
+
+Build/Run: podman build -t py-sci .; podman run -it --rm py-sci (add volumes for code: -v /host/path:/container/path).
+
+For compilers: Pull Intel oneAPI container: podman run -it --rm intel/oneapi-basekit (pre-configured with icx/MKL).podman.io
+
+Wrapper for Podman Runs: Script to ensure isolation: echo '#!/bin/bash\npodman run --rm -v $(pwd):/work -w /work $1' > ~/bin/pod_wrap.sh; chmod +x ~/bin/pod_wrap.sh. Usage: pod_wrap.sh your_image python script.py.
+
+This keeps your base under 1GB disk, with containers handling the rest—efficient for your 8GB RAM/SSHD. If perf dips, profile with podman stats. Hit me up if you need tweaks or that BMF pitch draft refined!
+

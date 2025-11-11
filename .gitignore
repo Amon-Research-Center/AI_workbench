@@ -121,7 +121,7 @@ notes_*
 *_notes.*
 
 # Meeting transcripts
-transcripts/
+#transcripts/
 meeting_*
 *_meeting.*
 [Aa]rchive*
