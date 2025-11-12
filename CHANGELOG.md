@@ -2,16 +2,26 @@
 
 ## Summary (Last 5 Commits)
 
-- 2025-11-10 — add transcripts — Author: eklectic
-- 2025-11-10 — restructure — Author: eklectic
-- 2025-10-28 — manifest and changelog update — Author: vectortrust
-- 2025-10-28 — addition of a folder for Grok — Author: vectortrust
-- 2025-10-28 — Initial commit pdf files — Author: vectortrust
+- 2025-11-11 — housecleaning — Author: eklectic
+- 2025-11-10 — shuffling — Author: vectortrust
+- 2025-11-10 — shuffling — Author: vectortrust
+- 2025-11-10 — shuffling — Author: vectortrust
+- 2025-11-10 — shuffling — Author: vectortrust
 
 ## Full History
 
+### 2025-11-11
+
+- housecleaning — eklectic
+
 ### 2025-11-10
 
+- shuffling — vectortrust
+- shuffling — vectortrust
+- shuffling — vectortrust
+- shuffling — vectortrust
+- nadda — vectortrust
+- add manifest — vectortrust
 - add transcripts — eklectic
 - restructure — eklectic
 
